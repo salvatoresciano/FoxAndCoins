@@ -15,7 +15,7 @@ D:/Progetti Unity/FoxAndCoins
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64990
+50260
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Progetti Unity/FoxAndCoins
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11812]  Target information:
+Player connection [8196]  Target information:
 
-Player connection [11812]  * "[IP] 192.168.85.18 [Port] 0 [Flags] 2 [Guid] 1335913908 [EditorId] 1335913908 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8196]  * "[IP] 192.168.11.18 [Port] 0 [Flags] 2 [Guid] 519475833 [EditorId] 519475833 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11812] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [11812] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8196] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8196] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 8.27 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 13.24 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
@@ -91,914 +91,130 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.005933 seconds.
-- Loaded All Assemblies, in  0.441 seconds
+Registered in 0.016439 seconds.
+- Loaded All Assemblies, in  0.896 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 207 ms
+Android Extension - Scanning For ADB Devices 392 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.622 seconds
-Domain Reload Profiling: 1061ms
-	BeginReloadAssembly (144ms)
+- Finished resetting the current domain, in  1.390 seconds
+Domain Reload Profiling: 2281ms
+	BeginReloadAssembly (282ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (185ms)
-		LoadAssemblies (142ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (118ms)
+	LoadAllAssembliesAndSetupDomain (379ms)
+		LoadAssemblies (276ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (182ms)
-			TypeCache.Refresh (180ms)
-				TypeCache.ScanAssembly (160ms)
+		AnalyzeDomain (373ms)
+			TypeCache.Refresh (370ms)
+				TypeCache.ScanAssembly (345ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (623ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1391ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (580ms)
+		SetupLoadedEditorAssemblies (1303ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (321ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (170ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (639ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (14ms)
+			ProcessInitializeOnLoadAttributes (425ms)
+			ProcessInitializeOnLoadMethodAttributes (191ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.803 seconds
-Refreshing native plugins compatible for Editor in 5.68 ms, found 1 plugins.
+- Loaded All Assemblies, in  1.533 seconds
+Refreshing native plugins compatible for Editor in 14.21 ms, found 1 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.610 seconds
-Domain Reload Profiling: 1410ms
-	BeginReloadAssembly (407ms)
+- Finished resetting the current domain, in  1.518 seconds
+Domain Reload Profiling: 3044ms
+	BeginReloadAssembly (736ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (302ms)
-		LoadAssemblies (300ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (581ms)
+		LoadAssemblies (576ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (109ms)
-			TypeCache.Refresh (78ms)
-				TypeCache.ScanAssembly (65ms)
-			BuildScriptInfoCaches (23ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (611ms)
+		AnalyzeDomain (215ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (128ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1519ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (369ms)
+		SetupLoadedEditorAssemblies (1045ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (255ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (759ms)
+			ProcessInitializeOnLoadMethodAttributes (152ms)
+			AfterProcessingInitializeOnLoad (17ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 7.03 ms, found 1 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 11.85 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 2172 unused Assets / (1.0 MB). Loaded Objects now: 2718.
-Memory consumption went from 105.0 MB to 103.9 MB.
-Total: 8.041200 ms (FindLiveObjects: 0.326500 ms CreateObjectMapping: 0.262800 ms MarkObjects: 6.510300 ms  DeleteObjects: 0.939100 ms)
+Memory consumption went from 105.0 MB to 104.0 MB.
+Total: 11.348600 ms (FindLiveObjects: 0.741100 ms CreateObjectMapping: 0.497500 ms MarkObjects: 8.471600 ms  DeleteObjects: 1.633200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 240928.905799 seconds.
-  path: Assets/TemplateGame/Scene/Worlds/Gameplay/World 4.unity
-  artifactKey: Guid(a5a9770756dee4aa59a724786ee74961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplateGame/Scene/Worlds/Gameplay/World 4.unity using Guid(a5a9770756dee4aa59a724786ee74961) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '529d340d71b8189f146ed447222f1824') in 0.0057224 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 176.942418 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR SFX/L5 KNIGHT 2 DIE GRUNT .wav
-  artifactKey: Guid(2cb1018e6330b5440be93b4920181338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR SFX/L5 KNIGHT 2 DIE GRUNT .wav using Guid(2cb1018e6330b5440be93b4920181338) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69185c7ceb28ddcc7b947cc804393125') in 0.0925588 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.836152 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_pass_trough_grey.png
-  artifactKey: Guid(e874ca8e3b677d549ab799cb39b2e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_pass_trough_grey.png using Guid(e874ca8e3b677d549ab799cb39b2e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c2a4fdbc3cc6679761b65cd1596854a') in 0.0723483 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_top_left_grey.png
-  artifactKey: Guid(a5d203f27428d7c4e96b951b114d3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_top_left_grey.png using Guid(a5d203f27428d7c4e96b951b114d3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45e110b88f7dfeaffca54bc5b18d9e5b') in 0.0208204 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.116845 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/outer_bottom_left_grey.png
-  artifactKey: Guid(d5bf3ade1ec426c4e8da8ba6212a9098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/outer_bottom_left_grey.png using Guid(d5bf3ade1ec426c4e8da8ba6212a9098) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '515d93e055badffe9e952ed4fb6cb70e') in 0.0157884 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/outer_bottom_right_grey.png
-  artifactKey: Guid(2ac8b6e0cace5224b95962d11ab16e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/outer_bottom_right_grey.png using Guid(2ac8b6e0cace5224b95962d11ab16e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '127087a8920950391544aa21926e4c85') in 0.0342682 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.791441 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/platform_center_grey.png
-  artifactKey: Guid(332bc930e34fb614980598cb357f984c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/platform_center_grey.png using Guid(332bc930e34fb614980598cb357f984c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57a8db8e207a3072759eca65c41cb023') in 0.0218627 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021181 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/platform_right_grey.png
-  artifactKey: Guid(484c714dc1e0ba94198bd9fe66081bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/platform_right_grey.png using Guid(484c714dc1e0ba94198bd9fe66081bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02a32ec8c4c48e686d4ea79a70327704') in 0.0178064 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001983 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/right_edge.png
-  artifactKey: Guid(653553a109f2a8b41b6f39ca9eaac069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/right_edge.png using Guid(653553a109f2a8b41b6f39ca9eaac069) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97ce5b35f2ed4d2ce1d3664cfae35bb1') in 0.025545 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/shallow_hill_left_01_grey.png
-  artifactKey: Guid(55c063c5583e1664bb03b0400254be7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/shallow_hill_left_01_grey.png using Guid(55c063c5583e1664bb03b0400254be7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7aba3ab9764ac1669947ab289aca52a') in 0.0239634 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.611568 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/shallow_hill_right_02_grey.png
-  artifactKey: Guid(1e90bd617bf465f439e29c057e0051c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/shallow_hill_right_02_grey.png using Guid(1e90bd617bf465f439e29c057e0051c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca2c7c1f51005aaee533277f81d56b4e') in 0.0194262 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023879 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/single_pillar_base_pass_through_grey.png
-  artifactKey: Guid(3a1b4bd4161bfdc4b91cf4acc116428a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/single_pillar_base_pass_through_grey.png using Guid(3a1b4bd4161bfdc4b91cf4acc116428a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89fec609a528eb4eaabcfcbb512dc123') in 0.0181607 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/single_pillar_center_01.png
-  artifactKey: Guid(d6cf3c53dc352724fa7755ef66c65341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/single_pillar_center_01.png using Guid(d6cf3c53dc352724fa7755ef66c65341) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aebec3fc787414c5c859bc8a1a7270b9') in 0.0170761 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/single_pillar_top.png
-  artifactKey: Guid(a4e19b95ce829ab45a912ee678497317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/single_pillar_top.png using Guid(a4e19b95ce829ab45a912ee678497317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e880edecc5189f777796e543ef82979b') in 0.0219564 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009119 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/steep_hill_left_01_grey.png
-  artifactKey: Guid(58d43b0ba052ccb4d879518958d0281b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/steep_hill_left_01_grey.png using Guid(58d43b0ba052ccb4d879518958d0281b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '352a8b2b206d3e3038a99d94ba5bcded') in 0.0174864 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/steep_hill_left_02_grey.png
-  artifactKey: Guid(583bb347df8bc2648978497b333887f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/steep_hill_left_02_grey.png using Guid(583bb347df8bc2648978497b333887f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b68e7eecad798bfd2286f221998ef6f') in 0.0214368 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/top_01_grey.png
-  artifactKey: Guid(b3e4191082bd27b41b4bc871961518d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/top_01_grey.png using Guid(b3e4191082bd27b41b4bc871961518d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f22be5c5c2c59a15bf808e5873644a1') in 0.049889 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/top_pass_trough_grey.png
-  artifactKey: Guid(581116063ccc5aa469c26a26d7f488a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/top_pass_trough_grey.png using Guid(581116063ccc5aa469c26a26d7f488a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd094664bee66ecd1df24a960fbce794a') in 0.0199413 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.431075 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/outer_top_left_grey_light_grey.png
-  artifactKey: Guid(65428248165d13644bf72092d1f9eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/outer_top_left_grey_light_grey.png using Guid(65428248165d13644bf72092d1f9eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '885b9906900f9421bcb1ea92c04eed26') in 0.0180908 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.737713 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_02_grey.asset
-  artifactKey: Guid(fdb8703f60b918a41ace1fb8f87a5ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_02_grey.asset using Guid(fdb8703f60b918a41ace1fb8f87a5ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e0214f14bc54a9c10f25b02c66fe9d5') in 0.019896 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_04_grey.asset
-  artifactKey: Guid(9c5f4e4076d0a85468ca2de5128eb596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_04_grey.asset using Guid(9c5f4e4076d0a85468ca2de5128eb596) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08f7fec376146376575e474abbffe26a') in 0.016655 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.255957 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_grey.asset
-  artifactKey: Guid(1af4d630dead9f14c8d0226a0d2f0781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_grey.asset using Guid(1af4d630dead9f14c8d0226a0d2f0781) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd4eea06a55334a93723fbc8c83b09b6') in 0.0166562 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 154.388840 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_02_grey.png
-  artifactKey: Guid(a02eed7ff20d3154f8bb01d20b7e1323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_02_grey.png using Guid(a02eed7ff20d3154f8bb01d20b7e1323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5d8d4f41e7dd4e08fe3eefb89536f8d') in 0.0200263 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_top_right_grey.png
-  artifactKey: Guid(cb849b94a82eb4c4e821378b3ab29d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_top_right_grey.png using Guid(cb849b94a82eb4c4e821378b3ab29d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e73ff2fa896e3e0342205d6656077ff') in 0.0219828 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_left_pass_trough_grey.png
-  artifactKey: Guid(4038db60cddb99b449fc3552ad9a6b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_left_pass_trough_grey.png using Guid(4038db60cddb99b449fc3552ad9a6b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97d1bd1e4d21d16b994a786d0355d376') in 0.0211283 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_06_grey.png
-  artifactKey: Guid(c6c444e7197cce342ada800e5220b6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_06_grey.png using Guid(c6c444e7197cce342ada800e5220b6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2eff40cf4535f02fa03c8f0470abe0d') in 0.0233056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_04_grey.png
-  artifactKey: Guid(6487deec09e4dc24db3104dd689d7a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_04_grey.png using Guid(6487deec09e4dc24db3104dd689d7a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae25c03485bebd51b2519d5c7b57d630') in 0.0208718 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_05_grey.png
-  artifactKey: Guid(36034fb4a3b43bd4f82cb087850b44a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_05_grey.png using Guid(36034fb4a3b43bd4f82cb087850b44a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '829d5edbc03b1c3a6276734c527521f2') in 0.0180921 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.763983 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_02_grey.png
-  artifactKey: Guid(a02eed7ff20d3154f8bb01d20b7e1323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_02_grey.png using Guid(a02eed7ff20d3154f8bb01d20b7e1323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6aa5d315aed6563b8e172a3af56c7c80') in 0.0125564 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_top_right_grey.png
-  artifactKey: Guid(cb849b94a82eb4c4e821378b3ab29d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_top_right_grey.png using Guid(cb849b94a82eb4c4e821378b3ab29d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfba13447579ead96adb0d06b7f1d28e') in 0.0218077 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_left_pass_trough_grey.png
-  artifactKey: Guid(4038db60cddb99b449fc3552ad9a6b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_left_pass_trough_grey.png using Guid(4038db60cddb99b449fc3552ad9a6b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06737e0277c0d6a48b813d6b451801fe') in 0.0209713 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_06_grey.png
-  artifactKey: Guid(c6c444e7197cce342ada800e5220b6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_06_grey.png using Guid(c6c444e7197cce342ada800e5220b6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69e7236a4b1bcdeb5f2dc9d26bb8a558') in 0.0117908 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_04_grey.png
-  artifactKey: Guid(6487deec09e4dc24db3104dd689d7a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_04_grey.png using Guid(6487deec09e4dc24db3104dd689d7a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41b6c4424eb7388299c73b611b5160bc') in 0.0102052 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_05_grey.png
-  artifactKey: Guid(36034fb4a3b43bd4f82cb087850b44a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_05_grey.png using Guid(36034fb4a3b43bd4f82cb087850b44a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36286872ef1f67d665762ffdb0b0dcf1') in 0.0126281 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.568021 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_02_grey.png
-  artifactKey: Guid(a02eed7ff20d3154f8bb01d20b7e1323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_02_grey.png using Guid(a02eed7ff20d3154f8bb01d20b7e1323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74be97fa5bef76a798cd333b4fd95dba') in 0.0110093 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_grey.png
-  artifactKey: Guid(f1c679b626ed4a44fb434f62ede8526c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_grey.png using Guid(f1c679b626ed4a44fb434f62ede8526c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a3eae3aa997e2ed4cd4a03def374b96') in 0.0198869 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_left_pass_trough_grey.png
-  artifactKey: Guid(4038db60cddb99b449fc3552ad9a6b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_left_pass_trough_grey.png using Guid(4038db60cddb99b449fc3552ad9a6b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f418a6c9a80685d3cf6174d867e39b39') in 0.022992 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_top_left_grey.png
-  artifactKey: Guid(a5d203f27428d7c4e96b951b114d3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_top_left_grey.png using Guid(a5d203f27428d7c4e96b951b114d3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dab2ca2d8602b362d6f106420fd735b2') in 0.0197966 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.221161 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_02_grey.png
-  artifactKey: Guid(a02eed7ff20d3154f8bb01d20b7e1323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_02_grey.png using Guid(a02eed7ff20d3154f8bb01d20b7e1323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd8479b55d222772194213229f649073') in 0.0130242 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_left_grey.png
-  artifactKey: Guid(7fbe51959ab20aa48af2e27314018b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_left_grey.png using Guid(7fbe51959ab20aa48af2e27314018b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8dab9876ff820a13313372f5130393fe') in 0.020015 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_pass_trough_grey.png
-  artifactKey: Guid(e874ca8e3b677d549ab799cb39b2e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_pass_trough_grey.png using Guid(e874ca8e3b677d549ab799cb39b2e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09d64c7edf86ff293b8696fbecbd6ae1') in 0.0201462 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_05_grey.png
-  artifactKey: Guid(36034fb4a3b43bd4f82cb087850b44a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_05_grey.png using Guid(36034fb4a3b43bd4f82cb087850b44a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e1af5f1aa801dd774be3c17f024bd3c') in 0.0120832 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.043986 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/fill_01_grey.asset
-  artifactKey: Guid(78d460e04d7a03040b2e942387a28aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/fill_01_grey.asset using Guid(78d460e04d7a03040b2e942387a28aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75e63da28561c71781ae32f1fe548b31') in 0.0173154 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/fill_04_grey.asset
-  artifactKey: Guid(6d5644bd3bed4604080e7e0091c05507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/fill_04_grey.asset using Guid(6d5644bd3bed4604080e7e0091c05507) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21baa41f81d304be81d57a705a6511fc') in 0.0072953 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/inner_bottom_left_pass_trough_grey.asset
-  artifactKey: Guid(26135ca8aa18f5e40882e51379735bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/inner_bottom_left_pass_trough_grey.asset using Guid(26135ca8aa18f5e40882e51379735bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '395b55ca39044183fb4f8e1cca86c6dd') in 0.0159394 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/fill_06_grey.asset
-  artifactKey: Guid(e5892afcd12e01f4e9dfae9fe5b46f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/fill_06_grey.asset using Guid(e5892afcd12e01f4e9dfae9fe5b46f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '465a2310800621e393bd8e4565a4deda') in 0.0157507 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.398568 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/lv5_ground.prefab
-  artifactKey: Guid(065e7db4a5ab61849a48ecdf2f7f7aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/lv5_ground.prefab using Guid(065e7db4a5ab61849a48ecdf2f7f7aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86c73b2f0ed298e62d14187939b08526') in 0.0807018 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 136
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.253543 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/platform_left_grey.asset
-  artifactKey: Guid(1dab3a58f388f504b8a1a3812c00cd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/platform_left_grey.asset using Guid(1dab3a58f388f504b8a1a3812c00cd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32d1018f45302bae24984b89cbf0b7ba') in 0.0171709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012713 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/shallow_hill_left_01_grey.asset
-  artifactKey: Guid(74428e860bac51745b99b17762f2668c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/shallow_hill_left_01_grey.asset using Guid(74428e860bac51745b99b17762f2668c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd8c06281eebf15fdfd550735d77cfb6') in 0.0167582 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.071037 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/shallow_hill_right_01_grey.asset
-  artifactKey: Guid(6998192ff74002c44826266f14bde222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/shallow_hill_right_01_grey.asset using Guid(6998192ff74002c44826266f14bde222) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76c14307f7f7bd6a683c19ae5bbb1b0d') in 0.0165801 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046893 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/single_pillar_base_grey.asset
-  artifactKey: Guid(195d09b8801626743a9af2b07f983f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/single_pillar_base_grey.asset using Guid(195d09b8801626743a9af2b07f983f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8ffeee4b2a0c4b51c4f74a55f4b242b') in 0.0171409 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019912 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/single_pillar_center_02.asset
-  artifactKey: Guid(436a866c0e84a8945aa92c04f8d0d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/single_pillar_center_02.asset using Guid(436a866c0e84a8945aa92c04f8d0d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f0729ac2fccf8440102bf4025eb758d') in 0.0135319 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012678 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/steep_hill_left_01_grey.asset
-  artifactKey: Guid(e8b468ebf2d737541a1dd546f332d699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/steep_hill_left_01_grey.asset using Guid(e8b468ebf2d737541a1dd546f332d699) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc328a05ac7ecc7e1cf767524efe5e40') in 0.0148971 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011884 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/steep_hill_right_02_grey.asset
-  artifactKey: Guid(726e802694885324b8f6d1c4d70f7f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/steep_hill_right_02_grey.asset using Guid(726e802694885324b8f6d1c4d70f7f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '395390b26ff7616d23c129708fc264a4') in 0.0188707 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011892 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/top_03_grey.asset
-  artifactKey: Guid(0d51156763b32914db5c8ac4528781d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/top_03_grey.asset using Guid(0d51156763b32914db5c8ac4528781d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35bcd3caa7ce95609d92d2916d858788') in 0.0153892 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 117.509928 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/scene_construction_pngs/windows/window_06.png
-  artifactKey: Guid(fa844287d9c96f04f8f23b6facfb0546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/scene_construction_pngs/windows/window_06.png using Guid(fa844287d9c96f04f8f23b6facfb0546) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a372a9cbad1e70ea3260b2281c116ce7') in 0.0857882 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.057553 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/armour_01_no_pedestal.png
-  artifactKey: Guid(96818bee93496d34e8263af152f68209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/armour_01_no_pedestal.png using Guid(96818bee93496d34e8263af152f68209) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e021c31bc2c1f24b929637fb570b2022') in 0.0823728 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028570 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/armour_02_no_pedestal.png
-  artifactKey: Guid(f1993ef046e8ac3419a3ccb33b5294bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/armour_02_no_pedestal.png using Guid(f1993ef046e8ac3419a3ccb33b5294bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb430ba51c7571540bb2c3af8f5f029e') in 0.053506 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015346 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/armour_03.png
-  artifactKey: Guid(3b1407477d40f8c46b5babceb53e4f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/armour_03.png using Guid(3b1407477d40f8c46b5babceb53e4f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bf7b19fc9caf6030212fae1fb5f288a') in 0.0627744 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022260 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/armour_03_no_pedestal.png
-  artifactKey: Guid(0bbf35e27a4926c44bca224291f24307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/armour_03_no_pedestal.png using Guid(0bbf35e27a4926c44bca224291f24307) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8acf8e38ed0b62cb8b84882dc660acbb') in 0.0565412 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.058456 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/armour_with_cape_02.png
-  artifactKey: Guid(fedde57b7954ca1428f92f6adf86e6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/armour_with_cape_02.png using Guid(fedde57b7954ca1428f92f6adf86e6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6354e0f6f2f6a894a60b4745ef49c3e9') in 0.0671878 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.845727 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/armour_with_cape_03.png
-  artifactKey: Guid(b4be50839c9bfa44b9647a26c558da94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/armour_with_cape_03.png using Guid(b4be50839c9bfa44b9647a26c558da94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '399b93c6876a9b436102ed49a5f96275') in 0.0497811 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023933 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/boar_head_light.png
-  artifactKey: Guid(7882cc6f7e56d3f48943fd8f423ecc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/boar_head_light.png using Guid(7882cc6f7e56d3f48943fd8f423ecc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64cac885af1dc36e8db8e698f1f8e1f5') in 0.0416406 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.029143 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/book_front_blue.png
-  artifactKey: Guid(85fdfcdbca66b1a4bb53c3b25084be33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/book_front_blue.png using Guid(85fdfcdbca66b1a4bb53c3b25084be33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d6a24db38aa3597e685cf2659002c1a') in 0.0147636 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003375 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/book_front_brown.png
-  artifactKey: Guid(115bde63fa9fcf54bbb69510d54d4eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/book_front_brown.png using Guid(115bde63fa9fcf54bbb69510d54d4eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c31fb19c585b618bebcf43fa24fbbc78') in 0.0151646 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002881 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/book_front_green.png
-  artifactKey: Guid(40f7662b2323117429eef43cfd818ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/book_front_green.png using Guid(40f7662b2323117429eef43cfd818ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '152ab337d8b1fc2b7b75bbe41ae82fd6') in 0.0398732 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025696 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/book_front_red.png
-  artifactKey: Guid(eca021525a8953d4da425033a563f3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/book_front_red.png using Guid(eca021525a8953d4da425033a563f3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53fdac987b6e320f5d808004e2363163') in 0.01335 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008249 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/book_side_blue.png
-  artifactKey: Guid(a1824a2ea02eb1b4ca818451b67bb448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/book_side_blue.png using Guid(a1824a2ea02eb1b4ca818451b67bb448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b91003b3d0c6c381f32221a4f6b235c') in 0.0133703 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017396 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/book_side_brown.png
-  artifactKey: Guid(dc72e21ec35a3184e96a7fda6feddc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/book_side_brown.png using Guid(dc72e21ec35a3184e96a7fda6feddc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11cdc889327d806ad6c3cc0a21efc8bc') in 0.019499 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.334623 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/book_side_green.png
-  artifactKey: Guid(48b5102e27caf6f4b9675533fe0aeeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/book_side_green.png using Guid(48b5102e27caf6f4b9675533fe0aeeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a90a85ef72733587ca5cb3f9f671f2c2') in 0.0349586 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022811 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/candle.png
-  artifactKey: Guid(1c3b1b82be8783149828a793dd29d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/candle.png using Guid(1c3b1b82be8783149828a793dd29d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f99eaa3d12a206507f723f7a10fca0c1') in 0.0207142 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.150128 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/candle_holder_gold.png
-  artifactKey: Guid(8b968b121bb952f4f8417b787c327a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/candle_holder_gold.png using Guid(8b968b121bb952f4f8417b787c327a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fa514102aaedc5ba269bfc4fd13047c') in 0.0142583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016422 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/candle_holder_silver.png
-  artifactKey: Guid(fba60a2cc7b33c743943bed6cd8dfd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/candle_holder_silver.png using Guid(fba60a2cc7b33c743943bed6cd8dfd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2ff7c91a784f61aa0dbff12f844635e') in 0.0139653 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008899 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/chain.png
-  artifactKey: Guid(f4f67a44179b6dc47b6d19892f59eead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/chain.png using Guid(f4f67a44179b6dc47b6d19892f59eead) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8f634141452e29ab0bfdb5d5c751a9d') in 0.021564 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.058732 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/chain_piece_small.png
-  artifactKey: Guid(7773ec5edb02ad04a97d320f1b02ba7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/chain_piece_small.png using Guid(7773ec5edb02ad04a97d320f1b02ba7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70399ce0cbe6707830eca737da5f0749') in 0.0134265 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015316 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/chaire.png
-  artifactKey: Guid(9155ae0c853e23a4e81b39445c8d7e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/chaire.png using Guid(9155ae0c853e23a4e81b39445c8d7e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3f81c429c8c3c3410ef6909265d4b86') in 0.0151065 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.032003 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/chandelier_large.png
-  artifactKey: Guid(d20ffd99df5b30c45b2d3e2c32f96e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/chandelier_large.png using Guid(d20ffd99df5b30c45b2d3e2c32f96e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3677459b2d5429fb7a110b457b05bcb') in 0.3958607 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016141 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/chandelier_small.png
-  artifactKey: Guid(db0dc81bbbbf0ab4da6706c4ce13eb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/chandelier_small.png using Guid(db0dc81bbbbf0ab4da6706c4ce13eb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3a4e1b2d9d87f4c48039f9d1ae9e8f5') in 0.0653964 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009908 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/door_closed.png
-  artifactKey: Guid(b0692cadfb37e7d4eac27688e5182adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/door_closed.png using Guid(b0692cadfb37e7d4eac27688e5182adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c47682d573c6bc0a99113bb2a858518') in 0.0760554 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.079025 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/door_open.png
-  artifactKey: Guid(4f02ffcc6f5148e458b459d6f8d5f8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/door_open.png using Guid(4f02ffcc6f5148e458b459d6f8d5f8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca51316dc7f22b3b1411f4f77eb7de47') in 0.0164056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023958 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/door_open_down.png
-  artifactKey: Guid(793a5dcd75d63234b89cf0a876d47546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/door_open_down.png using Guid(793a5dcd75d63234b89cf0a876d47546) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '187ac887eb074b66a95b06f94a02718b') in 0.0397517 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014599 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/door_open_up.png
-  artifactKey: Guid(e708530d1b0a8784eb4a299e951d50d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/door_open_up.png using Guid(e708530d1b0a8784eb4a299e951d50d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '940d3c93e77048a84daac81909b6d0c7') in 0.0510012 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004516 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/glow.png
-  artifactKey: Guid(8f9643925d999cc4da775bac129e9e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/glow.png using Guid(8f9643925d999cc4da775bac129e9e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c455fc72491e077658f6b1ff840f7119') in 0.0852778 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033719 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/hanging_flag_emblem.png
-  artifactKey: Guid(244161ec8d28c75419980a2219309ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/hanging_flag_emblem.png using Guid(244161ec8d28c75419980a2219309ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b37ab7ca84ccc2c611c9f6505c86736') in 0.0247067 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.030405 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/hanging_flag_square.png
-  artifactKey: Guid(81826861ec0370f4d98ccc4215639133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/hanging_flag_square.png using Guid(81826861ec0370f4d98ccc4215639133) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '464638e62d5d91482be37b0144d8aa14') in 0.0270924 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006660 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/hanging_flag_square_emblem.png
-  artifactKey: Guid(617591c1b0f95214e9321da05627caad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/hanging_flag_square_emblem.png using Guid(617591c1b0f95214e9321da05627caad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '087e8ae2846f7c73e203ab99525c210f') in 0.0142249 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020280 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/pedestal.png
-  artifactKey: Guid(6cdce8ec7cdb90648ad01742547cf0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/pedestal.png using Guid(6cdce8ec7cdb90648ad01742547cf0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2e27726464400c0d62985dea728670a') in 0.0202297 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034896 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/roast_chicken.png
-  artifactKey: Guid(4ad7f9a2fb79ee34bbd2e790c38462d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/props/roast_chicken.png using Guid(4ad7f9a2fb79ee34bbd2e790c38462d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f29d9156a96c992cc9143de4e82b5e9') in 0.0183017 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 88.515367 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey/inner_bottom_left_pass_trough_light_grey.png
-  artifactKey: Guid(acaded7e602972147b1712f3a7dd97a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey/inner_bottom_left_pass_trough_light_grey.png using Guid(acaded7e602972147b1712f3a7dd97a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6054cdf637fca27c38164f87ff8ca7d9') in 0.0723514 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034190 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey/inner_top_left_grey_light_grey.png
-  artifactKey: Guid(96f210b27efb5a44c8432345c8ceea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey/inner_top_left_grey_light_grey.png using Guid(96f210b27efb5a44c8432345c8ceea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '960d420a16c1a0423261c1dffe4bf8b9') in 0.01899 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.900798 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/bottom_edge.png
-  artifactKey: Guid(bcb7ff767791bb440a977217a73cdd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/bottom_edge.png using Guid(bcb7ff767791bb440a977217a73cdd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'baff6f89edfc4173676501514bb92300') in 0.0195594 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.030248 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/fill_01_light_grey.png
-  artifactKey: Guid(c467887d670ba924baad768509570767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/fill_01_light_grey.png using Guid(c467887d670ba924baad768509570767) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f857132eb7477692d63545b4c8fde27a') in 0.0372996 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/inner_bottom_right_grey_light_grey.png
-  artifactKey: Guid(f4d889ca88c35e24a8318c68ac597a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/inner_bottom_right_grey_light_grey.png using Guid(f4d889ca88c35e24a8318c68ac597a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4349cb0068b25ff64e5233f0165421c4') in 0.023056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/outer_top_left_grey_light_grey.png
-  artifactKey: Guid(65428248165d13644bf72092d1f9eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/outer_top_left_grey_light_grey.png using Guid(65428248165d13644bf72092d1f9eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aefa964eab833523769a692b36d35696') in 0.0243346 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/outer_top_right_grey_light_grey.png
-  artifactKey: Guid(0f3fb060305c22343aa5c750363af1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/outer_top_right_grey_light_grey.png using Guid(0f3fb060305c22343aa5c750363af1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad43ca8d8cce40217f4b2e04b49cddb2') in 0.0192897 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/inner_bottom_left_pass_trough_light_grey.png
-  artifactKey: Guid(f6bde92b4b4a1c94f8f9e1f4a808cc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/inner_bottom_left_pass_trough_light_grey.png using Guid(f6bde92b4b4a1c94f8f9e1f4a808cc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b899af7ff172425bdd984278ec0ce0f') in 0.0180426 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/left_edge.png
-  artifactKey: Guid(a3e71e2eb09b04e44bad1d2f38931a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/left_edge.png using Guid(a3e71e2eb09b04e44bad1d2f38931a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c2733f650d57bad3044d10e032c7644') in 0.0174001 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.482715 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/fill_01_light_grey.png
-  artifactKey: Guid(c467887d670ba924baad768509570767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/fill_01_light_grey.png using Guid(c467887d670ba924baad768509570767) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24bdb545fb3f67675c9414332fce7209') in 0.0123629 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/inner_bottom_right_pass_trough_light_grey.png
-  artifactKey: Guid(d1a793339f5700740bef6a679394ce4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/inner_bottom_right_pass_trough_light_grey.png using Guid(d1a793339f5700740bef6a679394ce4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a657fd7094875b85e5b0bb7d94ac1042') in 0.0213297 seconds
+  Time since last request: 320664.356492 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_008.png
+  artifactKey: Guid(dd40bd3cbd42aec4cb63e31630423f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_008.png using Guid(dd40bd3cbd42aec4cb63e31630423f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb82fc17506536a395dac8d7f4700e8f') in 0.2693638 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/outer_bottom_left_grey_light_grey.png
-  artifactKey: Guid(35f48940c820cef44a1d2c186ac47a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/outer_bottom_left_grey_light_grey.png using Guid(35f48940c820cef44a1d2c186ac47a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4965d4c1dab6002ce0048d8801f40630') in 0.0217749 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_012.png
+  artifactKey: Guid(918b9476932bbe042813ed70a7634e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_012.png using Guid(918b9476932bbe042813ed70a7634e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4013294953b8c281d3495c0f821aaf72') in 0.1234805 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/inner_bottom_left_pass_trough_light_grey.png
-  artifactKey: Guid(f6bde92b4b4a1c94f8f9e1f4a808cc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/inner_bottom_left_pass_trough_light_grey.png using Guid(f6bde92b4b4a1c94f8f9e1f4a808cc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c35df4cac0a35970601162d859de80b') in 0.0200062 seconds
+  Time since last request: 0.000100 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_007.png
+  artifactKey: Guid(23cc66e9fc70ee6478be3611669568b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_007.png using Guid(23cc66e9fc70ee6478be3611669568b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57697c31a4bcf288a58129ba44d28cdb') in 0.2098279 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

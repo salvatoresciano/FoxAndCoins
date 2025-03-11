@@ -15,7 +15,7 @@ D:/Progetti Unity/FoxAndCoins
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-64990
+50260
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Progetti Unity/FoxAndCoins
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25660]  Target information:
+Player connection [18316]  Target information:
 
-Player connection [25660]  * "[IP] 192.168.85.18 [Port] 0 [Flags] 2 [Guid] 2339863411 [EditorId] 2339863411 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18316]  * "[IP] 192.168.11.18 [Port] 0 [Flags] 2 [Guid] 1297709541 [EditorId] 1297709541 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [25660] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [25660] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18316] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18316] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 6.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 12.12 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
@@ -91,53 +91,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.008217 seconds.
-- Loaded All Assemblies, in  0.494 seconds
+Registered in 0.013265 seconds.
+- Loaded All Assemblies, in  0.864 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 192 ms
+Android Extension - Scanning For ADB Devices 427 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.610 seconds
-Domain Reload Profiling: 1101ms
-	BeginReloadAssembly (138ms)
+- Finished resetting the current domain, in  1.318 seconds
+Domain Reload Profiling: 2176ms
+	BeginReloadAssembly (271ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (72ms)
-	LoadAllAssembliesAndSetupDomain (212ms)
-		LoadAssemblies (136ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (369ms)
+		LoadAssemblies (266ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (208ms)
-			TypeCache.Refresh (206ms)
-				TypeCache.ScanAssembly (187ms)
+		AnalyzeDomain (362ms)
+			TypeCache.Refresh (358ms)
+				TypeCache.ScanAssembly (329ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (611ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1319ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (565ms)
+		SetupLoadedEditorAssemblies (1230ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (311ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (161ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (672ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (14ms)
+			ProcessInitializeOnLoadAttributes (370ms)
+			ProcessInitializeOnLoadMethodAttributes (159ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -145,79 +145,1182 @@ Domain Reload Profiling: 1101ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.794 seconds
-Refreshing native plugins compatible for Editor in 6.42 ms, found 1 plugins.
+- Loaded All Assemblies, in  1.594 seconds
+Refreshing native plugins compatible for Editor in 11.12 ms, found 1 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.558 seconds
-Domain Reload Profiling: 1348ms
-	BeginReloadAssembly (388ms)
+- Finished resetting the current domain, in  1.450 seconds
+Domain Reload Profiling: 3036ms
+	BeginReloadAssembly (776ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (305ms)
-		LoadAssemblies (298ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (623ms)
+		LoadAssemblies (604ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (110ms)
-			TypeCache.Refresh (79ms)
-				TypeCache.ScanAssembly (66ms)
-			BuildScriptInfoCaches (23ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (558ms)
+		AnalyzeDomain (234ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (146ms)
+			BuildScriptInfoCaches (47ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1451ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (338ms)
+		SetupLoadedEditorAssemblies (995ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (739ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 11.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2172 unused Assets / (1.1 MB). Loaded Objects now: 2718.
+Memory consumption went from 104.9 MB to 103.8 MB.
+Total: 10.227000 ms (FindLiveObjects: 0.384300 ms CreateObjectMapping: 0.287800 ms MarkObjects: 8.159700 ms  DeleteObjects: 1.391400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 320664.651221 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_010.png
+  artifactKey: Guid(873e520d744c843449744ebbf9dd39e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_010.png using Guid(873e520d744c843449744ebbf9dd39e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0537e0b4ab7d807b775259cfe311c1e') in 0.2699366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_004.png
+  artifactKey: Guid(fba8ba64ca6c1794f8d7dafb225ec877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_004.png using Guid(fba8ba64ca6c1794f8d7dafb225ec877) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51a0b52247b039fd8169981dc306fe0e') in 0.1864392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.350082 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_013.png
+  artifactKey: Guid(22006a3bdc0b6bf4293526ce8d6c4cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_013.png using Guid(22006a3bdc0b6bf4293526ce8d6c4cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06a23ce5823d44be419fcf96cefb658e') in 0.0657237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009072 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_014.png
+  artifactKey: Guid(a5eb25faa87b9bf4a980b1164e758ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_014.png using Guid(a5eb25faa87b9bf4a980b1164e758ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67894c4723754cf429d276d47cd2838e') in 0.0877582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.209776 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_015.png
+  artifactKey: Guid(70bd5ad9bed14aa4688327148c715a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_015.png using Guid(70bd5ad9bed14aa4688327148c715a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e8d388969ba36ec2d6589cc78b130ec') in 0.0536174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006954 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_016.png
+  artifactKey: Guid(2e1dfed7654cbec4dadd91b3ec880043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_016.png using Guid(2e1dfed7654cbec4dadd91b3ec880043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a15dd0fa14c82898ba642db4c1d4b844') in 0.0756255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.265347 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_017.png
+  artifactKey: Guid(64c2faa5c690c97498c954213acbc950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_017.png using Guid(64c2faa5c690c97498c954213acbc950) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd877834b314584b482e17e563b91d475') in 0.0668557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005130 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_018.png
+  artifactKey: Guid(ca6bb718d54bfd44eba2a657f9358cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_018.png using Guid(ca6bb718d54bfd44eba2a657f9358cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdac46f27bbd1410f905a8eba044b860') in 0.0432466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011226 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_019.png
+  artifactKey: Guid(80b877ffe8d57654593c2b2fb09a6c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_019.png using Guid(80b877ffe8d57654593c2b2fb09a6c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84dd9f9608a5cee7a26871eee63e3222') in 0.0874927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.245244 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_000.png
+  artifactKey: Guid(d17c7370bb3a9d64582c2a1095f7cec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_000.png using Guid(d17c7370bb3a9d64582c2a1095f7cec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc39a15c2fe81756578ec988211bf10e') in 0.0656852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006072 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_001.png
+  artifactKey: Guid(1b2b0f6e204f16c40bc0aaa9e375cf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_001.png using Guid(1b2b0f6e204f16c40bc0aaa9e375cf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9010e4a9cd48dbc86142b297bbe843e') in 0.0688967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012405 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_002.png
+  artifactKey: Guid(537b9fc69ee7a624c953f5bd2be76aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_002.png using Guid(537b9fc69ee7a624c953f5bd2be76aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ad420e2013346ccdec103b2f681fc7b') in 0.074544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.192597 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_003.png
+  artifactKey: Guid(0969f309782cfe6458a9418a4a994b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_003.png using Guid(0969f309782cfe6458a9418a4a994b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bff7f8265fbcc54d1ed3eef918d1bf3') in 0.0564082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010232 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_004.png
+  artifactKey: Guid(c44fffe3b932f6e43a508e37c70148de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_004.png using Guid(c44fffe3b932f6e43a508e37c70148de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '064f8f9059386b61a48ef010fa3aec77') in 0.0749024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.332991 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_005.png
+  artifactKey: Guid(842add0a804b7c64dbd92f942421fce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_005.png using Guid(842add0a804b7c64dbd92f942421fce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a65fa4ea5a10a75916b572108ebd0f12') in 0.0756076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004285 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_006.png
+  artifactKey: Guid(a47c2be46c6b01f41b701398eeaaccf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_006.png using Guid(a47c2be46c6b01f41b701398eeaaccf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51bab5cc4329a9eedb4cc16ceeb9a6e6') in 0.0670135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002985 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_007.png
+  artifactKey: Guid(59f81c247c6897f47a815e57cc161225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_007.png using Guid(59f81c247c6897f47a815e57cc161225) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '118ca17a16d9b25c64f5668d96bcd4c0') in 0.051362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.251126 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_008.png
+  artifactKey: Guid(fed989b60cb93c2449e05c9273fc05c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_008.png using Guid(fed989b60cb93c2449e05c9273fc05c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c27e6bf717039690c656355ffecb9fbe') in 0.067094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015758 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_009.png
+  artifactKey: Guid(cb0fcee1ffc9a31469fdbed9d224dcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_jump_009.png using Guid(cb0fcee1ffc9a31469fdbed9d224dcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4af985f3a0a9bc2bb1a1be0e1e58f7dc') in 0.0916618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084795 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_run_001.png
+  artifactKey: Guid(de9d12608ef27234bab3908d386c18c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_run_001.png using Guid(de9d12608ef27234bab3908d386c18c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f1926fc7e5f2cfc70b8752e630042cc') in 0.0694058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.179813 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_run_002.png
+  artifactKey: Guid(a372cc2e18cedcd4ba25027663b966e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_run_002.png using Guid(a372cc2e18cedcd4ba25027663b966e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79cc7fcb74d9a76a0630f45e462e8e36') in 0.0544017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005725 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_run_003.png
+  artifactKey: Guid(c2b8adc088eb2f3418124ceac8d8c4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_run_003.png using Guid(c2b8adc088eb2f3418124ceac8d8c4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6811340a04738138b01c94ebebf8beed') in 0.0659936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.358505 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_run_005.png
+  artifactKey: Guid(3105c6dee1732da4597e75fd115d3316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_run_005.png using Guid(3105c6dee1732da4597e75fd115d3316) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a2c932131cd7c3122bca8d43ef27d2b') in 0.0656014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013423 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_run_006.png
+  artifactKey: Guid(4619ace877f984d4ab6ccd3ff17adcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_run_006.png using Guid(4619ace877f984d4ab6ccd3ff17adcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49a8ad409aa0e80b3442211a44d7dff0') in 0.0665466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008258 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_run_007.png
+  artifactKey: Guid(ed355b9394d8e0b4cafd338e0093f333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_run_007.png using Guid(ed355b9394d8e0b4cafd338e0093f333) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '311faac053eeb7c7e55373a2f0bf6dea') in 0.065158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015747 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_spear_attack_000.png
+  artifactKey: Guid(246c7708f0dbb1d4bb7f4071f90b9d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_spear_attack_000.png using Guid(246c7708f0dbb1d4bb7f4071f90b9d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '136c3f6b2d18f48d7341efa3f5cba54a') in 0.0765386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.151530 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_spear_attack_001.png
+  artifactKey: Guid(790a5d303e253af4cbd972049a7518c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_spear_attack_001.png using Guid(790a5d303e253af4cbd972049a7518c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7b49531996b3e68d8c28f63324dcb5a') in 0.1026922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_spear_attack_002.png
+  artifactKey: Guid(8d94553a05352324b8c1c663360e9f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_spear_attack_002.png using Guid(8d94553a05352324b8c1c663360e9f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e78f18ecf3c44c4f81429f706d31b0eb') in 0.076276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004873 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_spear_attack_003.png
+  artifactKey: Guid(88bb96c92f1205249a047c912c59e56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_spear_attack_003.png using Guid(88bb96c92f1205249a047c912c59e56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bd3df553be4c59f6987bee62c06ebd7') in 0.0935816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.159832 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_spear_attack_004.png
+  artifactKey: Guid(a7056bd56cbbb754ab6a05aa7f0ca50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_spear_attack_004.png using Guid(a7056bd56cbbb754ab6a05aa7f0ca50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '746be69833f8f51af29c15dc6e1fb014') in 0.09134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007899 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_spear_attack_005.png
+  artifactKey: Guid(4c1be7b43efeb6e4ba51d04c0a3e977d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_spear_attack_005.png using Guid(4c1be7b43efeb6e4ba51d04c0a3e977d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dd6907a46af2d81cd76753723c5ce26') in 0.0560621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015587 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_spear_attack_006.png
+  artifactKey: Guid(e67c0e7661628214f95dbe898980196f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_spear_attack_006.png using Guid(e67c0e7661628214f95dbe898980196f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25ae0c3e49f4aa2b1d24808b8a8300c1') in 0.0748132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004963 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_spear_attack_007.png
+  artifactKey: Guid(39377ee2fe43baf42ac7a9887b138512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_spear_attack_007.png using Guid(39377ee2fe43baf42ac7a9887b138512) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14d76ce8a5a3954ffc4d4c2b12cf7599') in 0.0523956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.321395 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_throw_000.png
+  artifactKey: Guid(fb7f10a669cc263438a120ccd97fab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_throw_000.png using Guid(fb7f10a669cc263438a120ccd97fab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddd2b516a165deb203dec1ede98500a3') in 0.0693481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010290 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_throw_001.png
+  artifactKey: Guid(70cef3b6d56f4ed4ba5d8e486f1cabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_throw_001.png using Guid(70cef3b6d56f4ed4ba5d8e486f1cabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2c71d102b908d513774ff62b444b172') in 0.0883566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.389217 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_throw_002.png
+  artifactKey: Guid(1a77bfb198883324ba67232bfcb5592b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_throw_002.png using Guid(1a77bfb198883324ba67232bfcb5592b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dfdc7f71e3859754706027484ca4271') in 0.0566423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013989 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_throw_003.png
+  artifactKey: Guid(603cd04789bf57b419eb68615a6f745d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_throw_003.png using Guid(603cd04789bf57b419eb68615a6f745d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13f711a024cd6e00ac415a13db26b877') in 0.0644817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019783 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_throw_004.png
+  artifactKey: Guid(2cef424e9e4cc524192a25b2855b1ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_throw_004.png using Guid(2cef424e9e4cc524192a25b2855b1ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f8a1fe8eca97b06d88f0bba66a9b8fe') in 0.0734232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.011447 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_throw_005.png
+  artifactKey: Guid(31d345b5fb1c16f40a88632062ad3b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_throw_005.png using Guid(31d345b5fb1c16f40a88632062ad3b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cd611444f2a5e3d3a122541254efd90') in 0.0617572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027895 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_throw_006.png
+  artifactKey: Guid(18d4721648edb5040a5407a58654496d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_throw_006.png using Guid(18d4721648edb5040a5407a58654496d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94cfb72600e246f42c28cde6d9c9136a') in 0.2054585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.532285 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_throw_007.png
+  artifactKey: Guid(826dd02f2a25e7b40b86796705e57b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_throw_007.png using Guid(826dd02f2a25e7b40b86796705e57b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '718641f52660e2023838e1eb8d2c6e88') in 0.0758677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072194 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_walk_000.png
+  artifactKey: Guid(5420bae05b61c3a49a530efd2a1456ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_walk_000.png using Guid(5420bae05b61c3a49a530efd2a1456ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb7653f69a96a1de526bae9714feb178') in 0.0799429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010507 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_walk_001.png
+  artifactKey: Guid(fd676dc43abdaa54cbcc5b9ee049c5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_walk_001.png using Guid(fd676dc43abdaa54cbcc5b9ee049c5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1b007e5b7cf18ccf8374c8490abb279') in 0.0799513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.227279 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_walk_002.png
+  artifactKey: Guid(2c8a84380f73e194bad7e3c9134ef187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_walk_002.png using Guid(2c8a84380f73e194bad7e3c9134ef187) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e397262bcccc4ab6a41dd891734b279') in 0.0563295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007901 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_walk_003.png
+  artifactKey: Guid(10ca13a831962fe4db8d04757178f5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_walk_003.png using Guid(10ca13a831962fe4db8d04757178f5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e619d211aff87ae88732cf296968f56') in 0.0691739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.681907 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_walk_004.png
+  artifactKey: Guid(6db56329e3399b24f9627d70e9b06987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_walk_004.png using Guid(6db56329e3399b24f9627d70e9b06987) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea93bcd653b2ee25e643e23084bfd9f8') in 0.0767289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007690 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_walk_005.png
+  artifactKey: Guid(312b23a0ab978f640ae8074f784faf30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_walk_005.png using Guid(312b23a0ab978f640ae8074f784faf30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5c69e5d592a802ab1872a097bfd0d38') in 0.0650075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.903110 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_walk_006.png
+  artifactKey: Guid(cff5ddfdbfc3997438e01bf31308fadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_walk_006.png using Guid(cff5ddfdbfc3997438e01bf31308fadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a8ffaadf53834987966ebc130b558e8') in 0.0668926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068861 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_000.png
+  artifactKey: Guid(ab98a06ee6a0cb5478428ee555c76ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_000.png using Guid(ab98a06ee6a0cb5478428ee555c76ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcd6eb41a4ebd248750e02ca262f6eb1') in 0.0625447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.296639 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_001.png
+  artifactKey: Guid(dc73845bb44248041ab4dd567fb4e765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_001.png using Guid(dc73845bb44248041ab4dd567fb4e765) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c677b8776635e85a0b960e9edb246d3') in 0.0915501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.237827 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_002.png
+  artifactKey: Guid(9482210618f056345a9957cfc8e17738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_002.png using Guid(9482210618f056345a9957cfc8e17738) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84140fdd355fa5b4c96e4a71209616d8') in 0.112121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031242 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_004.png
+  artifactKey: Guid(ec5ac04fb4766a1439aa70e08a9680ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_004.png using Guid(ec5ac04fb4766a1439aa70e08a9680ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0cec9e452aded424073340ab3d31ca4') in 0.0717042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.123431 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_005.png
+  artifactKey: Guid(b343d9aeb2029d74b818a3b716345fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_005.png using Guid(b343d9aeb2029d74b818a3b716345fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c996d19fe1b01ddc17d2e84fff5b0d3a') in 0.1032446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066894 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_007.png
+  artifactKey: Guid(48af82d9d281dc24790b9c88ed0ae013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_007.png using Guid(48af82d9d281dc24790b9c88ed0ae013) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1867028e0cf929292f4712176755847') in 0.0745588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.626036 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_008.png
+  artifactKey: Guid(3adb54ee25c61f541a1dd1fcbd536257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_008.png using Guid(3adb54ee25c61f541a1dd1fcbd536257) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd832325cbbd6db6dd4dfefce95cc5466') in 0.0677766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069867 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_010.png
+  artifactKey: Guid(68bdb7ebf79e78a47a35422d0251ead3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_010.png using Guid(68bdb7ebf79e78a47a35422d0251ead3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f3103f0fc990bc9e066377553f60b75') in 0.090039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.273647 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_011.png
+  artifactKey: Guid(76f95fa9dbab3314ba7846348d57cd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_011.png using Guid(76f95fa9dbab3314ba7846348d57cd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd5cb6e4796335bad5c61c52a474edcb') in 0.0787078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069997 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_012.png
+  artifactKey: Guid(e4210cf02cee4134494bdab53bf5b8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_012.png using Guid(e4210cf02cee4134494bdab53bf5b8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0aadae1ec2e26967946cc9a2d2c515c0') in 0.064392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029408 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_013.png
+  artifactKey: Guid(3740ac445c4577045b602918715258a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_013.png using Guid(3740ac445c4577045b602918715258a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '326488bc963851a663a0439da01fefaa') in 0.0903147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.258026 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_014.png
+  artifactKey: Guid(232308d98d2b6eb43ab8b32e8e6a7d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_014.png using Guid(232308d98d2b6eb43ab8b32e8e6a7d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cf17676b5315ca8ec256a67d65da191') in 0.2010899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013811 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_015.png
+  artifactKey: Guid(a9565b1dcb449e141a0b54d1f85a23c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_015.png using Guid(a9565b1dcb449e141a0b54d1f85a23c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e0bac95b30c030b79adad5eaf0782fc') in 0.0891786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 254.495862 seconds.
+  path: Assets/Prefabs/Lv5/Enemies/BlackBat/Enemy - BlackBat.prefab
+  artifactKey: Guid(0c8c1eff51213184da6f6e3b56ce358a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lv5/Enemies/BlackBat/Enemy - BlackBat.prefab using Guid(0c8c1eff51213184da6f6e3b56ce358a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a327e7e87fa95bea56fbfe1388c91e82') in 0.0318295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.643639 seconds.
+  path: Assets/Prefabs/Lv5/Enemies/Knight 1/Enemy - Knight1.prefab
+  artifactKey: Guid(2a213f6e107290445aff923e75f0d26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lv5/Enemies/Knight 1/Enemy - Knight1.prefab using Guid(2a213f6e107290445aff923e75f0d26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc53a8dd12d2d80f6b61b4f014346fc1') in 2.3552132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.392693 seconds.
+  path: Assets/Prefabs/Lv5/Enemies/Knight 2/Enemy - Knight2.prefab
+  artifactKey: Guid(a44c468f53239c24e82307a22bbac34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lv5/Enemies/Knight 2/Enemy - Knight2.prefab using Guid(a44c468f53239c24e82307a22bbac34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89e36a484bda86f193f0774cb6c11d26') in 2.0620659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.805547 seconds.
+  path: Assets/Prefabs/Lv5/Enemies/Knight 3/Enemy - Knight3.prefab
+  artifactKey: Guid(7026292a86db72d4f95d46fa521a7804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lv5/Enemies/Knight 3/Enemy - Knight3.prefab using Guid(7026292a86db72d4f95d46fa521a7804) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b40957596d80dfb6cedd40ddc524e55') in 2.2377058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.148423 seconds.
+  path: Assets/Prefabs/Lv5/Enemies/Rat/Enemy - Rat.prefab
+  artifactKey: Guid(d74fdfb370eac2947b60a2cdd6706453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lv5/Enemies/Rat/Enemy - Rat.prefab using Guid(d74fdfb370eac2947b60a2cdd6706453) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2375cc453e70a740e5cf686593ab6c6') in 0.1379125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 130
+
+========================================================================
+Received Import Request.
+  Time since last request: 185.889396 seconds.
+  path: Assets/TemplateGame/Script/AI/BirdDetectPlayerHelper.cs
+  artifactKey: Guid(2ddb782f69c0dbd49b2ac90203d46aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplateGame/Script/AI/BirdDetectPlayerHelper.cs using Guid(2ddb782f69c0dbd49b2ac90203d46aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc6b77eda82bcfd99b6849b3c5589083') in 0.0010467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.887 seconds
+Refreshing native plugins compatible for Editor in 12.11 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.151 seconds
+Domain Reload Profiling: 2034ms
+	BeginReloadAssembly (315ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (446ms)
+		LoadAssemblies (514ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (90ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1152ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (762ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (538ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 10.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2172 unused Assets / (1.0 MB). Loaded Objects now: 2733.
+Memory consumption went from 102.3 MB to 101.3 MB.
+Total: 10.745300 ms (FindLiveObjects: 0.432500 ms CreateObjectMapping: 0.362700 ms MarkObjects: 8.625900 ms  DeleteObjects: 1.321800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 393.344526 seconds.
+  path: Assets/Prefabs/Lv5/Enemies/Knight 3/knight.controller
+  artifactKey: Guid(9eb0ff3ae2ca8974a9a5f717f9270e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lv5/Enemies/Knight 3/knight.controller using Guid(9eb0ff3ae2ca8974a9a5f717f9270e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9cee8fdd79f84b6c73dcaaec52bb8d6') in 0.0365798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.891 seconds
+Refreshing native plugins compatible for Editor in 13.56 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.349 seconds
+Domain Reload Profiling: 2249ms
+	BeginReloadAssembly (303ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (446ms)
+		LoadAssemblies (510ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (96ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1363ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (873ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (623ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 14.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2170 unused Assets / (1.1 MB). Loaded Objects now: 2735.
+Memory consumption went from 102.3 MB to 101.2 MB.
+Total: 11.020100 ms (FindLiveObjects: 0.344400 ms CreateObjectMapping: 0.255300 ms MarkObjects: 8.503400 ms  DeleteObjects: 1.915600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 363.352636 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR SFX/L5 LARGE FAT RAT ATTACK SFX.m4a
+  artifactKey: Guid(45cd6571dec8e4d4f894b52d085d011e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR SFX/L5 LARGE FAT RAT ATTACK SFX.m4a using Guid(45cd6571dec8e4d4f894b52d085d011e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8070d36dfb6864d8f1c3cf4dd9ce9947') in 0.0349532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.085900 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR SFX/L5 LARGE FAT RAT DIE SFX.m4a
+  artifactKey: Guid(abcfe359d0db31c478d6b82aa9cc0188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR SFX/L5 LARGE FAT RAT DIE SFX.m4a using Guid(abcfe359d0db31c478d6b82aa9cc0188) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f469d29c0dc6edf8fdcfd92bfe55b02') in 0.0014701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.580 seconds
+Refreshing native plugins compatible for Editor in 5.89 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.751 seconds
+Domain Reload Profiling: 1329ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (282ms)
+		LoadAssemblies (320ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (77ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (64ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (752ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (454ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (229ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (337ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 8.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2170 unused Assets / (1.0 MB). Loaded Objects now: 2737.
+Memory consumption went from 104.2 MB to 103.3 MB.
+Total: 7.475800 ms (FindLiveObjects: 0.393900 ms CreateObjectMapping: 0.598700 ms MarkObjects: 5.573900 ms  DeleteObjects: 0.907800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 169.594117 seconds.
+  path: Assets/Prefabs/Lv5/Enemies/Rat/Enemy - Rat.prefab
+  artifactKey: Guid(d74fdfb370eac2947b60a2cdd6706453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lv5/Enemies/Rat/Enemy - Rat.prefab using Guid(d74fdfb370eac2947b60a2cdd6706453) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0bcbaadff0136d811ee9d22125001bd') in 0.1619061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 130
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.214837 seconds.
+  path: Assets/Prefabs/Lv5/Enemies/Rat/Enemy - Rat.prefab
+  artifactKey: Guid(d74fdfb370eac2947b60a2cdd6706453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lv5/Enemies/Rat/Enemy - Rat.prefab using Guid(d74fdfb370eac2947b60a2cdd6706453) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72996535393131a61494c957c5c0649f') in 0.0897528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 130
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.576 seconds
+Refreshing native plugins compatible for Editor in 6.49 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.723 seconds
+Domain Reload Profiling: 1297ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (318ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (77ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (64ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (724ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (465ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (337ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 6.05 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 6.93 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2172 unused Assets / (1.0 MB). Loaded Objects now: 2718.
-Memory consumption went from 106.9 MB to 105.9 MB.
-Total: 5.911700 ms (FindLiveObjects: 0.299200 ms CreateObjectMapping: 0.171300 ms MarkObjects: 4.215600 ms  DeleteObjects: 1.223700 ms)
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2172 unused Assets / (1.0 MB). Loaded Objects now: 2739.
+Memory consumption went from 106.2 MB to 105.2 MB.
+Total: 8.343800 ms (FindLiveObjects: 0.442100 ms CreateObjectMapping: 0.966300 ms MarkObjects: 5.535700 ms  DeleteObjects: 1.398100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.569 seconds
+Refreshing native plugins compatible for Editor in 6.17 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.732 seconds
+Domain Reload Profiling: 1299ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (272ms)
+		LoadAssemblies (309ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (66ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (733ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (476ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (351ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 8.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2170 unused Assets / (1.0 MB). Loaded Objects now: 2741.
+Memory consumption went from 106.2 MB to 105.2 MB.
+Total: 7.935400 ms (FindLiveObjects: 0.284200 ms CreateObjectMapping: 0.206800 ms MarkObjects: 6.293000 ms  DeleteObjects: 1.149800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 304.847424 seconds.
+  path: Assets/Prefabs/Lv5/Enemies/Rat/Enemy - Rat.prefab
+  artifactKey: Guid(d74fdfb370eac2947b60a2cdd6706453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lv5/Enemies/Rat/Enemy - Rat.prefab using Guid(d74fdfb370eac2947b60a2cdd6706453) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b0ead0303d56f6ebd9132c8a28a15a7') in 0.1800243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 105
 
 ========================================================================
 Received Import Request.
-  Time since last request: 241191.175518 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/outer_bottom_left_grey_light_grey.png
-  artifactKey: Guid(35f48940c820cef44a1d2c186ac47a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/outer_bottom_left_grey_light_grey.png using Guid(35f48940c820cef44a1d2c186ac47a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '155fbaae1f1d5edc567e8a3be8e554b1') in 0.0910908 seconds
+  Time since last request: 60.478434 seconds.
+  path: Assets/Prefabs/Lv5/Enemies/Rat/Enemy - Rat.prefab
+  artifactKey: Guid(d74fdfb370eac2947b60a2cdd6706453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lv5/Enemies/Rat/Enemy - Rat.prefab using Guid(d74fdfb370eac2947b60a2cdd6706453) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64bea91ad711af0fbdbc6172ef0119af') in 0.0582097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.571 seconds
+Refreshing native plugins compatible for Editor in 6.23 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.728 seconds
+Domain Reload Profiling: 1297ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (308ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (81ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (66ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (729ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (480ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (345ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 6.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2172 unused Assets / (1.0 MB). Loaded Objects now: 2743.
+Memory consumption went from 106.2 MB to 105.2 MB.
+Total: 6.493300 ms (FindLiveObjects: 0.266200 ms CreateObjectMapping: 0.192100 ms MarkObjects: 4.853600 ms  DeleteObjects: 1.180500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 300.534338 seconds.
+  path: Assets/Prefabs/Lv5/Enemies/Rat/Enemy - Rat.prefab
+  artifactKey: Guid(d74fdfb370eac2947b60a2cdd6706453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lv5/Enemies/Rat/Enemy - Rat.prefab using Guid(d74fdfb370eac2947b60a2cdd6706453) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd209963b34d13b9c4682415af03d2b64') in 0.1364333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.579 seconds
+Refreshing native plugins compatible for Editor in 6.07 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.718 seconds
+Domain Reload Profiling: 1294ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (282ms)
+		LoadAssemblies (318ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (66ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (718ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (475ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 6.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2172 unused Assets / (1.0 MB). Loaded Objects now: 2745.
+Memory consumption went from 106.2 MB to 105.2 MB.
+Total: 6.202900 ms (FindLiveObjects: 0.340000 ms CreateObjectMapping: 0.334000 ms MarkObjects: 4.397900 ms  DeleteObjects: 1.129400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 55.873711 seconds.
+  path: Assets/Prefabs/Lv5/Enemies/Rat/Enemy - Rat.prefab
+  artifactKey: Guid(d74fdfb370eac2947b60a2cdd6706453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lv5/Enemies/Rat/Enemy - Rat.prefab using Guid(d74fdfb370eac2947b60a2cdd6706453) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff100711ab0da22bcff0910753ff5dc4') in 0.1173828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.560 seconds
+Refreshing native plugins compatible for Editor in 6.80 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.778 seconds
+Domain Reload Profiling: 1336ms
+	BeginReloadAssembly (204ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (271ms)
+		LoadAssemblies (302ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (66ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (778ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (485ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (346ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 6.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2172 unused Assets / (1.0 MB). Loaded Objects now: 2747.
+Memory consumption went from 106.2 MB to 105.2 MB.
+Total: 7.554800 ms (FindLiveObjects: 0.284500 ms CreateObjectMapping: 0.296100 ms MarkObjects: 5.622800 ms  DeleteObjects: 1.350200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.687 seconds
+Refreshing native plugins compatible for Editor in 6.25 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.714 seconds
+Domain Reload Profiling: 1398ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (322ms)
+		LoadAssemblies (368ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (90ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (74ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (714ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (461ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (340ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2170 unused Assets / (0.9 MB). Loaded Objects now: 2749.
+Memory consumption went from 106.2 MB to 105.3 MB.
+Total: 6.710500 ms (FindLiveObjects: 0.275900 ms CreateObjectMapping: 0.186300 ms MarkObjects: 5.311000 ms  DeleteObjects: 0.935500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 709.787632 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_2_spritesheet.png
+  artifactKey: Guid(68699dc1dc4d62f48a280c6caecf996f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_2_spritesheet.png using Guid(68699dc1dc4d62f48a280c6caecf996f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec5b83630a21cfa40afe5f86b93fe7db') in 0.0993614 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 37.705286 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/bottom_edge_grey.asset
-  artifactKey: Guid(9695ad6d725f5ef46adcc59a0fb5206b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/bottom_edge_grey.asset using Guid(9695ad6d725f5ef46adcc59a0fb5206b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '135d01d70425ac44354ad4b29ab45fe3') in 0.0216493 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_3_dark_green.png
+  artifactKey: Guid(f4723fe6ff893224e8d4dfffc35ede02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_3_dark_green.png using Guid(f4723fe6ff893224e8d4dfffc35ede02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd196e8f43da26214ea1f1ac4bef940eb') in 0.0588683 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_05_grey.asset
-  artifactKey: Guid(68a26ebde1299144c9b3aa3b6d2fa43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_05_grey.asset using Guid(68a26ebde1299144c9b3aa3b6d2fa43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '501324bd52c214ace6b3258f8ea939ee') in 0.0168434 seconds
+  Time since last request: 0.002289 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_3_spritesheet.png
+  artifactKey: Guid(ac978561928edd64480f63c0332b949b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_3_spritesheet.png using Guid(ac978561928edd64480f63c0332b949b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5949fb66decd6938583a84174e1ee7f') in 0.019673 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.031406 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_4_bright_green.png
+  artifactKey: Guid(9f83819079bebd6468338b3b1efe1c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_4_bright_green.png using Guid(9f83819079bebd6468338b3b1efe1c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dd6493f3946a8bde2bcf09388ea38cc') in 0.0401152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002580 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_4_dark_green.png
+  artifactKey: Guid(64cbbc0ee04bea94cb37e4be82116024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_4_dark_green.png using Guid(64cbbc0ee04bea94cb37e4be82116024) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4dd3a9a0d0e38286b724f04cfd89e332') in 0.0312309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048753 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_4_dull_green.png
+  artifactKey: Guid(81fb3d42925219043b984290970d6570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_4_dull_green.png using Guid(81fb3d42925219043b984290970d6570) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fff7fc6bfdf191028c5f420859848d9') in 0.0630284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005874 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_4_light_green.png
+  artifactKey: Guid(178ac51ae05c212478aa45082ab6c974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_4_light_green.png using Guid(178ac51ae05c212478aa45082ab6c974) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a51eb8d1678315aa7c8225f55f0ad81') in 0.0444409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031037 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_4_spritesheet.png
+  artifactKey: Guid(0637144bfff7bfc4c9a735733d1a993c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_4_spritesheet.png using Guid(0637144bfff7bfc4c9a735733d1a993c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98b1bb88791d8c7dbaf0e2c904cc2733') in 0.0160424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+

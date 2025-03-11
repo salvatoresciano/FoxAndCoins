@@ -15,7 +15,7 @@ D:/Progetti Unity/FoxAndCoins
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64990
+50260
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Progetti Unity/FoxAndCoins
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26756]  Target information:
+Player connection [25144]  Target information:
 
-Player connection [26756]  * "[IP] 192.168.85.18 [Port] 0 [Flags] 2 [Guid] 2819755976 [EditorId] 2819755976 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [25144]  * "[IP] 192.168.11.18 [Port] 0 [Flags] 2 [Guid] 3723189630 [EditorId] 3723189630 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26756] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [26756] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25144] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25144] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 9.32 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 11.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
@@ -91,53 +91,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.006110 seconds.
-- Loaded All Assemblies, in  0.434 seconds
+Registered in 0.013511 seconds.
+- Loaded All Assemblies, in  0.872 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 207 ms
+Android Extension - Scanning For ADB Devices 400 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.623 seconds
-Domain Reload Profiling: 1055ms
-	BeginReloadAssembly (140ms)
+- Finished resetting the current domain, in  1.359 seconds
+Domain Reload Profiling: 2226ms
+	BeginReloadAssembly (276ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (184ms)
-		LoadAssemblies (137ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (118ms)
+	LoadAllAssembliesAndSetupDomain (371ms)
+		LoadAssemblies (271ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (180ms)
-			TypeCache.Refresh (179ms)
-				TypeCache.ScanAssembly (165ms)
+		AnalyzeDomain (363ms)
+			TypeCache.Refresh (361ms)
+				TypeCache.ScanAssembly (335ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (624ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1360ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (583ms)
+		SetupLoadedEditorAssemblies (1274ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (325ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (169ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (633ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (420ms)
+			ProcessInitializeOnLoadMethodAttributes (194ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -145,615 +145,614 @@ Domain Reload Profiling: 1055ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.797 seconds
-Refreshing native plugins compatible for Editor in 8.16 ms, found 1 plugins.
+- Loaded All Assemblies, in  1.559 seconds
+Refreshing native plugins compatible for Editor in 16.48 ms, found 1 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.595 seconds
-Domain Reload Profiling: 1388ms
-	BeginReloadAssembly (403ms)
+- Finished resetting the current domain, in  1.507 seconds
+Domain Reload Profiling: 3058ms
+	BeginReloadAssembly (754ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (299ms)
-		LoadAssemblies (292ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (588ms)
+		LoadAssemblies (597ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (108ms)
-			TypeCache.Refresh (78ms)
-				TypeCache.ScanAssembly (65ms)
-			BuildScriptInfoCaches (23ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (595ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (126ms)
+			BuildScriptInfoCaches (47ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1508ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (362ms)
+		SetupLoadedEditorAssemblies (1036ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (747ms)
+			ProcessInitializeOnLoadMethodAttributes (157ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 13.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2172 unused Assets / (1.1 MB). Loaded Objects now: 2718.
+Memory consumption went from 105.0 MB to 103.9 MB.
+Total: 11.921700 ms (FindLiveObjects: 0.631900 ms CreateObjectMapping: 0.339500 ms MarkObjects: 9.022600 ms  DeleteObjects: 1.923900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 320664.363130 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_006.png
+  artifactKey: Guid(9469c76ef840ec3449b54eb63494c0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_006.png using Guid(9469c76ef840ec3449b54eb63494c0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47c4371566b9fdcb940d4109ad2ca0e4') in 0.2042878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_011.png
+  artifactKey: Guid(d8e34b2a058d25f4db9de296d7187031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_011.png using Guid(d8e34b2a058d25f4db9de296d7187031) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d9ba746efa06f60394a2e94a5f921df') in 0.1637328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_009.png
+  artifactKey: Guid(670cfedfdaa14dc42afb47207a1d24c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_009.png using Guid(670cfedfdaa14dc42afb47207a1d24c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '863eaa4c5a6afd85433d31837a3a6164') in 0.1566312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_005.png
+  artifactKey: Guid(b3e94c0800a26b443808d6a520af6460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_005.png using Guid(b3e94c0800a26b443808d6a520af6460) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d27f329f20ce25eacabba72c9b7ccda') in 0.1936092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.178365 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_run_000.png
+  artifactKey: Guid(efec7e638be3f484f9ba061d91895954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_run_000.png using Guid(efec7e638be3f484f9ba061d91895954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '105b72ad476bf4e1580dcaa78e7bec07') in 0.1336365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.334225 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_run_004.png
+  artifactKey: Guid(48596a294ebd43e48844a5eeac16443d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_run_004.png using Guid(48596a294ebd43e48844a5eeac16443d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd11768950c08397c53ba8911c74eec2') in 0.073895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.968454 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_walk_007.png
+  artifactKey: Guid(4e4bba3eec4af104f8c19b219a7d5aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_walk_007.png using Guid(4e4bba3eec4af104f8c19b219a7d5aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ee914824273f647ea512423ca84a896') in 0.0669989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.792785 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_003.png
+  artifactKey: Guid(6e861c6dc83b87c47ad9ba36eaac140f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_003.png using Guid(6e861c6dc83b87c47ad9ba36eaac140f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9b5e5d65630cc34986b4dd01ec7b3dc') in 0.0508898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.287825 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_006.png
+  artifactKey: Guid(306483d5c627be34c85b87c608560606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_006.png using Guid(306483d5c627be34c85b87c608560606) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b43bbcbaf9a3c2472f564e980dc9ebc') in 0.0636312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.775643 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_009.png
+  artifactKey: Guid(6dcf5c01f81a5634a98038d2e61e5902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_whacked_009.png using Guid(6dcf5c01f81a5634a98038d2e61e5902) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9bdea10aff2152a964017d53dc10180') in 0.0658613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.887 seconds
+Refreshing native plugins compatible for Editor in 11.87 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.151 seconds
+Domain Reload Profiling: 2034ms
+	BeginReloadAssembly (315ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (446ms)
+		LoadAssemblies (514ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (90ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1152ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (763ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (551ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 10.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2170 unused Assets / (1.0 MB). Loaded Objects now: 2728.
+Memory consumption went from 102.7 MB to 101.7 MB.
+Total: 8.658500 ms (FindLiveObjects: 0.344400 ms CreateObjectMapping: 0.287400 ms MarkObjects: 6.791500 ms  DeleteObjects: 1.232800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.884 seconds
+Refreshing native plugins compatible for Editor in 13.53 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.354 seconds
+Domain Reload Profiling: 2242ms
+	BeginReloadAssembly (296ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (448ms)
+		LoadAssemblies (503ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (96ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1363ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (866ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (612ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 13.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2170 unused Assets / (1.0 MB). Loaded Objects now: 2730.
+Memory consumption went from 102.7 MB to 101.7 MB.
+Total: 11.473100 ms (FindLiveObjects: 0.376700 ms CreateObjectMapping: 0.335500 ms MarkObjects: 8.859900 ms  DeleteObjects: 1.899500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.584 seconds
+Refreshing native plugins compatible for Editor in 5.76 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.898 seconds
+Domain Reload Profiling: 1480ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (283ms)
+		LoadAssemblies (322ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (78ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (65ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (899ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (601ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (120ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (361ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 7.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2170 unused Assets / (1.0 MB). Loaded Objects now: 2732.
+Memory consumption went from 102.7 MB to 101.7 MB.
+Total: 8.110800 ms (FindLiveObjects: 0.292600 ms CreateObjectMapping: 0.233100 ms MarkObjects: 6.299800 ms  DeleteObjects: 1.283700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.576 seconds
+Refreshing native plugins compatible for Editor in 6.33 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.719 seconds
+Domain Reload Profiling: 1293ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (317ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (77ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (64ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (720ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (472ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (19ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (247ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
 			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 7.48 ms, found 1 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 8.09 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2172 unused Assets / (1.0 MB). Loaded Objects now: 2718.
-Memory consumption went from 106.9 MB to 105.9 MB.
-Total: 5.300300 ms (FindLiveObjects: 0.258200 ms CreateObjectMapping: 0.183800 ms MarkObjects: 4.119300 ms  DeleteObjects: 0.736900 ms)
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2170 unused Assets / (1.0 MB). Loaded Objects now: 2734.
+Memory consumption went from 102.7 MB to 101.7 MB.
+Total: 6.980500 ms (FindLiveObjects: 0.327700 ms CreateObjectMapping: 0.196300 ms MarkObjects: 5.303000 ms  DeleteObjects: 1.151500 ms)
 
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.571 seconds
+Refreshing native plugins compatible for Editor in 6.03 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.735 seconds
+Domain Reload Profiling: 1303ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (266ms)
+		LoadAssemblies (302ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (65ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (736ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (475ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (352ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 7.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2170 unused Assets / (1.0 MB). Loaded Objects now: 2736.
+Memory consumption went from 102.7 MB to 101.7 MB.
+Total: 7.655600 ms (FindLiveObjects: 0.321600 ms CreateObjectMapping: 0.284800 ms MarkObjects: 5.926300 ms  DeleteObjects: 1.121900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.574 seconds
+Refreshing native plugins compatible for Editor in 6.11 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.730 seconds
+Domain Reload Profiling: 1301ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (281ms)
+		LoadAssemblies (311ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (81ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (66ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (730ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (479ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (348ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 6.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2170 unused Assets / (0.9 MB). Loaded Objects now: 2738.
+Memory consumption went from 102.7 MB to 101.8 MB.
+Total: 6.043300 ms (FindLiveObjects: 0.354600 ms CreateObjectMapping: 0.317100 ms MarkObjects: 4.304800 ms  DeleteObjects: 1.065600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.585 seconds
+Refreshing native plugins compatible for Editor in 5.80 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.727 seconds
+Domain Reload Profiling: 1309ms
+	BeginReloadAssembly (218ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (281ms)
+		LoadAssemblies (322ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (84ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (71ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (727ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (477ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2170 unused Assets / (0.9 MB). Loaded Objects now: 2740.
+Memory consumption went from 102.7 MB to 101.8 MB.
+Total: 5.743100 ms (FindLiveObjects: 0.269600 ms CreateObjectMapping: 0.177700 ms MarkObjects: 4.343500 ms  DeleteObjects: 0.950900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.561 seconds
+Refreshing native plugins compatible for Editor in 6.33 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.773 seconds
+Domain Reload Profiling: 1332ms
+	BeginReloadAssembly (203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (303ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (66ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (774ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (482ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (345ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 7.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2170 unused Assets / (1.1 MB). Loaded Objects now: 2742.
+Memory consumption went from 102.7 MB to 101.6 MB.
+Total: 8.319900 ms (FindLiveObjects: 0.262800 ms CreateObjectMapping: 0.189700 ms MarkObjects: 6.474800 ms  DeleteObjects: 1.391700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.690 seconds
+Refreshing native plugins compatible for Editor in 5.77 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.716 seconds
+Domain Reload Profiling: 1401ms
+	BeginReloadAssembly (266ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (318ms)
+		LoadAssemblies (376ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (85ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (71ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (716ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (469ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (346ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2170 unused Assets / (0.9 MB). Loaded Objects now: 2744.
+Memory consumption went from 102.7 MB to 101.8 MB.
+Total: 8.156000 ms (FindLiveObjects: 0.282400 ms CreateObjectMapping: 0.266700 ms MarkObjects: 6.717600 ms  DeleteObjects: 0.888000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 241105.833431 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR SFX/L5 KNIGHT 1 SWORD ATTACK.wav
-  artifactKey: Guid(2fc92714dedf8ad458758f7911ecfb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR SFX/L5 KNIGHT 1 SWORD ATTACK.wav using Guid(2fc92714dedf8ad458758f7911ecfb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9989a91128385751c43f81ef8c6a0bd') in 0.1095318 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR SFX/L5 KNIGHT 2 SWORD ATTACK.wav
-  artifactKey: Guid(f2e152d47eb41544199d89469f1d8239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR SFX/L5 KNIGHT 2 SWORD ATTACK.wav using Guid(f2e152d47eb41544199d89469f1d8239) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '261acfebeeb67da4cddb0796c2e93c15') in 0.013965 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.826287 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_grey.png
-  artifactKey: Guid(f1c679b626ed4a44fb434f62ede8526c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_grey.png using Guid(f1c679b626ed4a44fb434f62ede8526c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b98e05c3c312572b862a516666b124d') in 0.0726082 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_top_right_grey.png
-  artifactKey: Guid(cb849b94a82eb4c4e821378b3ab29d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_top_right_grey.png using Guid(cb849b94a82eb4c4e821378b3ab29d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf5c64c90c6ce9e10cbf8194b4c445d8') in 0.0194643 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.117938 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/left_edge.png
-  artifactKey: Guid(c515bda0694b930408a69e332d5e6401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/left_edge.png using Guid(c515bda0694b930408a69e332d5e6401) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02210ad7263bb8238128e519d9921cb3') in 0.0170302 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/outer_top_left_grey.png
-  artifactKey: Guid(374d4cb2ab1614f4f9041b5a73278d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/outer_top_left_grey.png using Guid(374d4cb2ab1614f4f9041b5a73278d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a86f7088f6d3c7bdf1e107c0539b6df') in 0.0330966 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.549087 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey_no_brick/left_edge.png
-  artifactKey: Guid(558b33a3b5b07d84fadfd6a9d80ccdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey_no_brick/left_edge.png using Guid(558b33a3b5b07d84fadfd6a9d80ccdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3accc7b70bb15f9bf039945860dd8d5') in 0.0258032 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004503 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey_no_brick/outer_bottom_left_dark_grey.png
-  artifactKey: Guid(214271840ac672a49b7826dc78675ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey_no_brick/outer_bottom_left_dark_grey.png using Guid(214271840ac672a49b7826dc78675ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b031cd2ebc1907cc10baa36d88b45dad') in 0.0138707 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004799 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey_no_brick/outer_bottom_right_dark_grey.png
-  artifactKey: Guid(d501fdd38ea0bec42baa898b3117e5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey_no_brick/outer_bottom_right_dark_grey.png using Guid(d501fdd38ea0bec42baa898b3117e5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b29e71b96977b750d4b10314fee87d65') in 0.0223833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003582 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey_no_brick/outer_top_left_dark_grey.png
-  artifactKey: Guid(c98388b4e8b72324e8316c640d50f214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey_no_brick/outer_top_left_dark_grey.png using Guid(c98388b4e8b72324e8316c640d50f214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '376534c33c99d345d93f5cb1fafb4a0f') in 0.0175598 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.147130 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/outer_top_right_grey.png
-  artifactKey: Guid(4fab1c512e27daa42874b40370f8b5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/outer_top_right_grey.png using Guid(4fab1c512e27daa42874b40370f8b5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee34bbe29f317929a6dc5652293f4dcb') in 0.0225198 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020697 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/platform_left_grey.png
-  artifactKey: Guid(642634c712809cf4fad32b61465c88bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/platform_left_grey.png using Guid(642634c712809cf4fad32b61465c88bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2c6f91d577bff42a71e120a14787953') in 0.0223357 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/shallow_hill_left_03_grey.png
-  artifactKey: Guid(630fad4dc8912674e86fc8390f70a6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/shallow_hill_left_03_grey.png using Guid(630fad4dc8912674e86fc8390f70a6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a921df884b69b4b83f0797e9c5146241') in 0.027304 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/shallow_hill_left_02_grey.png
-  artifactKey: Guid(f4e4130f9cbbb354ba9e35c76b77032e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/shallow_hill_left_02_grey.png using Guid(f4e4130f9cbbb354ba9e35c76b77032e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09cf914722668ba08f05aef0d2da16a4') in 0.0200643 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.610880 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/shallow_hill_right_01_grey.png
-  artifactKey: Guid(5cc26834c4f82384fbc20a3ce4f89643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/shallow_hill_right_01_grey.png using Guid(5cc26834c4f82384fbc20a3ce4f89643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e23fb975efecd417e34bc4315e54b3f6') in 0.0184414 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/shallow_hill_right_03_grey.png
-  artifactKey: Guid(8abb0760e18153845960c46d67abf692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/shallow_hill_right_03_grey.png using Guid(8abb0760e18153845960c46d67abf692) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c00f73df594c1edf0761145bee1ffced') in 0.0178323 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006220 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/single_pillar_base_grey.png
-  artifactKey: Guid(4f28e19b11625fc43b76d0c48fd89586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/single_pillar_base_grey.png using Guid(4f28e19b11625fc43b76d0c48fd89586) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61a2b57defc84a67ca34beb84eb99d1d') in 0.0184909 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013857 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/single_pillar_center_02.png
-  artifactKey: Guid(bc2522d4d1a875d41a08e0804cbafada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/single_pillar_center_02.png using Guid(bc2522d4d1a875d41a08e0804cbafada) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b085bfdb373c1aad5b3db9e1c0168c94') in 0.0208583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/single_pillar_end_grey.png
-  artifactKey: Guid(0d2d0524dc6d86c4bad2747ed67341ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/single_pillar_end_grey.png using Guid(0d2d0524dc6d86c4bad2747ed67341ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07d86f607ce123a88823ca2ce4c22c16') in 0.0168991 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/steep_hill_right_01_grey.png
-  artifactKey: Guid(2f630322cd38fc048a6c558edfed1e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/steep_hill_right_01_grey.png using Guid(2f630322cd38fc048a6c558edfed1e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c884626f6774f99171f42b1ebda7acb') in 0.0170259 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011620 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/steep_hill_right_02_grey.png
-  artifactKey: Guid(d3533a7a3a6ecc34f8d7e3e568c3c302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/steep_hill_right_02_grey.png using Guid(d3533a7a3a6ecc34f8d7e3e568c3c302) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '289824fab16d3bccefa42d3a4dc87d3b') in 0.0531909 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/top_03_grey.png
-  artifactKey: Guid(d177d8132b8913f48a702affef4c50b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/top_03_grey.png using Guid(d177d8132b8913f48a702affef4c50b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84c88cfa25ecaf7be785eefd40996746') in 0.0190402 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/top_02_grey.png
-  artifactKey: Guid(f10a743b68c329a4da7d88a17dab9b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/top_02_grey.png using Guid(f10a743b68c329a4da7d88a17dab9b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c60e9bc32a46f2d5cacefde9014d254') in 0.0168913 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.391602 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/outer_bottom_right_grey_light_grey.png
-  artifactKey: Guid(083b571e31efab243854f2b9d8566b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/outer_bottom_right_grey_light_grey.png using Guid(083b571e31efab243854f2b9d8566b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f59274823379a579623515d42bb8856') in 0.0413031 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021485 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/outer_top_right_grey_light_grey.png
-  artifactKey: Guid(0f3fb060305c22343aa5c750363af1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/light_grey_no_brick/outer_top_right_grey_light_grey.png using Guid(0f3fb060305c22343aa5c750363af1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5dd2b80e8f317dd00c4b1404946753d') in 0.0194136 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.698910 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_01_grey.asset
-  artifactKey: Guid(1f2c821f9177b5349be1050b222e2eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_01_grey.asset using Guid(1f2c821f9177b5349be1050b222e2eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f3dec45a2ac7817c198461a752cc619') in 0.0205819 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_06_grey.asset
-  artifactKey: Guid(683769191e989f844a66b3169a44d2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_06_grey.asset using Guid(683769191e989f844a66b3169a44d2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7fcca604ddfa92dd3603da713d4e160') in 0.0159602 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_03_grey.asset
-  artifactKey: Guid(198cf3d972b4d7f4aa83a94d454ff5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_03_grey.asset using Guid(198cf3d972b4d7f4aa83a94d454ff5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d90c5b62a4762c466c6c296e64d46e5') in 0.0166524 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.110923 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_left_grey.asset
-  artifactKey: Guid(fda5cea75b1d4164396e615a131cfde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_left_grey.asset using Guid(fda5cea75b1d4164396e615a131cfde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74675489ce9362e74f935f6d936c3b35') in 0.0163657 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.110663 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_left_pass_trough_grey.asset
-  artifactKey: Guid(610673a78876fe04f9098d5e8735c2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_left_pass_trough_grey.asset using Guid(610673a78876fe04f9098d5e8735c2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b85adf9d134a999d720860fd9d663764') in 0.0157219 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 154.337495 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/bottom_edge_grey.png
-  artifactKey: Guid(a90048b82a43a164b9411651746522d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/bottom_edge_grey.png using Guid(a90048b82a43a164b9411651746522d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f673a5e99cd0fa1581d7ec0d56ca7109') in 0.0166563 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035578 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_01_grey.png
-  artifactKey: Guid(f34e55818920ceb42b5beb9504588170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_01_grey.png using Guid(f34e55818920ceb42b5beb9504588170) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3973a7a97c087f8c6163bc34833f3ba') in 0.0206743 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_grey.png
-  artifactKey: Guid(f1c679b626ed4a44fb434f62ede8526c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_grey.png using Guid(f1c679b626ed4a44fb434f62ede8526c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a76a18245bb2dba4be4f8290e44ff470') in 0.0218976 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_left_grey.png
-  artifactKey: Guid(7fbe51959ab20aa48af2e27314018b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_left_grey.png using Guid(7fbe51959ab20aa48af2e27314018b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c2fab44034bab70ccc2c795afb1673b') in 0.0263356 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_pass_trough_grey.png
-  artifactKey: Guid(e874ca8e3b677d549ab799cb39b2e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_pass_trough_grey.png using Guid(e874ca8e3b677d549ab799cb39b2e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '674ab914e18ea9fbb2db9a93ebd11411') in 0.0209511 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_03_grey.png
-  artifactKey: Guid(449678dfecfd9fb4a8c7cbe447505b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_03_grey.png using Guid(449678dfecfd9fb4a8c7cbe447505b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eea94c8c85066e8fe09f76659ea389ac') in 0.0231605 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_top_left_grey.png
-  artifactKey: Guid(a5d203f27428d7c4e96b951b114d3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_top_left_grey.png using Guid(a5d203f27428d7c4e96b951b114d3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5118256e10184768b716e8b29a9e2d56') in 0.0236452 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.717804 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/bottom_edge_grey.png
-  artifactKey: Guid(a90048b82a43a164b9411651746522d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/bottom_edge_grey.png using Guid(a90048b82a43a164b9411651746522d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '584d9d3c2a14cc228eb012a456602c40') in 0.0101592 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035476 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_01_grey.png
-  artifactKey: Guid(f34e55818920ceb42b5beb9504588170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_01_grey.png using Guid(f34e55818920ceb42b5beb9504588170) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '336e5a8f93f6717c7e3addc8280ea243') in 0.0115155 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_grey.png
-  artifactKey: Guid(f1c679b626ed4a44fb434f62ede8526c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_grey.png using Guid(f1c679b626ed4a44fb434f62ede8526c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '931e04d6e7e06de20d57a5bb77328600') in 0.0187665 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_left_grey.png
-  artifactKey: Guid(7fbe51959ab20aa48af2e27314018b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_left_grey.png using Guid(7fbe51959ab20aa48af2e27314018b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '412339e04f8e33cbeba33d43091ecefc') in 0.0210195 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_pass_trough_grey.png
-  artifactKey: Guid(e874ca8e3b677d549ab799cb39b2e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_pass_trough_grey.png using Guid(e874ca8e3b677d549ab799cb39b2e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6b1c547019be1d492cd3092e13cd94d') in 0.02196 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_top_left_grey.png
-  artifactKey: Guid(a5d203f27428d7c4e96b951b114d3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_top_left_grey.png using Guid(a5d203f27428d7c4e96b951b114d3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b490788733a4570a80f7d2899357682') in 0.018845 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.526166 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/bottom_edge_grey.png
-  artifactKey: Guid(a90048b82a43a164b9411651746522d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/bottom_edge_grey.png using Guid(a90048b82a43a164b9411651746522d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70ccbf0d52502677aa80cc667f401d01') in 0.0095494 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031111 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_01_grey.png
-  artifactKey: Guid(f34e55818920ceb42b5beb9504588170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_01_grey.png using Guid(f34e55818920ceb42b5beb9504588170) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '387ac1f6e10689bfb291e02bcff1e172') in 0.012354 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_top_right_grey.png
-  artifactKey: Guid(cb849b94a82eb4c4e821378b3ab29d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_top_right_grey.png using Guid(cb849b94a82eb4c4e821378b3ab29d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af73f8907dae011712096d6ee7b970dc') in 0.0241091 seconds
+  Time since last request: 2839.498917 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_3_bright_green.png
+  artifactKey: Guid(c5169eb117cab6846b141c0369b0565e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_3_bright_green.png using Guid(c5169eb117cab6846b141c0369b0565e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90b42ae5a69e44d778173af465eba3f3') in 0.0988781 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_pass_trough_grey.png
-  artifactKey: Guid(e874ca8e3b677d549ab799cb39b2e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_pass_trough_grey.png using Guid(e874ca8e3b677d549ab799cb39b2e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33460637f7cdf7c4d963f4ab7093ecec') in 0.0248336 seconds
+  path: Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_3_dull_green.png
+  artifactKey: Guid(c794e1ca39866724e9c5ce1687913606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_3_dull_green.png using Guid(c794e1ca39866724e9c5ce1687913606) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eec6b206cbab3b9b638af35910d468ad') in 0.045673 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_05_grey.png
-  artifactKey: Guid(36034fb4a3b43bd4f82cb087850b44a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_05_grey.png using Guid(36034fb4a3b43bd4f82cb087850b44a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b2f100637ae256e1e7101990b8351fe') in 0.0147038 seconds
+  Time since last request: 0.000129 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_3_light_green.png
+  artifactKey: Guid(dab77f754c8b0184e85425fa711b1540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/Countryside enviroment/pngs/bushes/bush_3_light_green.png using Guid(dab77f754c8b0184e85425fa711b1540) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '724f6205fcb4d8f40a22ba1f6456760b') in 0.0344105 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-========================================================================
-Received Import Request.
-  Time since last request: 8.178265 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/bottom_edge_grey.png
-  artifactKey: Guid(a90048b82a43a164b9411651746522d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/bottom_edge_grey.png using Guid(a90048b82a43a164b9411651746522d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '602f1d7f6418a0b45969576d3fe9e2c1') in 0.0088105 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031340 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_01_grey.png
-  artifactKey: Guid(f34e55818920ceb42b5beb9504588170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/fill_01_grey.png using Guid(f34e55818920ceb42b5beb9504588170) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a793402027ed6f419af6bad182de372') in 0.0109838 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_grey.png
-  artifactKey: Guid(f1c679b626ed4a44fb434f62ede8526c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_right_grey.png using Guid(f1c679b626ed4a44fb434f62ede8526c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddccea16f534df03c596c1f88156eb3c') in 0.0206263 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_left_pass_trough_grey.png
-  artifactKey: Guid(4038db60cddb99b449fc3552ad9a6b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_bottom_left_pass_trough_grey.png using Guid(4038db60cddb99b449fc3552ad9a6b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5ed7d5a10a45dc3a75631814e69a527') in 0.021129 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_top_left_grey.png
-  artifactKey: Guid(a5d203f27428d7c4e96b951b114d3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/dark_grey/inner_top_left_grey.png using Guid(a5d203f27428d7c4e96b951b114d3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47fecca454384206990be4f791b1a239') in 0.0197311 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.914856 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey
-  artifactKey: Guid(f81369f948f836241b52585135ffa519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey using Guid(f81369f948f836241b52585135ffa519) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97c88124baf9676f7331edd6e69c87a2') in 0.0007789 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.121077 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/bottom_edge_grey.asset
-  artifactKey: Guid(bde0703fef64a3145b07746d00159748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/bottom_edge_grey.asset using Guid(bde0703fef64a3145b07746d00159748) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79829c9f4eb7628857615b86b0b9020b') in 0.0067192 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/inner_bottom_right_grey.asset
-  artifactKey: Guid(f953e132ab4e5dd488910e19221a6493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/inner_bottom_right_grey.asset using Guid(f953e132ab4e5dd488910e19221a6493) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30ed60411e6869b7b779b0b24ab7d246') in 0.008174 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/inner_top_left_grey.asset
-  artifactKey: Guid(1dda406dccfb57e49960a093f084e232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/inner_top_left_grey.asset using Guid(1dda406dccfb57e49960a093f084e232) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33968e625d671cd988db513628084316') in 0.01715 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/fill_05_grey.asset
-  artifactKey: Guid(a23528117a8d83a4db20d24904a40df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/fill_05_grey.asset using Guid(a23528117a8d83a4db20d24904a40df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc846bb22820f192efab057e990a9be9') in 0.0167558 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/inner_top_right_grey.asset
-  artifactKey: Guid(b5d991f101a905e4cb0f0605c7f72a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/inner_top_right_grey.asset using Guid(b5d991f101a905e4cb0f0605c7f72a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbdb892fb2d20d6de80f06fd06d95f37') in 0.0148218 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.389961 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/left_edge.asset
-  artifactKey: Guid(db578e92e1a84144f97fc4602625b2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/left_edge.asset using Guid(db578e92e1a84144f97fc4602625b2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e102e2b185e1c906453049631f257eda') in 0.0165903 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020884 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/outer_bottom_right_grey.asset
-  artifactKey: Guid(ad8eb461342b4354a8893c28cafdf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/outer_bottom_right_grey.asset using Guid(ad8eb461342b4354a8893c28cafdf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84dfe132957aa29e2a1bc58a5ccde71b') in 0.015414 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/outer_top_right_grey.asset
-  artifactKey: Guid(6d853534825d25445baccc2ee5237fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/outer_top_right_grey.asset using Guid(6d853534825d25445baccc2ee5237fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '294b11bc5847d318dc398711f60cd567') in 0.0140918 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.266901 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/platform_center_grey.asset
-  artifactKey: Guid(f97c05b1a86189e479aefa605e8838e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/platform_center_grey.asset using Guid(f97c05b1a86189e479aefa605e8838e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbb0701f3419e68232dc902729492a76') in 0.0168274 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013200 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/right_edge.asset
-  artifactKey: Guid(d99e5349912508a46bcd8af970215424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/right_edge.asset using Guid(d99e5349912508a46bcd8af970215424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57f901c681f046241de3d8370088fe59') in 0.0193026 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.068035 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/shallow_hill_left_03_grey.asset
-  artifactKey: Guid(4fad9fe084810c9498bb98225f5f3c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/shallow_hill_left_03_grey.asset using Guid(4fad9fe084810c9498bb98225f5f3c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ec7050a5f1c024eb8678a3473f76fc9') in 0.016511 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046813 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/shallow_hill_right_03_grey.asset
-  artifactKey: Guid(aea024204cae1c14898487c4508617ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/shallow_hill_right_03_grey.asset using Guid(aea024204cae1c14898487c4508617ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cec1815207bd473ebf3ba40a4a19e86a') in 0.017621 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019148 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/single_pillar_center_01.asset
-  artifactKey: Guid(a883d37233f3864449e40cd3154ed02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/single_pillar_center_01.asset using Guid(a883d37233f3864449e40cd3154ed02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abf167145fb16c9dd513acf4171ca810') in 0.0142656 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011799 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/single_pillar_top.asset
-  artifactKey: Guid(5c9a217a0b26f394da051362c1d4e521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/single_pillar_top.asset using Guid(5c9a217a0b26f394da051362c1d4e521) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '706d967391692e1d2acafc4441a7b0ee') in 0.0170892 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009127 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/steep_hill_right_01_grey.asset
-  artifactKey: Guid(49a614c327deb77458346d3cee32da19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/steep_hill_right_01_grey.asset using Guid(49a614c327deb77458346d3cee32da19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '281e8bf6b5bf8e2fceb138b9b331506b') in 0.0169603 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013772 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/top_02_grey.asset
-  artifactKey: Guid(da67ee6cd607bcd4486cbc540a430f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR/Megacastlepack--1v508h952z1s0a7x34/tiles/tile set dark grey/top_02_grey.asset using Guid(da67ee6cd607bcd4486cbc540a430f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c23b49f70d479f02f8a8aa0d4b961188') in 0.0134118 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

@@ -69,11 +69,12 @@ public class Block : MonoBehaviour, IPlayerRespawnListener
 
         if (tilemap.HasTile(cellPosition))
         {
-           
+            Debug.Log("Tile at " + cellPosition);
             HandleTileHit(cellPosition);
         }
         else
         {
+            Debug.Log("No tile.");
             return;
         }
 

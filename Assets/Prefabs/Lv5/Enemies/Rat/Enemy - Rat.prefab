@@ -99,7 +99,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.28695023, y: 0.50364435}
+  m_Offset: {x: -0.28695023, y: -0.2139377}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -109,7 +109,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.5397475, y: 3.0946982}
+  m_Size: {x: 2.5397475, y: 1.6595341}
   m_EdgeRadius: 0
 --- !u!114 &5431364884666611571
 MonoBehaviour:
@@ -178,9 +178,9 @@ MonoBehaviour:
   HurtEffect: {fileID: 113216, guid: 20400a4349ca29f41b9c336e87901ff8, type: 3}
   hurtSound: {fileID: 8300000, guid: 39a510b823a23e04d82a44899246e7f6, type: 3}
   hurtSoundVolume: 0.8
-  deadSound: {fileID: 8300000, guid: f5ce78ae226fcc24abc40fe3943296e7, type: 3}
+  deadSound: {fileID: 8300000, guid: c856a23d73cb2ee4794eec4df424bdf2, type: 3}
   deadSoundVolume: 0.8
-  attackSound: {fileID: 8300000, guid: c8e6564b6af473048ba5f7438cfd169a, type: 3}
+  attackSound: {fileID: 8300000, guid: 59934339ee5838248a3119e64fbfe327, type: 3}
   attackSoundVolume: 0.7
   playerHurtSound: {fileID: 0}
   playerHurtVolume: 0.5

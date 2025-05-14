@@ -217,6 +217,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   attackCooldown: 1
+  yOffset: -0.3
 --- !u!1 &296840253201430236
 GameObject:
   m_ObjectHideFlags: 0

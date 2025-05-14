@@ -330,7 +330,11 @@ public class Player : MonoBehaviour, ICanTakeDamage {
 
 	public void RespawnAt(Vector2 pos){
 		transform.position = pos;
-		isPlaying = true;
+        transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+		velocity = Vector3.zero;
+		input = Vector2.zero;
+
+        isPlaying = true;
 		Health = maxHealth;
 
 		ResetAnimation ();

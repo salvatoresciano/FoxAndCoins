@@ -39478,6 +39478,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4004657398613003997, guid: 65236a92f423a79478f16cf8865ef81d, type: 3}
+      propertyPath: yOffset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004657398613003997, guid: 65236a92f423a79478f16cf8865ef81d, type: 3}
       propertyPath: rayDistance
       value: 4
       objectReference: {fileID: 0}
@@ -43738,6 +43742,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4004657398613003997, guid: 65236a92f423a79478f16cf8865ef81d, type: 3}
+      propertyPath: yOffset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004657398613003997, guid: 65236a92f423a79478f16cf8865ef81d, type: 3}
       propertyPath: rayDistance
       value: 4
       objectReference: {fileID: 0}
@@ -45477,6 +45485,10 @@ PrefabInstance:
     - target: {fileID: 3084219547239618948, guid: 65236a92f423a79478f16cf8865ef81d, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004657398613003997, guid: 65236a92f423a79478f16cf8865ef81d, type: 3}
+      propertyPath: yOffset
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4004657398613003997, guid: 65236a92f423a79478f16cf8865ef81d, type: 3}
       propertyPath: rayDistance

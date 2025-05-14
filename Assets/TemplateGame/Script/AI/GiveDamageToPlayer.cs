@@ -18,7 +18,13 @@ public class GiveDamageToPlayer : MonoBehaviour {
 	public bool canBeKillOnHead = false;
 	public float damageOnHead;
 
-	void OnTriggerStay2D(Collider2D other){
+    [Header("Raycast Check")]
+    [Tooltip("Altezza rispetto all'origine da usare per il confronto con il player")]
+    public float raycastHeightCheck = 0f;
+    public Color rayColor = Color.red;
+
+
+    void OnTriggerStay2D(Collider2D other){
 		var Player = other.GetComponent<Player> ();
 		if (Player == null)
 			return;
@@ -31,7 +37,9 @@ public class GiveDamageToPlayer : MonoBehaviour {
 
 		nextDamage = Time.time;
 
-		if (canBeKillOnHead && Player.transform.position.y > transform.position.y) {
+        /* old code
+		 * 
+		 * if (canBeKillOnHead && Player.transform.position.y > transform.position.y) {
 
 			Player.SetForce(pushPlayer);
 			var canTakeDamage = (ICanTakeDamage) GetComponent (typeof(ICanTakeDamage));
@@ -39,12 +47,23 @@ public class GiveDamageToPlayer : MonoBehaviour {
 				canTakeDamage.TakeDamage (damageOnHead, Vector2.zero, gameObject);
 			
 			return;
-		}
+		}*/
 
-		//Push player back
-//		var facingDirectionX = Mathf.Sign (Player.transform.localScale.x);
-//		var facingDirectionY = Mathf.Sign (Player.velocity.y);
-		if (DamageToPlayer == 0)
+        if (canBeKillOnHead && Player.transform.position.y > (transform.position.y + raycastHeightCheck))
+        {
+
+            Player.SetForce(pushPlayer);
+            var canTakeDamage = (ICanTakeDamage)GetComponent(typeof(ICanTakeDamage));
+            if (canTakeDamage != null)
+                canTakeDamage.TakeDamage(damageOnHead, Vector2.zero, gameObject);
+
+            return;
+        }
+
+        //Push player back
+        //		var facingDirectionX = Mathf.Sign (Player.transform.localScale.x);
+        //		var facingDirectionY = Mathf.Sign (Player.velocity.y);
+        if (DamageToPlayer == 0)
 			return;
 
 		var facingDirectionX = Mathf.Sign (Player.transform.position.x - transform.position.x);
@@ -62,4 +81,13 @@ public class GiveDamageToPlayer : MonoBehaviour {
 			Destroy (gameObject);
 		}
 	}
+
+    void OnDrawGizmos()
+    {
+        Gizmos.color = rayColor;
+        Vector3 origin = transform.position;
+        Vector3 target = new Vector3(transform.position.x, transform.position.y + raycastHeightCheck, transform.position.z);
+        Gizmos.DrawLine(origin, target);
+        Gizmos.DrawSphere(target, 0.1f);
+    }
 }

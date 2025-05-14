@@ -15,7 +15,7 @@ D:/Progetti Unity/FoxAndCoins
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50260
+49879
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Progetti Unity/FoxAndCoins
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8196]  Target information:
+Player connection [6828]  Target information:
 
-Player connection [8196]  * "[IP] 192.168.11.18 [Port] 0 [Flags] 2 [Guid] 519475833 [EditorId] 519475833 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [6828]  * "[IP] 192.168.202.18 [Port] 0 [Flags] 2 [Guid] 1461688283 [EditorId] 1461688283 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8196] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8196] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6828] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6828] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 13.24 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 74.16 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
@@ -91,133 +91,129 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.016439 seconds.
-- Loaded All Assemblies, in  0.896 seconds
+Registered in 0.948808 seconds.
+- Loaded All Assemblies, in 12.445 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 392 ms
+Android Extension - Scanning For ADB Devices 340 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.390 seconds
-Domain Reload Profiling: 2281ms
-	BeginReloadAssembly (282ms)
+- Finished resetting the current domain, in  1.194 seconds
+Domain Reload Profiling: 13636ms
+	BeginReloadAssembly (8829ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (80ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (118ms)
-	LoadAllAssembliesAndSetupDomain (379ms)
-		LoadAssemblies (276ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (247ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (1004ms)
+	LoadAllAssembliesAndSetupDomain (2343ms)
+		LoadAssemblies (8826ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (373ms)
-			TypeCache.Refresh (370ms)
-				TypeCache.ScanAssembly (345ms)
+		AnalyzeDomain (2339ms)
+			TypeCache.Refresh (2337ms)
+				TypeCache.ScanAssembly (1985ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1391ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (1195ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1303ms)
+		SetupLoadedEditorAssemblies (1136ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (639ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (14ms)
-			ProcessInitializeOnLoadAttributes (425ms)
-			ProcessInitializeOnLoadMethodAttributes (191ms)
-			AfterProcessingInitializeOnLoad (27ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (732ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (12ms)
+			ProcessInitializeOnLoadAttributes (253ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.533 seconds
-Refreshing native plugins compatible for Editor in 14.21 ms, found 1 plugins.
+- Loaded All Assemblies, in  7.878 seconds
+Refreshing native plugins compatible for Editor in 6.81 ms, found 1 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.518 seconds
-Domain Reload Profiling: 3044ms
-	BeginReloadAssembly (736ms)
+- Finished resetting the current domain, in  0.893 seconds
+Domain Reload Profiling: 8767ms
+	BeginReloadAssembly (643ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (87ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (90ms)
-	LoadAllAssembliesAndSetupDomain (581ms)
-		LoadAssemblies (576ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (7118ms)
+		LoadAssemblies (6743ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (215ms)
-			TypeCache.Refresh (153ms)
-				TypeCache.ScanAssembly (128ms)
-			BuildScriptInfoCaches (44ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1519ms)
+		AnalyzeDomain (521ms)
+			TypeCache.Refresh (484ms)
+				TypeCache.ScanAssembly (468ms)
+			BuildScriptInfoCaches (27ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (894ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1045ms)
+		SetupLoadedEditorAssemblies (616ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (759ms)
-			ProcessInitializeOnLoadMethodAttributes (152ms)
-			AfterProcessingInitializeOnLoad (17ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (455ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 11.85 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 6.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2172 unused Assets / (1.0 MB). Loaded Objects now: 2718.
-Memory consumption went from 105.0 MB to 104.0 MB.
-Total: 11.348600 ms (FindLiveObjects: 0.741100 ms CreateObjectMapping: 0.497500 ms MarkObjects: 8.471600 ms  DeleteObjects: 1.633200 ms)
+Unloading 2172 unused Assets / (1.1 MB). Loaded Objects now: 2718.
+Memory consumption went from 106.9 MB to 105.8 MB.
+Total: 7.546000 ms (FindLiveObjects: 0.303200 ms CreateObjectMapping: 0.243000 ms MarkObjects: 5.808200 ms  DeleteObjects: 1.188800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 320664.356492 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_008.png
-  artifactKey: Guid(dd40bd3cbd42aec4cb63e31630423f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_008.png using Guid(dd40bd3cbd42aec4cb63e31630423f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb82fc17506536a395dac8d7f4700e8f') in 0.2693638 seconds
+  Time since last request: 1119.311327 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/SKY CLOUDS/cloud_04.png
+  artifactKey: Guid(1ac7784ed55a2e44f874236690ef2339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/SKY CLOUDS/cloud_04.png using Guid(1ac7784ed55a2e44f874236690ef2339) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1ec706ae4f52bdc6381fa5ba5c630c8') in 0.1113597 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_012.png
-  artifactKey: Guid(918b9476932bbe042813ed70a7634e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_012.png using Guid(918b9476932bbe042813ed70a7634e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4013294953b8c281d3495c0f821aaf72') in 0.1234805 seconds
+  Time since last request: 0.000044 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/SKY CLOUDS/cloud_02.png
+  artifactKey: Guid(d381cb4704679e9439416f9684357c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/SKY CLOUDS/cloud_02.png using Guid(d381cb4704679e9439416f9684357c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df6a3d7e5c596626d0a52aed8e4f3cfb') in 0.0194915 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_007.png
-  artifactKey: Guid(23cc66e9fc70ee6478be3611669568b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 5 CASTLE INTERIOR/L5 CASTLE INTERIOR ENIMIES/RAT/__fat_rat_01_idle_007.png using Guid(23cc66e9fc70ee6478be3611669568b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57697c31a4bcf288a58129ba44d28cdb') in 0.2098279 seconds
+  Time since last request: 0.000036 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/SKY CLOUDS/cloud_05.png
+  artifactKey: Guid(21564004514896746bef052b1a90c60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/SKY CLOUDS/cloud_05.png using Guid(21564004514896746bef052b1a90c60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d2706d9bb8031a126a6381d84075956') in 0.0172105 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

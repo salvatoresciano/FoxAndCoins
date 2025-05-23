@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\Progetti Unity\\FoxAndCoins\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|d:\\progetti unity\\foxandcoins\\assets\\templategame\\script\\ai\\attacktriggerai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\ai\\attacktriggerai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\player\\controller2d\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\player\\controller2d\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|d:\\progetti unity\\foxandcoins\\assets\\templategame\\script\\ai\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|d:\\progetti unity\\foxandcoins\\assets\\templategame\\script\\player\\controller2d\\controller2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\player\\controller2d\\controller2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|d:\\progetti unity\\foxandcoins\\assets\\templategame\\script\\ai\\givedamagetoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\ai\\givedamagetoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\player\\meleeattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\player\\meleeattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\ai\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\ai\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\ai\\monstersimpleai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\ai\\monstersimpleai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\ai\\givedamagetoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\ai\\givedamagetoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\gui\\controllerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\gui\\controllerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EnemyAI.cs",
-              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\EnemyAI.cs",
-              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\AI\\EnemyAI.cs",
-              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\EnemyAI.cs",
-              "RelativeToolTip": "Assets\\TemplateGame\\Script\\AI\\EnemyAI.cs",
-              "ViewState": "AgIAAKEAAAAAAAAAAAAowLIAAAAbAAAAAAAAAA==",
+              "Title": "Controller2D.cs",
+              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\Controller2D\\Controller2D.cs",
+              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\Player\\Controller2D\\Controller2D.cs",
+              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\Controller2D\\Controller2D.cs*",
+              "RelativeToolTip": "Assets\\TemplateGame\\Script\\Player\\Controller2D\\Controller2D.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:23:28.133Z",
+              "WhenOpened": "2025-05-23T14:30:55.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AttackTriggerAI.cs",
-              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\AttackTriggerAI.cs",
-              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\AI\\AttackTriggerAI.cs",
-              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\AttackTriggerAI.cs",
-              "RelativeToolTip": "Assets\\TemplateGame\\Script\\AI\\AttackTriggerAI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ControllerInput.cs",
+              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\GUI\\ControllerInput.cs",
+              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\GUI\\ControllerInput.cs",
+              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\GUI\\ControllerInput.cs",
+              "RelativeToolTip": "Assets\\TemplateGame\\Script\\GUI\\ControllerInput.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAApwDQAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:19:48.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MonsterSimpleAI.cs",
-              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\MonsterSimpleAI.cs",
-              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\AI\\MonsterSimpleAI.cs",
-              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\MonsterSimpleAI.cs",
-              "RelativeToolTip": "Assets\\TemplateGame\\Script\\AI\\MonsterSimpleAI.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAMAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T10:57:49.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T09:25:54.519Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "MeleeAttack.cs",
+              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\MeleeAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\Player\\MeleeAttack.cs",
+              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\MeleeAttack.cs",
+              "RelativeToolTip": "Assets\\TemplateGame\\Script\\Player\\MeleeAttack.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowB8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T09:21:32.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GiveDamageToPlayer.cs",
               "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\GiveDamageToPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\AI\\GiveDamageToPlayer.cs",
               "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\GiveDamageToPlayer.cs",
               "RelativeToolTip": "Assets\\TemplateGame\\Script\\AI\\GiveDamageToPlayer.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwCYAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwFsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T10:56:34.593Z",
+              "WhenOpened": "2025-05-06T09:19:13.766Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\Controller2D\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\Player\\Controller2D\\Player.cs",
+              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\Controller2D\\Player.cs",
+              "RelativeToolTip": "Assets\\TemplateGame\\Script\\Player\\Controller2D\\Player.cs",
+              "ViewState": "AgIAAJIBAAAAAAAAAAAIwKQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T09:17:46.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyAI.cs",
+              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\EnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\AI\\EnemyAI.cs",
+              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\EnemyAI.cs",
+              "RelativeToolTip": "Assets\\TemplateGame\\Script\\AI\\EnemyAI.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAIwKQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T14:23:28.133Z"
             }
           ]
         }

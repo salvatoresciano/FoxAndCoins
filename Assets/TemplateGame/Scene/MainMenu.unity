@@ -3136,7 +3136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11417892, guid: 06a1893173af4d447b4516eb9e533223, type: 3}
       propertyPath: TestLevel
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11417892, guid: 06a1893173af4d447b4516eb9e533223, type: 3}
       propertyPath: loadscene

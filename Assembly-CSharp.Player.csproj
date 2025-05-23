@@ -128,6 +128,7 @@
     <Compile Include="Assets\TemplateGame\Script\AI\GiveDamageToPlayer.cs" />
     <Compile Include="Assets\TemplateGame\Script\AI\EnemyShootAnimation.cs" />
     <Compile Include="Assets\TemplateGame\Script\AI\SimpleProjectile.cs" />
+    <Compile Include="Assets\TemplateGame\Script\Trampoline.cs" />
     <Compile Include="Assets\TemplateGame\Script\GUI\MainMenuShopItems.cs" />
     <Compile Include="Assets\TemplateGame\Script\Environment\ParallaxEffect.cs" />
     <Compile Include="Assets\TemplateGame\Script\AI\FireEvil.cs" />

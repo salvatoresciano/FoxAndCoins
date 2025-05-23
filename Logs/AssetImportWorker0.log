@@ -15,7 +15,7 @@ D:/Progetti Unity/FoxAndCoins
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49879
+61080
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Progetti Unity/FoxAndCoins
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5316]  Target information:
+Player connection [14908]  Target information:
 
-Player connection [5316]  * "[IP] 192.168.202.18 [Port] 0 [Flags] 2 [Guid] 2983462587 [EditorId] 2983462587 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [14908]  * "[IP] 192.168.129.18 [Port] 0 [Flags] 2 [Guid] 3115658800 [EditorId] 3115658800 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [5316] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [5316] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14908] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14908] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 75.78 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 13.87 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
@@ -91,53 +91,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.951134 seconds.
-- Loaded All Assemblies, in 12.451 seconds
+Registered in 0.011531 seconds.
+- Loaded All Assemblies, in  0.845 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 341 ms
+Android Extension - Scanning For ADB Devices 378 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.178 seconds
-Domain Reload Profiling: 13626ms
-	BeginReloadAssembly (8830ms)
+- Finished resetting the current domain, in  1.354 seconds
+Domain Reload Profiling: 2194ms
+	BeginReloadAssembly (254ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (246ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (1004ms)
-	LoadAllAssembliesAndSetupDomain (2350ms)
-		LoadAssemblies (8827ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (249ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2345ms)
-			TypeCache.Refresh (2343ms)
-				TypeCache.ScanAssembly (1983ms)
+		AnalyzeDomain (367ms)
+			TypeCache.Refresh (364ms)
+				TypeCache.ScanAssembly (336ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1179ms)
+	FinalizeReload (1355ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1126ms)
+		SetupLoadedEditorAssemblies (1264ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (733ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (9ms)
-			ProcessInitializeOnLoadAttributes (257ms)
-			ProcessInitializeOnLoadMethodAttributes (118ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (604ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (13ms)
+			ProcessInitializeOnLoadAttributes (417ms)
+			ProcessInitializeOnLoadMethodAttributes (195ms)
+			AfterProcessingInitializeOnLoad (29ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -145,68 +145,164 @@ Domain Reload Profiling: 13626ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  7.869 seconds
-Refreshing native plugins compatible for Editor in 6.06 ms, found 1 plugins.
+- Loaded All Assemblies, in  1.607 seconds
+Refreshing native plugins compatible for Editor in 11.23 ms, found 1 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.878 seconds
-Domain Reload Profiling: 8743ms
-	BeginReloadAssembly (629ms)
+- Finished resetting the current domain, in  1.486 seconds
+Domain Reload Profiling: 3085ms
+	BeginReloadAssembly (798ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (7121ms)
-		LoadAssemblies (6749ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (615ms)
+		LoadAssemblies (595ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (519ms)
-			TypeCache.Refresh (486ms)
-				TypeCache.ScanAssembly (468ms)
-			BuildScriptInfoCaches (25ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (879ms)
+		AnalyzeDomain (219ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (128ms)
+			BuildScriptInfoCaches (46ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1486ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (604ms)
+		SetupLoadedEditorAssemblies (1027ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (443ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (757ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+			AfterProcessingInitializeOnLoad (18ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 7.47 ms, found 1 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 16.06 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2172 unused Assets / (0.9 MB). Loaded Objects now: 2718.
-Memory consumption went from 105.0 MB to 104.1 MB.
-Total: 6.610200 ms (FindLiveObjects: 0.300200 ms CreateObjectMapping: 0.343500 ms MarkObjects: 5.018500 ms  DeleteObjects: 0.945400 ms)
+Unloading 2172 unused Assets / (1.2 MB). Loaded Objects now: 2718.
+Memory consumption went from 106.9 MB to 105.7 MB.
+Total: 14.857200 ms (FindLiveObjects: 0.512500 ms CreateObjectMapping: 0.524100 ms MarkObjects: 11.148100 ms  DeleteObjects: 2.667300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1119.310908 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/SKY CLOUDS/cloud_01.png
-  artifactKey: Guid(44c9fa82cc66b674193dd9b6cb25ad91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/SKY CLOUDS/cloud_01.png using Guid(44c9fa82cc66b674193dd9b6cb25ad91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5a20eb55b6580058af82466e9bc24f2') in 0.1006124 seconds
+  Time since last request: 20652.690474 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-top-left-outer-corner 1.asset
+  artifactKey: Guid(75f50cf15e63bb0438f5d17cc1f47b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-top-left-outer-corner 1.asset using Guid(75f50cf15e63bb0438f5d17cc1f47b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a226554f3eb0bb02c089be392238d51') in 0.1531985 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/SKY CLOUDS/cloud_03.png
-  artifactKey: Guid(bad8944bcc74e6a4f8baf5dd4f155bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 COUNTRYSIDE SCENE/SKY CLOUDS/cloud_03.png using Guid(bad8944bcc74e6a4f8baf5dd4f155bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7822a69c5e12d2ca6ab73b60ffa95d2f') in 0.0289824 seconds
+  Time since last request: 0.000043 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-inner-corner-top-right.asset
+  artifactKey: Guid(e36c5e7038c474741b6ac10c05b1b4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-inner-corner-top-right.asset using Guid(e36c5e7038c474741b6ac10c05b1b4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6ca71a50eeb5e09e56e82f2baab3d3a') in 0.030786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-top-left-outer-corner.asset
+  artifactKey: Guid(b6e7a0effad047b43a70e6265384c466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-top-left-outer-corner.asset using Guid(b6e7a0effad047b43a70e6265384c466) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfa74c5fcf67dafd4950a3f8a747d0a6') in 0.0567621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-top-with-platform-horizontal-repeating.asset
+  artifactKey: Guid(30de7a37aacaee145bd360604b7cb41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-top-with-platform-horizontal-repeating.asset using Guid(30de7a37aacaee145bd360604b7cb41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8359859c0e05b9e24e9d23b56cc5f853') in 0.0202691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-no-passthrough-platform-right-end.asset
+  artifactKey: Guid(9b180e2cfcc7c2f4388838ca39212164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-no-passthrough-platform-right-end.asset using Guid(9b180e2cfcc7c2f4388838ca39212164) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '067fdfcf7825c84397b905282de74c0d') in 0.0220436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-outer-corner-bottom-left.asset
+  artifactKey: Guid(8c7ea5bc414588546acab17112e0ed5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-outer-corner-bottom-left.asset using Guid(8c7ea5bc414588546acab17112e0ed5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '961b71bf41ab6d27e4667d50d6ae26f6') in 0.0226964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-outer-corner-with-platform-top-right 1.asset
+  artifactKey: Guid(c6bf34a08d986fd4d8b9ff59efb7089e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-outer-corner-with-platform-top-right 1.asset using Guid(c6bf34a08d986fd4d8b9ff59efb7089e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a00b2bb7dbc25320db9c68a4a7c8c30d') in 0.0237693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-outer-corner-with-platform-top-left.asset
+  artifactKey: Guid(967b9e5387de41e40aa3c390c90c4ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-outer-corner-with-platform-top-left.asset using Guid(967b9e5387de41e40aa3c390c90c4ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc9169de2d78906bea7c81c9aa00c601') in 0.051088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-right-edge-vertical 1.asset
+  artifactKey: Guid(8d42baa585ff5a84cac10ca4bb9560e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-right-edge-vertical 1.asset using Guid(8d42baa585ff5a84cac10ca4bb9560e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41f20164ef09657eca7eb0b5cb3a1213') in 0.020271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-top-right-outer-corner.asset
+  artifactKey: Guid(704ab54ab8bedd048a21defb3b09c8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-top-right-outer-corner.asset using Guid(704ab54ab8bedd048a21defb3b09c8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '253f6d7e4adb4dc7a8263d4ca9cc673e') in 0.0226508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-outer-corner-bottom-right.asset
+  artifactKey: Guid(35ba6bad668493e43a4b75d12e1a942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-outer-corner-bottom-right.asset using Guid(35ba6bad668493e43a4b75d12e1a942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a99faa2124dcb02d3491e4c549e1f332') in 0.0205363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.982142 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tilesets/purple_tile_set/seperate_tiles/block-outer-corner-with-platform-top-left.png
+  artifactKey: Guid(17945780df8763f4ea3910aae4298c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tilesets/purple_tile_set/seperate_tiles/block-outer-corner-with-platform-top-left.png using Guid(17945780df8763f4ea3910aae4298c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3c7e0024624d060fce684266c0459c4') in 0.1082223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.539007 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tilesets/pink_tile_set/tiles/platform-bottom-edge-repeating.png
+  artifactKey: Guid(1d0465b6207a6fc4ea6edcc844b8e2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tilesets/pink_tile_set/tiles/platform-bottom-edge-repeating.png using Guid(1d0465b6207a6fc4ea6edcc844b8e2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3f2f7b6ede72fcf01b20c3fcfb9ee95') in 0.0674122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.746743 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tilesets/pink_tile_set/tiles/island-right-end 1.png
+  artifactKey: Guid(e784b8bc51f06a34c9c4d781d2290616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tilesets/pink_tile_set/tiles/island-right-end 1.png using Guid(e784b8bc51f06a34c9c4d781d2290616) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72f40c2381f1ac03a38784155dc9cf5d') in 0.0312022 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

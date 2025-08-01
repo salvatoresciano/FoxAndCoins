@@ -15,7 +15,7 @@ D:/Progetti Unity/FoxAndCoins
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61080
+62501
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Progetti Unity/FoxAndCoins
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15424]  Target information:
+Player connection [11924]  Target information:
 
-Player connection [15424]  * "[IP] 192.168.129.18 [Port] 0 [Flags] 2 [Guid] 1919675744 [EditorId] 1919675744 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [11924]  * "[IP] 192.168.132.18 [Port] 0 [Flags] 2 [Guid] 1300227182 [EditorId] 1300227182 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15424] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [15424] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11924] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11924] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 12.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 12.09 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
@@ -91,53 +91,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.011960 seconds.
-- Loaded All Assemblies, in  0.836 seconds
+Registered in 0.011049 seconds.
+- Loaded All Assemblies, in  0.867 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 383 ms
+Android Extension - Scanning For ADB Devices 403 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.345 seconds
-Domain Reload Profiling: 2175ms
-	BeginReloadAssembly (258ms)
+- Finished resetting the current domain, in  1.283 seconds
+Domain Reload Profiling: 2145ms
+	BeginReloadAssembly (263ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (83ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (105ms)
-	LoadAllAssembliesAndSetupDomain (358ms)
-		LoadAssemblies (253ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (102ms)
+	LoadAllAssembliesAndSetupDomain (386ms)
+		LoadAssemblies (258ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (352ms)
-			TypeCache.Refresh (348ms)
-				TypeCache.ScanAssembly (321ms)
+		AnalyzeDomain (378ms)
+			TypeCache.Refresh (376ms)
+				TypeCache.ScanAssembly (349ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1346ms)
+	FinalizeReload (1284ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1257ms)
+		SetupLoadedEditorAssemblies (1200ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (609ms)
+			InitializePlatformSupportModulesInManaged (650ms)
 			SetLoadedEditorAssemblies (7ms)
 			BeforeProcessingInitializeOnLoad (12ms)
-			ProcessInitializeOnLoadAttributes (414ms)
-			ProcessInitializeOnLoadMethodAttributes (196ms)
-			AfterProcessingInitializeOnLoad (19ms)
+			ProcessInitializeOnLoadAttributes (376ms)
+			ProcessInitializeOnLoadMethodAttributes (151ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -145,1243 +145,585 @@ Domain Reload Profiling: 2175ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.625 seconds
-Refreshing native plugins compatible for Editor in 11.44 ms, found 1 plugins.
+- Loaded All Assemblies, in  1.634 seconds
+Refreshing native plugins compatible for Editor in 10.36 ms, found 1 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.490 seconds
-Domain Reload Profiling: 3108ms
-	BeginReloadAssembly (791ms)
+- Finished resetting the current domain, in  1.393 seconds
+Domain Reload Profiling: 3020ms
+	BeginReloadAssembly (823ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (77ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (84ms)
-	LoadAllAssembliesAndSetupDomain (637ms)
-		LoadAssemblies (610ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (612ms)
+		LoadAssemblies (624ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (233ms)
-			TypeCache.Refresh (161ms)
-				TypeCache.ScanAssembly (134ms)
-			BuildScriptInfoCaches (56ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1491ms)
+		AnalyzeDomain (215ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (131ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1394ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1030ms)
+		SetupLoadedEditorAssemblies (944ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (761ms)
-			ProcessInitializeOnLoadMethodAttributes (121ms)
-			AfterProcessingInitializeOnLoad (16ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (706ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (17ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 11.96 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 10.02 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2172 unused Assets / (1.4 MB). Loaded Objects now: 2718.
-Memory consumption went from 106.9 MB to 105.6 MB.
-Total: 16.246200 ms (FindLiveObjects: 0.482600 ms CreateObjectMapping: 0.483400 ms MarkObjects: 12.859800 ms  DeleteObjects: 2.415600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 20652.696750 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-outer-corner-bottom-right 1.asset
-  artifactKey: Guid(a4ba11cdee76a4b43a9fef83d40bc3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-outer-corner-bottom-right 1.asset using Guid(a4ba11cdee76a4b43a9fef83d40bc3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd6c55813c7e59823d72408142154b1d') in 0.153238 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-outer-corner-with-platform-top-left 1.asset
-  artifactKey: Guid(c1f3137f767b5a34685cbbf51aa428ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-outer-corner-with-platform-top-left 1.asset using Guid(c1f3137f767b5a34685cbbf51aa428ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbab78cf32df1e5226ad8002048f1622') in 0.0297836 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-right-edge-vertical.asset
-  artifactKey: Guid(ecb1e26050888294d892b2f6b6c18878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-right-edge-vertical.asset using Guid(ecb1e26050888294d892b2f6b6c18878) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd717ef19fb6eeab7fa69e98e59182d81') in 0.051915 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-left-edge-vertical 1.asset
-  artifactKey: Guid(13174386c969afa418b00863a2fccc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-left-edge-vertical 1.asset using Guid(13174386c969afa418b00863a2fccc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '109581dc473fca6c3fc6b39bd974f76b') in 0.0213537 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-inner-corner-top-left 1.asset
-  artifactKey: Guid(48a782eeadce5664b9ba587e43974f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-inner-corner-top-left 1.asset using Guid(48a782eeadce5664b9ba587e43974f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd4bfbcd1e3cbdf6064801742a1f9161') in 0.0229549 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-inner-corner-top-right 1.asset
-  artifactKey: Guid(bfdcae772e6240d45a0fbb96729878fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-inner-corner-top-right 1.asset using Guid(bfdcae772e6240d45a0fbb96729878fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3280efe8e626497c79a51cef9e8fc8be') in 0.0204764 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-left-edge-vertical.asset
-  artifactKey: Guid(7608b06f539bb4f47acf52ddc34e51e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-left-edge-vertical.asset using Guid(7608b06f539bb4f47acf52ddc34e51e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94baf379ad2fd7119916487d77c87e48') in 0.0234626 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-outer-corner-with-platform-top-right.asset
-  artifactKey: Guid(9708fb8b6cd1d0d49ad0801b3509c7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-outer-corner-with-platform-top-right.asset using Guid(9708fb8b6cd1d0d49ad0801b3509c7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '764abda5b82730bb273880a37a3f03a3') in 0.0306899 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-no-passthrough-platform-right-end 1.asset
-  artifactKey: Guid(0ff886b4669e6cd4c8d01f4401bd02f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-no-passthrough-platform-right-end 1.asset using Guid(0ff886b4669e6cd4c8d01f4401bd02f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dae741ebe621ab3bad32f3a3b0ebcc68') in 0.0183757 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-outer-corner-bottom-left 1.asset
-  artifactKey: Guid(14a2bbcee7d53bf41a9f07a47bf630fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-outer-corner-bottom-left 1.asset using Guid(14a2bbcee7d53bf41a9f07a47bf630fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e166b7509dab568a6a592ced50ac1e6') in 0.0233939 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-top-right-outer-corner 1.asset
-  artifactKey: Guid(86616ab4c4341974385030cb9b155915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-top-right-outer-corner 1.asset using Guid(86616ab4c4341974385030cb9b155915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c871ebcb8eef21599b85c89d38ac0a53') in 0.0209786 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.003789 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tilesets/purple_tile_set/seperate_tiles/block-outer-corner-with-platform-top-right.png
-  artifactKey: Guid(4d45cd29d16bfcb4989a8523ec202959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tilesets/purple_tile_set/seperate_tiles/block-outer-corner-with-platform-top-right.png using Guid(4d45cd29d16bfcb4989a8523ec202959) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dbf0911beccef1e34500c8a71a21eaa') in 0.1076848 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tilesets/purple_tile_set/seperate_tiles/block-right-edge-vertical.png
-  artifactKey: Guid(e0a682480ef55534584792438693a684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tilesets/purple_tile_set/seperate_tiles/block-right-edge-vertical.png using Guid(e0a682480ef55534584792438693a684) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbc717e876a62d2cc73ceed75d5768a0') in 0.0304314 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.325309 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tilesets/pink_tile_set/tiles/platform-inner-corner-bottom-left.png
-  artifactKey: Guid(425abbd3cde2b1a4794bdbf474a06278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tilesets/pink_tile_set/tiles/platform-inner-corner-bottom-left.png using Guid(425abbd3cde2b1a4794bdbf474a06278) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6580f91e69307396a8e5a7ecafc51a6f') in 0.0310248 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+Unloading 2173 unused Assets / (1.1 MB). Loaded Objects now: 2719.
+Memory consumption went from 106.9 MB to 105.9 MB.
+Total: 8.212600 ms (FindLiveObjects: 0.356600 ms CreateObjectMapping: 0.283800 ms MarkObjects: 6.344100 ms  DeleteObjects: 1.224400 ms)
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.886 seconds
-Refreshing native plugins compatible for Editor in 11.54 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.981 seconds
+Refreshing native plugins compatible for Editor in 11.05 ms, found 1 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.238 seconds
-Domain Reload Profiling: 2122ms
-	BeginReloadAssembly (311ms)
+- Finished resetting the current domain, in  1.173 seconds
+Domain Reload Profiling: 2149ms
+	BeginReloadAssembly (352ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (22ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (477ms)
+		LoadAssemblies (544ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1174ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (813ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (603ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 9.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2171 unused Assets / (0.9 MB). Loaded Objects now: 2722.
+Memory consumption went from 104.1 MB to 103.1 MB.
+Total: 8.563000 ms (FindLiveObjects: 0.318000 ms CreateObjectMapping: 0.274000 ms MarkObjects: 6.578900 ms  DeleteObjects: 1.390800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 264685.409187 seconds.
+  path: Assets/Prefabs/Water/Water.asset
+  artifactKey: Guid(5696f77eb604f5c41860014875533576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Water/Water.asset using Guid(5696f77eb604f5c41860014875533576) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc63bde7d642455bb8d959b07dad4cc0') in 0.0539027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Prefabs/Water/Water.prefab
+  artifactKey: Guid(22ca0e1b49b31304bab21227e32d7201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Water/Water.prefab using Guid(22ca0e1b49b31304bab21227e32d7201) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13ccb7c0dbab9bbaa79c446822d910d0') in 0.1744557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.757 seconds
+Refreshing native plugins compatible for Editor in 13.55 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.575 seconds
+Domain Reload Profiling: 4327ms
+	BeginReloadAssembly (576ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (1998ms)
+		LoadAssemblies (2160ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (259ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (234ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1575ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1061ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (753ms)
+			ProcessInitializeOnLoadMethodAttributes (162ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 13.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2171 unused Assets / (1.0 MB). Loaded Objects now: 2733.
+Memory consumption went from 104.8 MB to 103.8 MB.
+Total: 9.381800 ms (FindLiveObjects: 0.397800 ms CreateObjectMapping: 0.250400 ms MarkObjects: 6.785200 ms  DeleteObjects: 1.946400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.905 seconds
+Refreshing native plugins compatible for Editor in 11.02 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.169 seconds
+Domain Reload Profiling: 2071ms
+	BeginReloadAssembly (324ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (58ms)
+	RebuildCommonClasses (63ms)
 	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (446ms)
-		LoadAssemblies (489ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (444ms)
+		LoadAssemblies (506ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (128ms)
+		AnalyzeDomain (125ms)
 			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (108ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1239ms)
+			BuildScriptInfoCaches (104ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1170ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (822ms)
+		SetupLoadedEditorAssemblies (789ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (598ms)
-			ProcessInitializeOnLoadMethodAttributes (113ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (589ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
 			AfterProcessingInitializeOnLoad (15ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 9.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 10.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2170 unused Assets / (0.9 MB). Loaded Objects now: 2729.
-Memory consumption went from 104.7 MB to 103.8 MB.
-Total: 9.246800 ms (FindLiveObjects: 0.346500 ms CreateObjectMapping: 0.286500 ms MarkObjects: 7.266800 ms  DeleteObjects: 1.344900 ms)
+Unloading 2171 unused Assets / (0.9 MB). Loaded Objects now: 2735.
+Memory consumption went from 104.8 MB to 103.8 MB.
+Total: 9.202700 ms (FindLiveObjects: 0.358600 ms CreateObjectMapping: 0.243100 ms MarkObjects: 7.185400 ms  DeleteObjects: 1.412900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.895 seconds
-Refreshing native plugins compatible for Editor in 12.28 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.888 seconds
+Refreshing native plugins compatible for Editor in 10.96 ms, found 1 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.252 seconds
-Domain Reload Profiling: 2143ms
-	BeginReloadAssembly (307ms)
+- Finished resetting the current domain, in  1.208 seconds
+Domain Reload Profiling: 2092ms
+	BeginReloadAssembly (321ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (435ms)
+		LoadAssemblies (498ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (101ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1208ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (822ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (611ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 13.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2171 unused Assets / (1.0 MB). Loaded Objects now: 2737.
+Memory consumption went from 104.8 MB to 103.8 MB.
+Total: 12.945300 ms (FindLiveObjects: 0.381800 ms CreateObjectMapping: 0.255300 ms MarkObjects: 10.743800 ms  DeleteObjects: 1.562800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.890 seconds
+Refreshing native plugins compatible for Editor in 11.47 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.307 seconds
+Domain Reload Profiling: 2193ms
+	BeginReloadAssembly (303ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (22ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (455ms)
-		LoadAssemblies (502ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (452ms)
+		LoadAssemblies (493ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (121ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (106ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1308ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (848ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (612ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 11.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2171 unused Assets / (0.9 MB). Loaded Objects now: 2739.
+Memory consumption went from 104.8 MB to 103.8 MB.
+Total: 9.593300 ms (FindLiveObjects: 0.445500 ms CreateObjectMapping: 0.301800 ms MarkObjects: 7.626000 ms  DeleteObjects: 1.218300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.899 seconds
+Refreshing native plugins compatible for Editor in 10.69 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.316 seconds
+Domain Reload Profiling: 2210ms
+	BeginReloadAssembly (320ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (440ms)
+		LoadAssemblies (498ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (100ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1317ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (859ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (633ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 12.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2171 unused Assets / (1.1 MB). Loaded Objects now: 2741.
+Memory consumption went from 104.8 MB to 103.7 MB.
+Total: 9.609500 ms (FindLiveObjects: 0.583700 ms CreateObjectMapping: 0.425100 ms MarkObjects: 6.909500 ms  DeleteObjects: 1.689400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.077 seconds
+Refreshing native plugins compatible for Editor in 10.73 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.670 seconds
+Domain Reload Profiling: 2743ms
+	BeginReloadAssembly (364ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (533ms)
+		LoadAssemblies (589ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (132ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1671ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1104ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (772ms)
+			ProcessInitializeOnLoadMethodAttributes (184ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 15.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2171 unused Assets / (0.8 MB). Loaded Objects now: 2743.
+Memory consumption went from 104.8 MB to 104.0 MB.
+Total: 12.404800 ms (FindLiveObjects: 0.594900 ms CreateObjectMapping: 0.535200 ms MarkObjects: 9.919100 ms  DeleteObjects: 1.353400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.891 seconds
+Refreshing native plugins compatible for Editor in 10.60 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.402 seconds
+Domain Reload Profiling: 2289ms
+	BeginReloadAssembly (315ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (439ms)
+		LoadAssemblies (492ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (104ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1403ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (977ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (179ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (618ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 12.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2171 unused Assets / (1.0 MB). Loaded Objects now: 2745.
+Memory consumption went from 104.8 MB to 103.8 MB.
+Total: 11.016100 ms (FindLiveObjects: 0.748400 ms CreateObjectMapping: 0.554300 ms MarkObjects: 8.104300 ms  DeleteObjects: 1.607600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.870 seconds
+Refreshing native plugins compatible for Editor in 10.88 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.287 seconds
+Domain Reload Profiling: 2154ms
+	BeginReloadAssembly (297ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (440ms)
+		LoadAssemblies (488ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (105ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1288ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (827ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (612ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 10.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2171 unused Assets / (0.9 MB). Loaded Objects now: 2747.
+Memory consumption went from 104.8 MB to 103.9 MB.
+Total: 8.039300 ms (FindLiveObjects: 0.362700 ms CreateObjectMapping: 0.244800 ms MarkObjects: 6.213400 ms  DeleteObjects: 1.216400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 679.075207 seconds.
+  path: Assets/Prefabs/Water/Water.prefab
+  artifactKey: Guid(22ca0e1b49b31304bab21227e32d7201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Water/Water.prefab using Guid(22ca0e1b49b31304bab21227e32d7201) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e89d8eac9b669ef6989de9baf66e5a5b') in 0.1677486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.882 seconds
+Refreshing native plugins compatible for Editor in 10.19 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.213 seconds
+Domain Reload Profiling: 2091ms
+	BeginReloadAssembly (310ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (436ms)
+		LoadAssemblies (490ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
 			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
 			BuildScriptInfoCaches (102ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (1253ms)
+	FinalizeReload (1214ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (839ms)
+		SetupLoadedEditorAssemblies (829ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (605ms)
-			ProcessInitializeOnLoadMethodAttributes (103ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (613ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
 			AfterProcessingInitializeOnLoad (15ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 14.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 13.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2170 unused Assets / (1.0 MB). Loaded Objects now: 2731.
-Memory consumption went from 104.7 MB to 103.7 MB.
-Total: 11.928500 ms (FindLiveObjects: 0.583900 ms CreateObjectMapping: 0.558200 ms MarkObjects: 8.645300 ms  DeleteObjects: 2.138200 ms)
+Unloading 2171 unused Assets / (1.0 MB). Loaded Objects now: 2749.
+Memory consumption went from 104.8 MB to 103.8 MB.
+Total: 9.268700 ms (FindLiveObjects: 0.360900 ms CreateObjectMapping: 0.301800 ms MarkObjects: 6.842000 ms  DeleteObjects: 1.762600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.608 seconds
-Refreshing native plugins compatible for Editor in 5.94 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.753 seconds
-Domain Reload Profiling: 1359ms
-	BeginReloadAssembly (210ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (312ms)
-		LoadAssemblies (351ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (78ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (66ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (754ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (489ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (354ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 7.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2170 unused Assets / (1.1 MB). Loaded Objects now: 2733.
-Memory consumption went from 104.7 MB to 103.6 MB.
-Total: 7.838400 ms (FindLiveObjects: 0.406100 ms CreateObjectMapping: 0.499400 ms MarkObjects: 5.724600 ms  DeleteObjects: 1.206400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 2615.522464 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_idle_000.png
-  artifactKey: Guid(89956c0696443e5429f166aa104461f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_idle_000.png using Guid(89956c0696443e5429f166aa104461f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba9fcf82bdeebafb78e20aee8f510ec1') in 0.1379232 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_idle_002.png
-  artifactKey: Guid(a178cd956dce41144a65145a3cae38c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_idle_002.png using Guid(a178cd956dce41144a65145a3cae38c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9aad71ab351d5d246d85c2140f3f9909') in 0.1134692 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.044125 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_idle_005.png
-  artifactKey: Guid(82ae884eb98c23841b95032a281a57f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_idle_005.png using Guid(82ae884eb98c23841b95032a281a57f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33ecb549e6250b1f1e1b83f136373f94') in 0.0818338 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.151731 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_idle_007.png
-  artifactKey: Guid(a5e24c81486758244b3610f25e0ec885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_idle_007.png using Guid(a5e24c81486758244b3610f25e0ec885) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ffe384cd1f72c8df05a7f799ee474f9') in 0.11222 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.288066 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_idle_011.png
-  artifactKey: Guid(cc365739ce5bdfe4cb0cef48c568d583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_idle_011.png using Guid(cc365739ce5bdfe4cb0cef48c568d583) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70d5566e4be9b70ab55c1367651176e7') in 0.0653614 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 486.897314 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_idle_013.png
-  artifactKey: Guid(83274dfa30d7af34896a4d4d80d0562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_idle_013.png using Guid(83274dfa30d7af34896a4d4d80d0562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fefaed2e04488dfb24a0487b8e8627cb') in 0.1609015 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.439752 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_idle_019.png
-  artifactKey: Guid(626daeb2210f132409d73c1b52858db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_idle_019.png using Guid(626daeb2210f132409d73c1b52858db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ed380e6b06d2e37142a19f123cacbbd') in 0.1022688 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.584502 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_jump_002.png
-  artifactKey: Guid(21a1c9e11a166be4592736c062d2d08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_jump_002.png using Guid(21a1c9e11a166be4592736c062d2d08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6afd3442aae88272a92efc6956a125eb') in 0.1499163 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.368186 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_jump_009.png
-  artifactKey: Guid(a1d793ae83b88cd43b5694dc14b32b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_jump_009.png using Guid(a1d793ae83b88cd43b5694dc14b32b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62e19d134b27f719864cceafccedafdb') in 0.0656917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.219208 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_move_jumping_001.png
-  artifactKey: Guid(3c613c44713b91d4e800202c09ae6b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_move_jumping_001.png using Guid(3c613c44713b91d4e800202c09ae6b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82fa543fd29c5259396f0a02f17cf241') in 0.1243998 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.198885 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_move_jumping_004.png
-  artifactKey: Guid(0374f0dbcc32d0c4588ebcd22ea63821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_move_jumping_004.png using Guid(0374f0dbcc32d0c4588ebcd22ea63821) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49eaa1cc3a66f2d5036d85a6999211e3') in 0.093833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.092257 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_togue_attack_000.png
-  artifactKey: Guid(55f93522660ee8942b575f9478050620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_togue_attack_000.png using Guid(55f93522660ee8942b575f9478050620) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0757a827cd0c1d97ec46991be9481401') in 0.1538672 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.138358 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_togue_attack_007.png
-  artifactKey: Guid(a8b30189d1c5ff243a6c0fc294288002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_togue_attack_007.png using Guid(a8b30189d1c5ff243a6c0fc294288002) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edd1ad242f47772070646f56e358c9ae') in 0.0643786 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.681504 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_togue_attack_009.png
-  artifactKey: Guid(bec1a80bcb79b7b4c9fe3607cebc9e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/FROG/__turquoise_frog_togue_attack_009.png using Guid(bec1a80bcb79b7b4c9fe3607cebc9e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acd18a4931a8860ec1219aa20952e16b') in 0.0746456 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.796890 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_die_003.png
-  artifactKey: Guid(798dd9cbf9140814d969ea0e63afacd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_die_003.png using Guid(798dd9cbf9140814d969ea0e63afacd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b21c80e260f67458653c8804770c245') in 0.1136205 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 115.665312 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_go_in_shell_002.png
-  artifactKey: Guid(b82011e34384461428435d072f33091b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_go_in_shell_002.png using Guid(b82011e34384461428435d072f33091b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '981d9dbc10ef2162ed566332897d992c') in 0.0890241 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.022989 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_idle_003.png
-  artifactKey: Guid(bbbfa0060340147439857c28ee9d9977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_idle_003.png using Guid(bbbfa0060340147439857c28ee9d9977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e3fd99a7e4ba16d9ab5b24b286afc9b') in 0.0675683 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.100678 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_idle_008.png
-  artifactKey: Guid(e15cbfcf02027dd44bc0c60c6d18f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_idle_008.png using Guid(e15cbfcf02027dd44bc0c60c6d18f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c61c86b23f9165793eb2d6b9ccc313d7') in 0.0353864 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.607903 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_idle_012.png
-  artifactKey: Guid(91fa20d60f1953946ad0a9ccc75ef4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_idle_012.png using Guid(91fa20d60f1953946ad0a9ccc75ef4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd780ece225ec5943a877c88fe40d3f43') in 0.0186917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.264826 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_idle_015.png
-  artifactKey: Guid(e59b49a72d1d96d4d94e5d8919e102bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_idle_015.png using Guid(e59b49a72d1d96d4d94e5d8919e102bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c7a2a01b055ed4c284d38f3f9137d43') in 0.0434053 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.488558 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_poke_out_shell_006.png
-  artifactKey: Guid(d6a3827179bb7634288fb1b5b4db330f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_poke_out_shell_006.png using Guid(d6a3827179bb7634288fb1b5b4db330f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c1ad173b3f8053a4b35fe219caee54b') in 0.0219686 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.402738 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_poke_out_shell_008.png
-  artifactKey: Guid(5cba0f227cc00eb4793f230ddc967208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_poke_out_shell_008.png using Guid(5cba0f227cc00eb4793f230ddc967208) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76118cc21a4b4768870b3c967ab1a262') in 0.086998 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.512467 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_walk_001.png
-  artifactKey: Guid(6d398aa34bc608a40984fe2962347b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_walk_001.png using Guid(6d398aa34bc608a40984fe2962347b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e73858bc65c687bdc048b7d03aa18477') in 0.0805159 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.584999 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_walk_004.png
-  artifactKey: Guid(dd4ea55e3aae52d4e8a5f153f988eb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_walk_004.png using Guid(dd4ea55e3aae52d4e8a5f153f988eb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '252f5ab9a2c32d6119e4178ac162e77c') in 0.0705964 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.457716 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_walk_007.png
-  artifactKey: Guid(33f13410a8b48b743b99a8acdbea4a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_walk_007.png using Guid(33f13410a8b48b743b99a8acdbea4a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65570212407c338f1fbaa9490ec9ef44') in 0.0430374 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.974204 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_whacked_003.png
-  artifactKey: Guid(7abf2549babe15e42bda008f02715148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_whacked_003.png using Guid(7abf2549babe15e42bda008f02715148) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73ec4afd854f168f44dbe058d23cde96') in 0.0427398 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.816898 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_whacked_005.png
-  artifactKey: Guid(737bf3eef8c31e54681389995e4d6b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_whacked_005.png using Guid(737bf3eef8c31e54681389995e4d6b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63c82fea3d6dc80afbb81e3c458f5574') in 0.0153123 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.160731 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_whacked_012.png
-  artifactKey: Guid(0edc28d345cbea942bbe2b4c025f4191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_whacked_012.png using Guid(0edc28d345cbea942bbe2b4c025f4191) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c4eefbbabcadc4c5f2ffdebf496488f') in 0.0447742 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.156280 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_whacked_015.png
-  artifactKey: Guid(cde370b9ff9312743aa0ec58354d36c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_small_whacked_015.png using Guid(cde370b9ff9312743aa0ec58354d36c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00c12016154c44ef1274410f74468c8a') in 0.0509549 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.099831 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_spiky_comeout_shell_001.png
-  artifactKey: Guid(aaabba98b94af454a8a58f880ed245ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/PURPLE TURTLE/__pink_spiky_comeout_shell_001.png using Guid(aaabba98b94af454a8a58f880ed245ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '173426f247473655d53cd28aa2a25d44') in 0.0946898 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 67.501177 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_go_to_ball_005.png
-  artifactKey: Guid(8507117ad00e67444a9b18b8cc573632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_go_to_ball_005.png using Guid(8507117ad00e67444a9b18b8cc573632) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35a744f46da545001a17b694401430ab') in 0.1734651 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021919 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_go_to_ball_007.png
-  artifactKey: Guid(af4c9924e8bdb9548a6042ac27aee08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_go_to_ball_007.png using Guid(af4c9924e8bdb9548a6042ac27aee08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01df26e1e189ce9df2a5cb533051fe12') in 0.0809607 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 76.404378 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_idle_001.png
-  artifactKey: Guid(70da33056142c1d46a81886cbb2f25ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_idle_001.png using Guid(70da33056142c1d46a81886cbb2f25ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a40555cb2b10251fd2f223be63854d7') in 0.1248785 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.650214 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_idle_004.png
-  artifactKey: Guid(c47ec6fa961791f4985ca75f38aeec9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_idle_004.png using Guid(c47ec6fa961791f4985ca75f38aeec9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e9aed30663b7f599db40c67c2e18d5d') in 0.027875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.427920 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_idle_007.png
-  artifactKey: Guid(7b4b45092e2dbcd4fa4ba794321558c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_idle_007.png using Guid(7b4b45092e2dbcd4fa4ba794321558c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bd35db509eb9d09f297d118c964e10e') in 0.0726134 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.226170 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_idle_011.png
-  artifactKey: Guid(9cc4d9a80022d2246b0d68717f082fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_idle_011.png using Guid(9cc4d9a80022d2246b0d68717f082fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff2bb43cd4a108ebc2f96754f9786095') in 0.047946 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.302689 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_idle_013.png
-  artifactKey: Guid(87859222da4dccc4e8ca0fb71e53e9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_idle_013.png using Guid(87859222da4dccc4e8ca0fb71e53e9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c67378a641758c03da361655137a6f6f') in 0.0352873 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.334492 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_idle_019.png
-  artifactKey: Guid(562f79bfd44d3fe44869eb399161dd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_idle_019.png using Guid(562f79bfd44d3fe44869eb399161dd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a20f52995acf7061ac321baa08a17da7') in 0.1343988 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.370346 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_jump_004.png
-  artifactKey: Guid(d8319dca840a82340bc1652965b43e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_jump_004.png using Guid(d8319dca840a82340bc1652965b43e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b459c38fdef7d8ae7b67fcf261d4dc2') in 0.033748 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.348133 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_jump_007.png
-  artifactKey: Guid(868f7b1589040174bb01a61078c68b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_jump_007.png using Guid(868f7b1589040174bb01a61078c68b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfe2d73da80debe083ca1ae9f47c596c') in 0.0232003 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.450458 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_open_up_003.png
-  artifactKey: Guid(77f9231de27f4864dbc6c9493998cf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_open_up_003.png using Guid(77f9231de27f4864dbc6c9493998cf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '304b95d2a3ee5f5d88b4ab584eb2f301') in 0.0449175 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.099017 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_open_up_005.png
-  artifactKey: Guid(90c945f28da16294593a898140dc3421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_open_up_005.png using Guid(90c945f28da16294593a898140dc3421) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6f46e811fbec1be923315295bbe2dc9') in 0.0588806 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.378564 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_rolling_003.png
-  artifactKey: Guid(94ed7ce49d8815341b3f66c6e5d6cf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_rolling_003.png using Guid(94ed7ce49d8815341b3f66c6e5d6cf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '373cc2597b8586b5eee3f236f19f58af') in 0.1343198 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.362609 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_rolling_006.png
-  artifactKey: Guid(66e2725eb06366549b822209e35e50f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_rolling_006.png using Guid(66e2725eb06366549b822209e35e50f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff9203dc30d634c98a8ea3298bbc3b8e') in 0.0716316 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.222632 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_walk_001.png
-  artifactKey: Guid(c0a87cc5aad1dda4f9ac18d536804268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_walk_001.png using Guid(c0a87cc5aad1dda4f9ac18d536804268) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cd4f4449e7ff80bc1d5ceabc8d396a9') in 0.1151484 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.016542 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_whacked_002.png
-  artifactKey: Guid(d806f7bf143fa9a4d880c89a229c9074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_whacked_002.png using Guid(d806f7bf143fa9a4d880c89a229c9074) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '924b4c76a008a85acf258bf510a798c3') in 0.0845691 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.186378 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_whacked_004.png
-  artifactKey: Guid(2b480ffe945c6004f8cfa849b61b4a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_whacked_004.png using Guid(2b480ffe945c6004f8cfa849b61b4a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e976001d1f54c42988e446e41e9234e8') in 0.0946791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.032539 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_whacked_006.png
-  artifactKey: Guid(caf60b309e7f4504e83f6bee54e44595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_whacked_006.png using Guid(caf60b309e7f4504e83f6bee54e44595) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f28de6a4e885722dcb846722d7fd104b') in 0.0591854 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.574533 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_whacked_012.png
-  artifactKey: Guid(57af4732d5015b04a8c8414954c5574b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/YELLOW HEDGEHOG/__yellow_hedgehog_whacked_012.png using Guid(57af4732d5015b04a8c8414954c5574b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f38a50219426e63ad33cd1b91edb0870') in 0.2029061 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.035894 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/MOSQUITO/__Mosquito_10_flying_000.png
-  artifactKey: Guid(99f2aa47b01e9a54e8fe75914ab4f144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/MOSQUITO/__Mosquito_10_flying_000.png using Guid(99f2aa47b01e9a54e8fe75914ab4f144) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dd08a054794a5109d68343e93086f2f') in 0.1180034 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.944909 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/MOSQUITO/__Mosquito_10_flying_004.png
-  artifactKey: Guid(55df1d6661d6f5e4982ca00772d6275d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/MOSQUITO/__Mosquito_10_flying_004.png using Guid(55df1d6661d6f5e4982ca00772d6275d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5165e17a1658475189ea1733b3e6e0e9') in 0.0527044 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.680070 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/MOSQUITO/__Mosquito_10_flying_014.png
-  artifactKey: Guid(bd92de75ccf5fec4789c880a51c61f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING ENIMIES/MOSQUITO/__Mosquito_10_flying_014.png using Guid(bd92de75ccf5fec4789c880a51c61f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ee7e44477f698706df63c1d78eb3806') in 0.0776354 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 1057.563202 seconds.
-  path: Assets/RESKIN/COMMONS/Water/water_tile_frame_01.png
-  artifactKey: Guid(81c486e37defb9c4ab04bf8dbf64db86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/COMMONS/Water/water_tile_frame_01.png using Guid(81c486e37defb9c4ab04bf8dbf64db86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '026ec1e1ecf818651c0c0d517749f1dc') in 0.0381436 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.314324 seconds.
-  path: Assets/RESKIN/COMMONS/playstore-icon.png
-  artifactKey: Guid(d5d00fd1cbd9c3f4ea188030ff919580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/COMMONS/playstore-icon.png using Guid(d5d00fd1cbd9c3f4ea188030ff919580) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fd047a6fdb6cd7e0883e1e1b49fb600') in 0.0355925 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/RESKIN/COMMONS/settings_3.png_selection-2.png
-  artifactKey: Guid(bea7ff8420cdb5b4094fa08e2f9a7796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/COMMONS/settings_3.png_selection-2.png using Guid(bea7ff8420cdb5b4094fa08e2f9a7796) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '999736b45b95f5b7e776e813901543e1') in 0.0709052 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 91.335978 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-with-no-platform-left-end.asset
-  artifactKey: Guid(bc1bd432384f99c4eb1a0affcc6fb16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/block-with-no-platform-left-end.asset using Guid(bc1bd432384f99c4eb1a0affcc6fb16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '025356cea0bdac55c4ac8f0d0eef0fa3') in 0.0497642 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/custom_scene_2-6.asset
-  artifactKey: Guid(c149846ab7c4d4449b9828ff9f65c561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/custom_scene_2-6.asset using Guid(c149846ab7c4d4449b9828ff9f65c561) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb8764dda0bea376234c69ef43373f9f') in 0.0149736 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014031 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/duplicate-fill.asset
-  artifactKey: Guid(053a0447ba5b1574499a349cb87cb4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/duplicate-fill.asset using Guid(053a0447ba5b1574499a349cb87cb4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fb853f40428224b6b36d27db4226663') in 0.0172894 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/duplicate-fill 1.asset
-  artifactKey: Guid(76497878825be4f479804a77eaf4b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/duplicate-fill 1.asset using Guid(76497878825be4f479804a77eaf4b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb769585cdd409e3015d902e4d8bb356') in 0.0145172 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010005 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/fill-texture 1.asset
-  artifactKey: Guid(93f46507753f23449ac1a429622f50a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/fill-texture 1.asset using Guid(93f46507753f23449ac1a429622f50a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '230b4b28896fd493f7259b2cd26dca2b') in 0.0075679 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031663 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/island-left-end.asset
-  artifactKey: Guid(6f02737a468546748b1459900dd527b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/island-left-end.asset using Guid(6f02737a468546748b1459900dd527b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0a8119ad144e44595ca13bb5f4b1ddc') in 0.0134377 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025949 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/island-right-end 1.asset
-  artifactKey: Guid(88d9ec71889e16b40bedf7cb592a51b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/island-right-end 1.asset using Guid(88d9ec71889e16b40bedf7cb592a51b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a91781d5c1fda883c25f92de63e9c3d') in 0.0144364 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/island-single.asset
-  artifactKey: Guid(61e03e4bcc2343847b0eac48b67f43e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/island-single.asset using Guid(61e03e4bcc2343847b0eac48b67f43e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae98eef784d2e898d1a16ba496e986a2') in 0.0152048 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011258 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/lv8_ground.prefab
-  artifactKey: Guid(823a1b48292eba248a04b23f19dd780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/lv8_ground.prefab using Guid(823a1b48292eba248a04b23f19dd780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8d57fe6bcccae3d6fab94f078cb1db0') in 0.2511826 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-inner-corner-bottom-left 1.asset
-  artifactKey: Guid(91e195b6199562f4a8ff4d1024bb42ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-inner-corner-bottom-left 1.asset using Guid(91e195b6199562f4a8ff4d1024bb42ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8550c97eb5aa064ab2c1a60dcaec272') in 0.0125916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-inner-corner-bottom-left.asset
-  artifactKey: Guid(d7e42438b4a7391408db6e4052ad02d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-inner-corner-bottom-left.asset using Guid(d7e42438b4a7391408db6e4052ad02d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18e8c1ac6107c53e9e41cec2be34b3fd') in 0.0162091 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003791 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-inner-corner-bottom-right 1.asset
-  artifactKey: Guid(37ccc7bd4644ebe4d942b4784637d0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-inner-corner-bottom-right 1.asset using Guid(37ccc7bd4644ebe4d942b4784637d0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3d176fc1d35cb51d26d9bfda8272045') in 0.0162631 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-inner-corner-no-passthrough-left.asset
-  artifactKey: Guid(07a71ae27bc98854f8110cec1d8b6dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-inner-corner-no-passthrough-left.asset using Guid(07a71ae27bc98854f8110cec1d8b6dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '028b61b4bbda0e069b01a0b43d0cfa6c') in 0.0136495 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014427 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-inner-corner-no-passthrough-right.asset
-  artifactKey: Guid(4a4b20957cb37c841ae1c763334e840e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-inner-corner-no-passthrough-right.asset using Guid(4a4b20957cb37c841ae1c763334e840e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81e1e6c86f87665b40e81ac87a010f67') in 0.014916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033918 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-inner-corner-top-left 1.asset
-  artifactKey: Guid(0c07ab21043f9924797e8e9a97e1d51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-inner-corner-top-left 1.asset using Guid(0c07ab21043f9924797e8e9a97e1d51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b689551d9a16b77819d08603d85078d1') in 0.1456246 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-inner-corner-top-right.asset
-  artifactKey: Guid(92f2d2b314ab54247bc66356861116ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-inner-corner-top-right.asset using Guid(92f2d2b314ab54247bc66356861116ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0a0fe572c383b4adc2bcf1bee395d98') in 0.017069 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-inner-corner-with-passthrough-left 1.asset
-  artifactKey: Guid(e21ac7b000f169e4c9eebfdf32ca5136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-inner-corner-with-passthrough-left 1.asset using Guid(e21ac7b000f169e4c9eebfdf32ca5136) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '395b905909015d47892b7ad9191681b8') in 0.0160261 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026815 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-inner-corner-with-passthrough-right 1.asset
-  artifactKey: Guid(e491ea45cf258bb468b4d734118bdf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-inner-corner-with-passthrough-right 1.asset using Guid(e491ea45cf258bb468b4d734118bdf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00bedf6dbdb9509fdd6bf74aa2e34483') in 0.0143587 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-outer-corner-bottom-left.asset
-  artifactKey: Guid(f095d18397ff8634a9ac46c0abe47fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-outer-corner-bottom-left.asset using Guid(f095d18397ff8634a9ac46c0abe47fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fbe84d7187979035ec42a4561849faa') in 0.026703 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.712056 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-outer-corner-bottom-right.asset
-  artifactKey: Guid(13184364937715849b0b2280eceabfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-outer-corner-bottom-right.asset using Guid(13184364937715849b0b2280eceabfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f7c01c96ebd6d34f1297bc7827f5c9c') in 0.0372714 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004476 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-outer-corner-top-left 1.asset
-  artifactKey: Guid(d2f83e8b607ace54b86450f7bbb4af12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-outer-corner-top-left 1.asset using Guid(d2f83e8b607ace54b86450f7bbb4af12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ae4ec83d68bb9a1325047190688edf9') in 0.0142124 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033606 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-top-edge-repeating.asset
-  artifactKey: Guid(87fa144996590e24295fe42ab78d6f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-top-edge-repeating.asset using Guid(87fa144996590e24295fe42ab78d6f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f36274341f1e236adeb1d87270f7589b') in 0.0465472 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-vertical-repeating-right.asset
-  artifactKey: Guid(b207e556dadf61a4694d024dff78c206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/platform-vertical-repeating-right.asset using Guid(b207e556dadf61a4694d024dff78c206) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3c2346832c9c62da89b3cc798459b58') in 0.0180286 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022571 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/shallow-slope-left-part-01.asset
-  artifactKey: Guid(8c94486fc1d435440bf7218188416de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/shallow-slope-left-part-01.asset using Guid(8c94486fc1d435440bf7218188416de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '793e7317d17ab4c9e1a7da556c23a5d5') in 0.0123991 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.029270 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/shallow-slope-left-part-02 1.asset
-  artifactKey: Guid(07aa210897e43bc4fbf65efd06dbdb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/shallow-slope-left-part-02 1.asset using Guid(07aa210897e43bc4fbf65efd06dbdb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4aa6f2ce8ac4418ab05d3f72695bf10') in 0.0166338 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024462 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/shallow-slope-left-part-04.asset
-  artifactKey: Guid(9b4ba4ebdccc8a8448b929d0873f9e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/shallow-slope-left-part-04.asset using Guid(9b4ba4ebdccc8a8448b929d0873f9e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '549d3f36b07b27f4375679a963ca87da') in 0.013881 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026779 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/shallow-slope-underside-left-part-01 1.asset
-  artifactKey: Guid(24064017e36ab8246b45ba2dee650de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/shallow-slope-underside-left-part-01 1.asset using Guid(24064017e36ab8246b45ba2dee650de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '392ca50e0f27d6366f4f9d98af41324b') in 0.0149491 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025832 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/shallow-slope-underside-left-part-03.asset
-  artifactKey: Guid(a1f9f34a2a4eb4941b64fbf50be50449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/shallow-slope-underside-left-part-03.asset using Guid(a1f9f34a2a4eb4941b64fbf50be50449) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a3dd8deb35b7dbdf9e0e4b469441a88') in 0.0357966 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006016 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/shallow-slope-underside-left-part-04 1.asset
-  artifactKey: Guid(0438e779bdcd01c469a0bc0700093ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/shallow-slope-underside-left-part-04 1.asset using Guid(0438e779bdcd01c469a0bc0700093ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82d8be80721bfe54291abf3cf26d20ba') in 0.0145842 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028383 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/slope-shallow-right-part-02.asset
-  artifactKey: Guid(acbf8461f6852a04d9b79c7b3298cb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/slope-shallow-right-part-02.asset using Guid(acbf8461f6852a04d9b79c7b3298cb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6af5de969bc5b6d77c02a0fd03c6484d') in 0.0199984 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/slope-shallow-right-part-04.asset
-  artifactKey: Guid(51d61c5cbb0903845933fcd926411c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/slope-shallow-right-part-04.asset using Guid(51d61c5cbb0903845933fcd926411c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15b4362f81b7a7318523254778141316') in 0.0153256 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013079 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/steep-slope-left-part-01.asset
-  artifactKey: Guid(42fce0608066db04ab7fff930bfe948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/steep-slope-left-part-01.asset using Guid(42fce0608066db04ab7fff930bfe948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34c2a6556fd3027f34309dd35c70a174') in 0.0141418 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026251 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/steep-slope-right-part-01 1.asset
-  artifactKey: Guid(58ac1511c75e8f54a8f519a2a02178e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/steep-slope-right-part-01 1.asset using Guid(58ac1511c75e8f54a8f519a2a02178e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ea70bf4357eab0a987762711a2d74b3') in 0.0152659 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026342 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/steep-slope-underside-left-part-01.asset
-  artifactKey: Guid(5429ccd228266de448be3e9b5a17a7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/steep-slope-underside-left-part-01.asset using Guid(5429ccd228266de448be3e9b5a17a7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a440d3de8074817aa10457e87b674de') in 0.0375323 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004533 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/steep-slope-underside-left-part-02.asset
-  artifactKey: Guid(fc9c08df854c2a342a8518221557afcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/steep-slope-underside-left-part-02.asset using Guid(fc9c08df854c2a342a8518221557afcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '503a571eb8ca587bce9740fca113ec07') in 0.0709061 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/steep-slope-underside-right-part-02.asset
-  artifactKey: Guid(eb2052d40c9c389498d2a15fe766fa43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/steep-slope-underside-right-part-02.asset using Guid(eb2052d40c9c389498d2a15fe766fa43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc86e7d497628ce72f221fbc3d6193eb') in 0.0194538 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000980 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-corner-inner-bottom-right.asset
-  artifactKey: Guid(4258279bb006ee045b50cf3028f8ba25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-corner-inner-bottom-right.asset using Guid(4258279bb006ee045b50cf3028f8ba25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fe43a7e34bc1d4d9c1d60ecaf9ea7d8') in 0.0151552 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-corner-inner-top-left.asset
-  artifactKey: Guid(dc8b42becea1eab4284339f4c4c51d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-corner-inner-top-left.asset using Guid(dc8b42becea1eab4284339f4c4c51d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6561bc1a3994172ccd49068a397fbf0') in 0.015854 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016292 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-corner-inner-top-right 1.asset
-  artifactKey: Guid(3becb59034d5ec442ac51bf9396fbe2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-corner-inner-top-right 1.asset using Guid(3becb59034d5ec442ac51bf9396fbe2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fac2e2d015b15433488484b16dfe2b4a') in 0.0134818 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026564 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-corner-outer-bottom-right.asset
-  artifactKey: Guid(4f2409380071b45418ca307ae94b0c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-corner-outer-bottom-right.asset using Guid(4f2409380071b45418ca307ae94b0c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3929c4ec67833a20bc4f317d603c597b') in 0.0150815 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027777 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-corner-outer-top-left 1.asset
-  artifactKey: Guid(4749127ea63bd864289f1ad3cd8f44b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-corner-outer-top-left 1.asset using Guid(4749127ea63bd864289f1ad3cd8f44b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5d70993f80254e2042c5d791e2e87a6') in 0.0137789 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028628 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-entance-left-edge.asset
-  artifactKey: Guid(eccef321f88d6ce4f9b547f61c357f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-entance-left-edge.asset using Guid(eccef321f88d6ce4f9b547f61c357f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0007c615cddb33b416173ced6e016f4c') in 0.0121845 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.039625 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-entrance-right-edge 1.asset
-  artifactKey: Guid(775b39ed70389fe4ab42c2d558109eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-entrance-right-edge 1.asset using Guid(775b39ed70389fe4ab42c2d558109eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ba8b89ec155f6a36c4170b4b6d6b9ec') in 0.0135339 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027816 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-fill-duplicate.asset
-  artifactKey: Guid(5d08e39f91eef404f9d374501e55b199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-fill-duplicate.asset using Guid(5d08e39f91eef404f9d374501e55b199) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aba94d3d9ea647a0b95619aee8829cc4') in 0.0078293 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031336 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-horizontal-entance-bottom-left 1.asset
-  artifactKey: Guid(a92eb9d7a119dcf4c86dfa55edb17ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-horizontal-entance-bottom-left 1.asset using Guid(a92eb9d7a119dcf4c86dfa55edb17ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b6d096d89504d95ef855695c117e603') in 0.1045146 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007735 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-horizontal-entrance-bottom-right.asset
-  artifactKey: Guid(6f45bcf87ce2fe646bb06b7c4c79cc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-horizontal-entrance-bottom-right.asset using Guid(6f45bcf87ce2fe646bb06b7c4c79cc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21c181c157e05321aecd7e005ef606a1') in 0.0433114 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017871 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-horizontal-entrance-top-right.asset
-  artifactKey: Guid(4ce462828b067ee43885bb0d0813dae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-horizontal-entrance-top-right.asset using Guid(4ce462828b067ee43885bb0d0813dae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69227a48ecb27adee573e67f9f764120') in 0.0214166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-horizontal-repeating-bottom.asset
-  artifactKey: Guid(cf9ab5ef6b7b9fd4aa2e1f0af550ed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-horizontal-repeating-bottom.asset using Guid(cf9ab5ef6b7b9fd4aa2e1f0af550ed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f465d23dc301512063c03e4b101ea918') in 0.0339422 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-vertical-entance-bottom-left 1.asset
-  artifactKey: Guid(87fa6f075e63460418bc1e447e403d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-vertical-entance-bottom-left 1.asset using Guid(87fa6f075e63460418bc1e447e403d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7637dbb1eec280b24657c5413b945cf1') in 0.0142669 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019058 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-vertical-entance-top-left 1.asset
-  artifactKey: Guid(ae1a36011850bd4499aab70ac98966b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-vertical-entance-top-left 1.asset using Guid(ae1a36011850bd4499aab70ac98966b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4180e46f1c61cc7909ecb956e6864893') in 0.0196109 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025031 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-vertical-entrance-top-right.asset
-  artifactKey: Guid(e9f041e1d5ed6be4c8a294199bafc67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-vertical-entrance-top-right.asset using Guid(e9f041e1d5ed6be4c8a294199bafc67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '893f9961c41858915a51804d84fa5164') in 0.0163022 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-vertical-repeating-left 1.asset
-  artifactKey: Guid(6d0bc4317bb3e604bae8ea404069d556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tiles/underground-vertical-repeating-left 1.asset using Guid(6d0bc4317bb3e604bae8ea404069d556) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fc12677270049a0dc12abcac14378e3') in 0.0508437 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.643 seconds
-Refreshing native plugins compatible for Editor in 7.12 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.758 seconds
-Domain Reload Profiling: 1399ms
-	BeginReloadAssembly (244ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (303ms)
-		LoadAssemblies (345ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (82ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (69ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (759ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (484ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (43ms)
-			ProcessInitializeOnLoadAttributes (360ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 6.95 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2170 unused Assets / (0.9 MB). Loaded Objects now: 2775.
-Memory consumption went from 105.3 MB to 104.4 MB.
-Total: 6.987300 ms (FindLiveObjects: 0.356900 ms CreateObjectMapping: 0.392600 ms MarkObjects: 5.298200 ms  DeleteObjects: 0.938000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 493.940990 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tilesets/animated_water_tiles/water_tile_frame_02.png
-  artifactKey: Guid(e10769bdb77a77540b08e2702bec1cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tilesets/animated_water_tiles/water_tile_frame_02.png using Guid(e10769bdb77a77540b08e2702bec1cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c81bdf4847ab93af5647629377aa8bc') in 0.0975917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tilesets/animated_water_tiles/water_tile_frame_04.png
-  artifactKey: Guid(b2437e6e4c8047647a926bfa02437951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/tilesets/animated_water_tiles/water_tile_frame_04.png using Guid(b2437e6e4c8047647a926bfa02437951) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb7607077c5079461539b211be491a0d') in 0.0134167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

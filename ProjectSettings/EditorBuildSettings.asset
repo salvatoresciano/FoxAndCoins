@@ -32,5 +32,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TemplateGame/Scene/Worlds/Gameplay/World 8.unity
     guid: efe9457a47bfd412a95920612c5e8c0d
+  - enabled: 1
+    path: Assets/TemplateGame/Scene/Worlds/Gameplay/World 9.unity
+    guid: dcc92316c0a6844148e4e3874683a458
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

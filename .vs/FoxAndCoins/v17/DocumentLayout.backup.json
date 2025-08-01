@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "D:\\Progetti Unity\\FoxAndCoins\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\player\\controller2d\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|d:\\progetti unity\\foxandcoins\\assets\\templategame\\script\\trampoline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\trampoline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|d:\\progetti unity\\foxandcoins\\assets\\templategame\\script\\environment\\givebullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\environment\\givebullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|d:\\progetti unity\\foxandcoins\\assets\\templategame\\script\\player\\controller2d\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\player\\controller2d\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|d:\\progetti unity\\foxandcoins\\assets\\templategame\\script\\player\\controller2d\\controller2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\player\\controller2d\\controller2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\player\\controller2d\\controller2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|d:\\progetti unity\\foxandcoins\\assets\\templategame\\script\\ai\\givedamagetoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|D:\\Progetti Unity\\FoxAndCoins\\assets\\templategame\\script\\ai\\givedamagetoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9CF72AD-2C46-C10E-1539-3D3DA5E202A9}|Assembly-CSharp.csproj|solutionrelative:assets\\templategame\\script\\ai\\givedamagetoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,11 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "GiveBullet.cs",
+              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Environment\\GiveBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\Environment\\GiveBullet.cs",
+              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Environment\\GiveBullet.cs",
+              "RelativeToolTip": "Assets\\TemplateGame\\Script\\Environment\\GiveBullet.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T14:52:26.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Trampoline.cs",
+              "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Trampoline.cs",
+              "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\Trampoline.cs",
+              "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Trampoline.cs",
+              "RelativeToolTip": "Assets\\TemplateGame\\Script\\Trampoline.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T14:37:38.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Controller2D.cs",
               "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\Controller2D\\Controller2D.cs",
               "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\Player\\Controller2D\\Controller2D.cs",
@@ -46,12 +80,11 @@
               "RelativeToolTip": "Assets\\TemplateGame\\Script\\Player\\Controller2D\\Controller2D.cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAPUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T14:30:55.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T14:30:55.212Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ControllerInput.cs",
               "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\GUI\\ControllerInput.cs",
               "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\GUI\\ControllerInput.cs",
@@ -63,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MeleeAttack.cs",
               "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\MeleeAttack.cs",
               "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\Player\\MeleeAttack.cs",
@@ -75,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GiveDamageToPlayer.cs",
               "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\GiveDamageToPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\AI\\GiveDamageToPlayer.cs",
@@ -83,25 +116,24 @@
               "RelativeToolTip": "Assets\\TemplateGame\\Script\\AI\\GiveDamageToPlayer.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAUwFsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T09:19:13.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T09:19:13.766Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\Controller2D\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\Player\\Controller2D\\Player.cs",
               "ToolTip": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\Player\\Controller2D\\Player.cs",
               "RelativeToolTip": "Assets\\TemplateGame\\Script\\Player\\Controller2D\\Player.cs",
-              "ViewState": "AgIAAJIBAAAAAAAAAAAIwKQBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJIBAAAAAAAAAAAywKQBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T09:17:46.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "EnemyAI.cs",
               "DocumentMoniker": "D:\\Progetti Unity\\FoxAndCoins\\Assets\\TemplateGame\\Script\\AI\\EnemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\TemplateGame\\Script\\AI\\EnemyAI.cs",

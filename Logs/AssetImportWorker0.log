@@ -15,7 +15,7 @@ D:/Progetti Unity/FoxAndCoins
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62501
+54766
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Progetti Unity/FoxAndCoins
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18760]  Target information:
+Player connection [16992]  Target information:
 
-Player connection [18760]  * "[IP] 192.168.132.18 [Port] 0 [Flags] 2 [Guid] 2944577890 [EditorId] 2944577890 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16992]  * "[IP] 192.168.243.18 [Port] 0 [Flags] 2 [Guid] 3830554075 [EditorId] 3830554075 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [18760] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [18760] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16992] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16992] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 14.46 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 10.94 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
@@ -91,695 +91,926 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.012606 seconds.
-- Loaded All Assemblies, in  0.861 seconds
+Registered in 0.011423 seconds.
+- Loaded All Assemblies, in  0.986 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 401 ms
+Android Extension - Scanning For ADB Devices 434 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.315 seconds
-Domain Reload Profiling: 2170ms
-	BeginReloadAssembly (269ms)
+- Finished resetting the current domain, in  1.500 seconds
+Domain Reload Profiling: 2480ms
+	BeginReloadAssembly (318ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (77ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (108ms)
-	LoadAllAssembliesAndSetupDomain (374ms)
-		LoadAssemblies (264ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (124ms)
+	LoadAllAssembliesAndSetupDomain (424ms)
+		LoadAssemblies (312ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (364ms)
-			TypeCache.Refresh (362ms)
-				TypeCache.ScanAssembly (329ms)
+		AnalyzeDomain (415ms)
+			TypeCache.Refresh (412ms)
+				TypeCache.ScanAssembly (381ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1316ms)
+	FinalizeReload (1501ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1225ms)
+		SetupLoadedEditorAssemblies (1385ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (640ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (14ms)
-			ProcessInitializeOnLoadAttributes (380ms)
-			ProcessInitializeOnLoadMethodAttributes (176ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (719ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (13ms)
+			ProcessInitializeOnLoadAttributes (421ms)
+			ProcessInitializeOnLoadMethodAttributes (201ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.663 seconds
-Refreshing native plugins compatible for Editor in 10.58 ms, found 1 plugins.
+- Loaded All Assemblies, in  2.152 seconds
+Refreshing native plugins compatible for Editor in 16.10 ms, found 1 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.272 seconds
-Domain Reload Profiling: 2927ms
-	BeginReloadAssembly (821ms)
+- Finished resetting the current domain, in  1.893 seconds
+Domain Reload Profiling: 4034ms
+	BeginReloadAssembly (1138ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (90ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (87ms)
-	LoadAllAssembliesAndSetupDomain (629ms)
-		LoadAssemblies (629ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (106ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (130ms)
+	LoadAllAssembliesAndSetupDomain (732ms)
+		LoadAssemblies (778ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (232ms)
-			TypeCache.Refresh (174ms)
-				TypeCache.ScanAssembly (149ms)
-			BuildScriptInfoCaches (43ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1273ms)
+		AnalyzeDomain (261ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (155ms)
+			BuildScriptInfoCaches (56ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1894ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (814ms)
+		SetupLoadedEditorAssemblies (1317ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
+			InitializePlatformSupportModulesInManaged (43ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (579ms)
-			ProcessInitializeOnLoadMethodAttributes (116ms)
-			AfterProcessingInitializeOnLoad (17ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (989ms)
+			ProcessInitializeOnLoadMethodAttributes (165ms)
+			AfterProcessingInitializeOnLoad (26ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 14.37 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 15.28 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2173 unused Assets / (1.2 MB). Loaded Objects now: 2719.
-Memory consumption went from 104.9 MB to 103.7 MB.
-Total: 10.962200 ms (FindLiveObjects: 0.452000 ms CreateObjectMapping: 0.336500 ms MarkObjects: 7.744200 ms  DeleteObjects: 2.425900 ms)
+Unloading 2173 unused Assets / (0.9 MB). Loaded Objects now: 2719.
+Memory consumption went from 106.9 MB to 106.0 MB.
+Total: 14.499400 ms (FindLiveObjects: 0.513400 ms CreateObjectMapping: 0.317300 ms MarkObjects: 11.744500 ms  DeleteObjects: 1.920000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 264396.300468 seconds.
-  path: Assets/TemplateGame/Scene/Worlds/Gameplay/World 7.unity
-  artifactKey: Guid(11f2184125f8540a6b64dd73de80d143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplateGame/Scene/Worlds/Gameplay/World 7.unity using Guid(11f2184125f8540a6b64dd73de80d143) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1a88f33eae28f68624d60f9c03b26c1') in 0.0163593 seconds
+  Time since last request: 188264.279668 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST
+  artifactKey: Guid(5d251f4720bf0bd4fac2c836c084b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST using Guid(5d251f4720bf0bd4fac2c836c084b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2eb3f4aadfa3205a1f8119ba3f677d0') in 0.0266022 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091531 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/custom_scene_2-5 (1).png
+  artifactKey: Guid(f8fed17b0b27b294ab05d0131c0ee11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/custom_scene_2-5 (1).png using Guid(f8fed17b0b27b294ab05d0131c0ee11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f57a55eff54568ce3c3d69c3a256ead') in 0.182573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/custom_scene_2-7 (1).png
+  artifactKey: Guid(1793716dcaeeca042ac9ee18ec15c919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/custom_scene_2-7 (1).png using Guid(1793716dcaeeca042ac9ee18ec15c919) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af54ea5ba568d448ddf2d24c1610ac55') in 0.1501817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.988211 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/custom_scene_2-5 (1).png
+  artifactKey: Guid(f8fed17b0b27b294ab05d0131c0ee11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/custom_scene_2-5 (1).png using Guid(f8fed17b0b27b294ab05d0131c0ee11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b450d303c692898f51e88015812dc7d') in 0.0690305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/custom_scene_2-7 (1).png
+  artifactKey: Guid(1793716dcaeeca042ac9ee18ec15c919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/custom_scene_2-7 (1).png using Guid(1793716dcaeeca042ac9ee18ec15c919) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b4c67d2e39a4d2acb57025fef3365dc') in 0.0487215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 517.544698 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST MUSIC/Retro Video Game Loop.wav
+  artifactKey: Guid(c0e332f4df3d4364490e34f5108b3b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST MUSIC/Retro Video Game Loop.wav using Guid(c0e332f4df3d4364490e34f5108b3b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a3b125c6b117041b7530e100a81a98e') in 0.1165816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.028858 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/water_tower/pngs/water_tower_01.png
+  artifactKey: Guid(7f9fe7fe85bf29945a4a0fe8b78c5677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/water_tower/pngs/water_tower_01.png using Guid(7f9fe7fe85bf29945a4a0fe8b78c5677) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7813a5bce679a3dd263a02c29498379e') in 0.121522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.741493 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_mega_pack/background/background_premade_example.png
+  artifactKey: Guid(b6136a046f1aec7429d0b42e9e5e7b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_mega_pack/background/background_premade_example.png using Guid(b6136a046f1aec7429d0b42e9e5e7b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '536a11f94457970f537cc8b6f7c0d40e') in 0.1082147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.539240 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_01.png
+  artifactKey: Guid(433d9b107d0c3f94787367f83d8ce072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_01.png using Guid(433d9b107d0c3f94787367f83d8ce072) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f58c3603c31d44573bad14091178898b') in 0.0632364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040425 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/fill.png
+  artifactKey: Guid(6d651de0a0dc83c49889b7ebc4199385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/fill.png using Guid(6d651de0a0dc83c49889b7ebc4199385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f00d13e035d0e7cdb3d2dfe52927f642') in 0.0144209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037774 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/g5962.png
+  artifactKey: Guid(80dda71a1cca7fc4f8d11b5a9d95e215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/g5962.png using Guid(80dda71a1cca7fc4f8d11b5a9d95e215) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbbdf0edcea7f9eb31d896b4670cb538') in 0.0143978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015423 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/g5982.png
+  artifactKey: Guid(1596eceb6de84d94f85af3e6e5dd7c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/g5982.png using Guid(1596eceb6de84d94f85af3e6e5dd7c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd4aa645790e309d24d31f8d574cfbe4') in 0.0687821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005245 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_left.png
+  artifactKey: Guid(b7da6c2b700ccf34ba632eddbb960504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_left.png using Guid(b7da6c2b700ccf34ba632eddbb960504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3f11046678c79db9d2186f4dd103054') in 0.0157814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007370 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_left_pass_through.png
+  artifactKey: Guid(fc9e4c0992e315c4fbcb094288154e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_left_pass_through.png using Guid(fc9e4c0992e315c4fbcb094288154e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28c1ab8dd62fdfe4433bd357041ffbf9') in 0.014632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018674 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right.png
+  artifactKey: Guid(85958c18468e57a4da34badac492582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right.png using Guid(85958c18468e57a4da34badac492582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e7b0d010e6416cd1a118eab42ca3bd3') in 0.0145335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014525 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right_pass_through.png
+  artifactKey: Guid(43a97c87d5f2dcb49acecf2cc9db6cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right_pass_through.png using Guid(43a97c87d5f2dcb49acecf2cc9db6cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41ade78428faf52a4d9c596d9ab8ecec') in 0.0145506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013381 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_top_left.png
+  artifactKey: Guid(acd3818b720d7a143a5a917f7b06557a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_top_left.png using Guid(acd3818b720d7a143a5a917f7b06557a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8764cfa992dd120a407d78e0eaa83edf') in 0.0148799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036666 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/left_vertical_variation_01.png
+  artifactKey: Guid(b7e2587f1e2fa904883c0c95144ea56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/left_vertical_variation_01.png using Guid(b7e2587f1e2fa904883c0c95144ea56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2192eadfaea2e11b51e5445596e1e9ce') in 0.0147966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.862206 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_01.png
+  artifactKey: Guid(433d9b107d0c3f94787367f83d8ce072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_01.png using Guid(433d9b107d0c3f94787367f83d8ce072) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be250f8182fb4a6fbc066d7cd4a3227d') in 0.0237882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039321 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_02.png
+  artifactKey: Guid(e6377ee7bd488c84dabc37c4b268eff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_02.png using Guid(e6377ee7bd488c84dabc37c4b268eff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e00ac66a584ac4d257b4e6e4a089e446') in 0.2585332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/g5982.png
+  artifactKey: Guid(1596eceb6de84d94f85af3e6e5dd7c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/g5982.png using Guid(1596eceb6de84d94f85af3e6e5dd7c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c7983b611c0af6ffab721bffc88c139') in 0.0454778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_top_right.png
+  artifactKey: Guid(fed6c080de3ae7843a25b8e04bfd8f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_top_right.png using Guid(fed6c080de3ae7843a25b8e04bfd8f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd171db45e4cc996d18c13a114b04a53') in 0.0288834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/left_vertical_variation_01.png
+  artifactKey: Guid(b7e2587f1e2fa904883c0c95144ea56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/left_vertical_variation_01.png using Guid(b7e2587f1e2fa904883c0c95144ea56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd472f7a4fc1dee560f02b82f226bb550') in 0.0303827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right_pass_through.png
+  artifactKey: Guid(43a97c87d5f2dcb49acecf2cc9db6cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right_pass_through.png using Guid(43a97c87d5f2dcb49acecf2cc9db6cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43cb9776ebbb3f2b9edad79ab809dbb5') in 0.0261483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right.png
+  artifactKey: Guid(85958c18468e57a4da34badac492582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right.png using Guid(85958c18468e57a4da34badac492582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '285f768cdadfcf98e176e9ff80c59e9c') in 0.0277186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.988167 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_02.png
+  artifactKey: Guid(e6377ee7bd488c84dabc37c4b268eff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_02.png using Guid(e6377ee7bd488c84dabc37c4b268eff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e112dc4be363a567976560e9b67bd01c') in 0.032782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/left_vertical_variation_02.png
+  artifactKey: Guid(657bbfc432fa59040a3b959b932b78fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/left_vertical_variation_02.png using Guid(657bbfc432fa59040a3b959b932b78fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76ed23580c7c84173de4cf4a3036fe2b') in 0.0137675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/g5962.png
+  artifactKey: Guid(80dda71a1cca7fc4f8d11b5a9d95e215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/g5962.png using Guid(80dda71a1cca7fc4f8d11b5a9d95e215) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faba4ddda97c2eda1b483cded3263b9c') in 0.0176565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_left.png
+  artifactKey: Guid(b7da6c2b700ccf34ba632eddbb960504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_left.png using Guid(b7da6c2b700ccf34ba632eddbb960504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '157b5b775face0a130ae706c743ec41c') in 0.0359562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right.png
+  artifactKey: Guid(85958c18468e57a4da34badac492582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right.png using Guid(85958c18468e57a4da34badac492582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70a954a7445e790d0ec366a119d9aab2') in 0.0288303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.630590 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/fill.png
+  artifactKey: Guid(6d651de0a0dc83c49889b7ebc4199385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/fill.png using Guid(6d651de0a0dc83c49889b7ebc4199385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f613ee074cf19d57029c04f1a59c6c4e') in 0.14984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.528561 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_02.png
+  artifactKey: Guid(e6377ee7bd488c84dabc37c4b268eff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_02.png using Guid(e6377ee7bd488c84dabc37c4b268eff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5359b9b01542e6b5b10ce44c2a03fda0') in 0.337269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/left_vertical_variation_02.png
+  artifactKey: Guid(657bbfc432fa59040a3b959b932b78fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/left_vertical_variation_02.png using Guid(657bbfc432fa59040a3b959b932b78fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f02e6f824fbe0dccbebcd71fde6f6fa') in 0.013592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_top_right.png
+  artifactKey: Guid(fed6c080de3ae7843a25b8e04bfd8f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_top_right.png using Guid(fed6c080de3ae7843a25b8e04bfd8f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fb5295046282bd4f2e9ff68b964db9b') in 0.0132532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_left.png
+  artifactKey: Guid(b7da6c2b700ccf34ba632eddbb960504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_left.png using Guid(b7da6c2b700ccf34ba632eddbb960504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8293c1fea4b24b5aa3c5001036d887de') in 0.0235881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.666337 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/bottom_edge_variation_02.asset
+  artifactKey: Guid(71d6cefad1fc2c446b23cb7bb07b550d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/bottom_edge_variation_02.asset using Guid(71d6cefad1fc2c446b23cb7bb07b550d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6e85fad068cf2c5f0b4fdcbb0bfcd75') in 0.0384276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/inner_bottom_left.asset
+  artifactKey: Guid(3b31b734fccd56d428e87ed5d980cd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/inner_bottom_left.asset using Guid(3b31b734fccd56d428e87ed5d980cd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90d4454880a1dc3deb49512e853ed0de') in 0.0278148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/inner_bottom_left_pass_through.asset
+  artifactKey: Guid(9606e3740cd0a1e4183fd90c59cf344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/inner_bottom_left_pass_through.asset using Guid(9606e3740cd0a1e4183fd90c59cf344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06e8f1d0ddba45b637731466a91df46a') in 0.0424628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/inner_top_left.asset
+  artifactKey: Guid(68cc91ce6578a3746bdbb233c06e8653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/inner_top_left.asset using Guid(68cc91ce6578a3746bdbb233c06e8653) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad0fa19e26cbc7d6954ed4430fd0fc91') in 0.0261596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.830696 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/outer_bottom_left.asset
+  artifactKey: Guid(10fbeb26b91b012449d573286224377a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/outer_bottom_left.asset using Guid(10fbeb26b91b012449d573286224377a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba920ef01545aa0a8a5cc9d9dec8a471') in 0.0233845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020143 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/outer_top_left.asset
+  artifactKey: Guid(1eb458d7e43722544b3e124b8c7fe106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/outer_top_left.asset using Guid(1eb458d7e43722544b3e124b8c7fe106) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '520f6685d9ff2eb51efdc2ac10480e93') in 0.0205726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/platform_join_right.asset
+  artifactKey: Guid(fe7746be00681a044b935da5f359280d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/platform_join_right.asset using Guid(fe7746be00681a044b935da5f359280d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2422aa9bc80404546ae9b1425e90c17') in 0.0262705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/platform_center_variation_02.asset
+  artifactKey: Guid(528d92bf29d435a47b81707731bb455d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/platform_center_variation_02.asset using Guid(528d92bf29d435a47b81707731bb455d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd133b6bac0c3f33d4afd4a0c182480f0') in 0.0224902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/platform_right_edge.asset
+  artifactKey: Guid(aca65f6e463063643ba962da86426179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/platform_right_edge.asset using Guid(aca65f6e463063643ba962da86426179) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd804c5a492abc52cd0339bed806ef31c') in 0.026013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.206544 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/shallow_slope_left_01.asset
+  artifactKey: Guid(5100bb7cb51062444a69d70519a12eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/shallow_slope_left_01.asset using Guid(5100bb7cb51062444a69d70519a12eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87ccdf19c4ec66c6eac2392ef0935de1') in 0.0342323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007072 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/shallow_slope_right_01.asset
+  artifactKey: Guid(1a83a272a3011f64eb89a99012df83b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/shallow_slope_right_01.asset using Guid(1a83a272a3011f64eb89a99012df83b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34188f085941af164fd9dac17eb8d16d') in 0.0239316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027220 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/single_pillar_01.asset
+  artifactKey: Guid(af575f90fdafff946a7c5c9055861576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/single_pillar_01.asset using Guid(af575f90fdafff946a7c5c9055861576) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e18be03b6cd08b8e71cf2d2421e4272e') in 0.0231968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.907236 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/outer_bottom_right.png
+  artifactKey: Guid(2d9702a9b8bf89f4fbf3ba84e2e92f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/outer_bottom_right.png using Guid(2d9702a9b8bf89f4fbf3ba84e2e92f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '945afbad340ee583a1a10e3220ad3dea') in 0.0324815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.316447 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/platform_center_variation_01.png
+  artifactKey: Guid(d90af0f30b1040544a35c7e54db6f114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/platform_center_variation_01.png using Guid(d90af0f30b1040544a35c7e54db6f114) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1de2fb8a292019bdd2efbedc577a174') in 0.0574568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/platform_join_left.png
+  artifactKey: Guid(a7c6d416b92b4e2489384381f3c56668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/platform_join_left.png using Guid(a7c6d416b92b4e2489384381f3c56668) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5645a54fe5626325709390e15183fe43') in 0.0313891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.861240 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/right_vertical_variation_01.png
+  artifactKey: Guid(b522ffdf06ea43147944fb4cf48baf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/right_vertical_variation_01.png using Guid(b522ffdf06ea43147944fb4cf48baf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f78fc3f58649a789b6c9164911aa8ad3') in 0.0336314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/shallow_slope_left_03.png
+  artifactKey: Guid(9c5f33d4f8c32d549b3837710ea93b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/shallow_slope_left_03.png using Guid(9c5f33d4f8c32d549b3837710ea93b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '632e60fbd54f0eec207d6bf319778e68') in 0.0321367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011203 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/shallow_slope_right_02.png
+  artifactKey: Guid(76ac1a4e35546194d9139566bba8e900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/shallow_slope_right_02.png using Guid(76ac1a4e35546194d9139566bba8e900) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fd6c22ecc72cd4bb1eb74711d96efed') in 0.03141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020299 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/single_pillar_02.png
+  artifactKey: Guid(1142021bad863d44bab1f85105f44cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/single_pillar_02.png using Guid(1142021bad863d44bab1f85105f44cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3958b1146e9114e59a71cb5bd18856ad') in 0.0289983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/single_pillar_join_horizontal_pass_through.png
+  artifactKey: Guid(abf88960ee4dec34e8dad76c56cbc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/single_pillar_join_horizontal_pass_through.png using Guid(abf88960ee4dec34e8dad76c56cbc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6b2a672e7ea60af76782c4cc9882baa') in 0.0304964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.213355 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/steep_slope_right_01.png
+  artifactKey: Guid(010740092111a7d4ea9460551fa47444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/steep_slope_right_01.png using Guid(010740092111a7d4ea9460551fa47444) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff1ce1a7874475787fd68a96c74681b6') in 0.0277801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/top_variation_02.png
+  artifactKey: Guid(6ef01b632bd14e044bae63596a896edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/top_variation_02.png using Guid(6ef01b632bd14e044bae63596a896edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86104aea9cef8bd6be7cac1503595767') in 0.0337249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015806 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/top_variation_04.png
+  artifactKey: Guid(a3d5c390fe98e294c8d09e5b9b0f0c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/top_variation_04.png using Guid(a3d5c390fe98e294c8d09e5b9b0f0c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a06fd75c9650fa560f65d87f082a17d') in 0.0282127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.986 seconds
-Refreshing native plugins compatible for Editor in 11.71 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.678 seconds
+Refreshing native plugins compatible for Editor in 8.49 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.906 seconds
+Domain Reload Profiling: 1582ms
+	BeginReloadAssembly (237ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (324ms)
+		LoadAssemblies (354ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (77ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (906ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (613ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (460ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 6.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2171 unused Assets / (0.9 MB). Loaded Objects now: 2741.
+Memory consumption went from 104.8 MB to 103.9 MB.
+Total: 7.682400 ms (FindLiveObjects: 0.274000 ms CreateObjectMapping: 0.202200 ms MarkObjects: 6.221900 ms  DeleteObjects: 0.982700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.679 seconds
+Refreshing native plugins compatible for Editor in 7.48 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.010 seconds
+Domain Reload Profiling: 1686ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (374ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (94ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (80ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1011ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (659ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (466ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 9.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2171 unused Assets / (1.0 MB). Loaded Objects now: 2743.
+Memory consumption went from 104.8 MB to 103.9 MB.
+Total: 9.573500 ms (FindLiveObjects: 0.356800 ms CreateObjectMapping: 0.355200 ms MarkObjects: 7.585900 ms  DeleteObjects: 1.274200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.669 seconds
+Refreshing native plugins compatible for Editor in 7.04 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.945 seconds
+Domain Reload Profiling: 1612ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (322ms)
+		LoadAssemblies (363ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (75ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (946ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (638ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (488ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 9.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2171 unused Assets / (0.9 MB). Loaded Objects now: 2745.
+Memory consumption went from 104.8 MB to 103.9 MB.
+Total: 7.337900 ms (FindLiveObjects: 0.458200 ms CreateObjectMapping: 0.222200 ms MarkObjects: 5.631300 ms  DeleteObjects: 1.025100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.717 seconds
+Refreshing native plugins compatible for Editor in 6.96 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.988 seconds
+Domain Reload Profiling: 1701ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (367ms)
+		LoadAssemblies (393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (89ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (988ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (652ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (490ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 11.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2171 unused Assets / (0.9 MB). Loaded Objects now: 2747.
+Memory consumption went from 104.8 MB to 103.9 MB.
+Total: 10.881100 ms (FindLiveObjects: 0.349800 ms CreateObjectMapping: 0.401300 ms MarkObjects: 8.584500 ms  DeleteObjects: 1.544400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.795 seconds
+Refreshing native plugins compatible for Editor in 8.01 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.977 seconds
+Domain Reload Profiling: 1767ms
+	BeginReloadAssembly (294ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (365ms)
+		LoadAssemblies (429ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (83ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (978ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (672ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (496ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 9.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2171 unused Assets / (0.9 MB). Loaded Objects now: 2749.
+Memory consumption went from 104.8 MB to 103.9 MB.
+Total: 6.477400 ms (FindLiveObjects: 0.300700 ms CreateObjectMapping: 0.222000 ms MarkObjects: 5.071600 ms  DeleteObjects: 0.881300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.744 seconds
+Refreshing native plugins compatible for Editor in 8.93 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.111 seconds
+Domain Reload Profiling: 1852ms
+	BeginReloadAssembly (263ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (365ms)
+		LoadAssemblies (397ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (95ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1112ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (717ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (523ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 8.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2171 unused Assets / (1.0 MB). Loaded Objects now: 2751.
+Memory consumption went from 104.8 MB to 103.9 MB.
+Total: 9.994500 ms (FindLiveObjects: 0.379800 ms CreateObjectMapping: 0.385800 ms MarkObjects: 7.990000 ms  DeleteObjects: 1.236900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.703 seconds
+Refreshing native plugins compatible for Editor in 8.59 ms, found 1 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  1.046 seconds
-Domain Reload Profiling: 2028ms
-	BeginReloadAssembly (356ms)
+Domain Reload Profiling: 1746ms
+	BeginReloadAssembly (259ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (25ms)
+		DisableScriptedObjects (18ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (69ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (479ms)
-		LoadAssemblies (547ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (338ms)
+		LoadAssemblies (393ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (142ms)
-			TypeCache.Refresh (11ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (118ms)
-			ResolveRequiredComponents (8ms)
+			BuildScriptInfoCaches (77ms)
+			ResolveRequiredComponents (5ms)
 	FinalizeReload (1047ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (656ms)
+		SetupLoadedEditorAssemblies (675ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
+			InitializePlatformSupportModulesInManaged (20ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (439ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 9.99 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2171 unused Assets / (1.0 MB). Loaded Objects now: 2724.
-Memory consumption went from 102.6 MB to 101.7 MB.
-Total: 8.187200 ms (FindLiveObjects: 0.354100 ms CreateObjectMapping: 0.236600 ms MarkObjects: 6.397600 ms  DeleteObjects: 1.197700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 208.784846 seconds.
-  path: Assets/TemplateGame/Scene/Worlds/Gameplay/World 8.unity
-  artifactKey: Guid(efe9457a47bfd412a95920612c5e8c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplateGame/Scene/Worlds/Gameplay/World 8.unity using Guid(efe9457a47bfd412a95920612c5e8c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4de1ae67b96425769cb730b4119c59f3') in 0.0277914 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.274057 seconds.
-  path: Assets/Prefabs/Water/fill.asset
-  artifactKey: Guid(49ff13b05e6b4c14cabb2de5df2ef1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Water/fill.asset using Guid(49ff13b05e6b4c14cabb2de5df2ef1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85ecaac46e0c98a32855688dcb4192d8') in 0.1518987 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.098781 seconds.
-  path: Assets/Prefabs/Water/Water 1.asset
-  artifactKey: Guid(a2e6c0b93fc66f34aa7fa32b74e25c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Water/Water 1.asset using Guid(a2e6c0b93fc66f34aa7fa32b74e25c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36ea7921b914a6701bfc0a04c583f0a5') in 0.0071201 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.676585 seconds.
-  path: Assets/Prefabs/Water/Water.prefab
-  artifactKey: Guid(22ca0e1b49b31304bab21227e32d7201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Water/Water.prefab using Guid(22ca0e1b49b31304bab21227e32d7201) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c6058a2d5c592577af54c6149d0322a') in 0.2724269 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.767 seconds
-Refreshing native plugins compatible for Editor in 13.83 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.556 seconds
-Domain Reload Profiling: 4320ms
-	BeginReloadAssembly (586ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (29ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (86ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (2000ms)
-		LoadAssemblies (2178ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (258ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (234ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1557ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1040ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (40ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (721ms)
-			ProcessInitializeOnLoadMethodAttributes (173ms)
-			AfterProcessingInitializeOnLoad (16ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 14.21 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2171 unused Assets / (0.9 MB). Loaded Objects now: 2735.
-Memory consumption went from 104.7 MB to 103.8 MB.
-Total: 9.233700 ms (FindLiveObjects: 0.514300 ms CreateObjectMapping: 0.412900 ms MarkObjects: 6.428000 ms  DeleteObjects: 1.876700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.907 seconds
-Refreshing native plugins compatible for Editor in 15.38 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.165 seconds
-Domain Reload Profiling: 2068ms
-	BeginReloadAssembly (324ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (24ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (446ms)
-		LoadAssemblies (497ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (127ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (106ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1166ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (797ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (595ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (498ms)
 			ProcessInitializeOnLoadMethodAttributes (81ms)
-			AfterProcessingInitializeOnLoad (16ms)
+			AfterProcessingInitializeOnLoad (13ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 10.05 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2171 unused Assets / (0.9 MB). Loaded Objects now: 2737.
-Memory consumption went from 104.7 MB to 103.8 MB.
-Total: 8.979700 ms (FindLiveObjects: 0.431100 ms CreateObjectMapping: 0.325800 ms MarkObjects: 6.128400 ms  DeleteObjects: 2.092300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.895 seconds
 Refreshing native plugins compatible for Editor in 10.15 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.220 seconds
-Domain Reload Profiling: 2112ms
-	BeginReloadAssembly (323ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (444ms)
-		LoadAssemblies (502ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (109ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1221ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (819ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (618ms)
-			ProcessInitializeOnLoadMethodAttributes (87ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 14.13 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2171 unused Assets / (1.0 MB). Loaded Objects now: 2739.
-Memory consumption went from 104.7 MB to 103.7 MB.
-Total: 10.651800 ms (FindLiveObjects: 0.376900 ms CreateObjectMapping: 0.321200 ms MarkObjects: 8.501500 ms  DeleteObjects: 1.450600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 290.196418 seconds.
-  path: Assets/Prefabs/Water/Water.prefab
-  artifactKey: Guid(22ca0e1b49b31304bab21227e32d7201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Water/Water.prefab using Guid(22ca0e1b49b31304bab21227e32d7201) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93e15cde547704167e78cf92b580862e') in 0.1929514 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.313095 seconds.
-  path: Assets/Prefabs/Water/Water 1.asset
-  artifactKey: Guid(582b3f0d23a99474d8d711ebc7d5b80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Water/Water 1.asset using Guid(582b3f0d23a99474d8d711ebc7d5b80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13ba47a6a84eb44e98f37313cc82662a') in 0.0050836 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.587958 seconds.
-  path: Assets/Prefabs/Water/Water.prefab
-  artifactKey: Guid(22ca0e1b49b31304bab21227e32d7201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Water/Water.prefab using Guid(22ca0e1b49b31304bab21227e32d7201) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2ab6f6d9a4f421fc3ea18c8b8bf7b67') in 0.032078 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.882 seconds
-Refreshing native plugins compatible for Editor in 11.80 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.321 seconds
-Domain Reload Profiling: 2199ms
-	BeginReloadAssembly (304ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (21ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (445ms)
-		LoadAssemblies (485ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (128ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (107ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1322ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (854ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (31ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (606ms)
-			ProcessInitializeOnLoadMethodAttributes (117ms)
-			AfterProcessingInitializeOnLoad (16ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 11.27 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2171 unused Assets / (0.9 MB). Loaded Objects now: 2743.
-Memory consumption went from 104.7 MB to 103.8 MB.
-Total: 9.204300 ms (FindLiveObjects: 0.469600 ms CreateObjectMapping: 0.291000 ms MarkObjects: 7.161100 ms  DeleteObjects: 1.281200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.902 seconds
-Refreshing native plugins compatible for Editor in 10.90 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.312 seconds
-Domain Reload Profiling: 2210ms
-	BeginReloadAssembly (319ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (21ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (448ms)
-		LoadAssemblies (501ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (125ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (100ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1313ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (851ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (621ms)
-			ProcessInitializeOnLoadMethodAttributes (109ms)
-			AfterProcessingInitializeOnLoad (20ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 11.22 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2171 unused Assets / (1.0 MB). Loaded Objects now: 2745.
-Memory consumption went from 104.7 MB to 103.7 MB.
-Total: 9.180000 ms (FindLiveObjects: 0.353000 ms CreateObjectMapping: 0.254000 ms MarkObjects: 7.263400 ms  DeleteObjects: 1.308100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.060 seconds
-Refreshing native plugins compatible for Editor in 12.32 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.669 seconds
-Domain Reload Profiling: 2724ms
-	BeginReloadAssembly (367ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (29ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (67ms)
-	RebuildCommonClasses (79ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (519ms)
-		LoadAssemblies (566ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (160ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (136ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1670ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1108ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (775ms)
-			ProcessInitializeOnLoadMethodAttributes (186ms)
-			AfterProcessingInitializeOnLoad (22ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 15.25 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2171 unused Assets / (0.9 MB). Loaded Objects now: 2747.
-Memory consumption went from 104.7 MB to 103.9 MB.
-Total: 11.740700 ms (FindLiveObjects: 0.392000 ms CreateObjectMapping: 0.621000 ms MarkObjects: 8.980000 ms  DeleteObjects: 1.746300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.885 seconds
-Refreshing native plugins compatible for Editor in 10.50 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.244 seconds
-Domain Reload Profiling: 2125ms
-	BeginReloadAssembly (317ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (29ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (58ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (432ms)
-		LoadAssemblies (493ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (117ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (98ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1245ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (831ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (601ms)
-			ProcessInitializeOnLoadMethodAttributes (113ms)
-			AfterProcessingInitializeOnLoad (22ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 12.47 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2171 unused Assets / (0.9 MB). Loaded Objects now: 2749.
-Memory consumption went from 104.7 MB to 103.9 MB.
-Total: 10.425900 ms (FindLiveObjects: 0.412100 ms CreateObjectMapping: 0.529000 ms MarkObjects: 7.902100 ms  DeleteObjects: 1.580200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.862 seconds
-Refreshing native plugins compatible for Editor in 10.47 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.300 seconds
-Domain Reload Profiling: 2159ms
-	BeginReloadAssembly (301ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (24ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (432ms)
-		LoadAssemblies (490ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (117ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (97ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1302ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (834ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (619ms)
-			ProcessInitializeOnLoadMethodAttributes (99ms)
-			AfterProcessingInitializeOnLoad (17ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 10.04 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2171 unused Assets / (1.0 MB). Loaded Objects now: 2751.
-Memory consumption went from 104.8 MB to 103.8 MB.
-Total: 9.032600 ms (FindLiveObjects: 0.392100 ms CreateObjectMapping: 0.287000 ms MarkObjects: 6.878000 ms  DeleteObjects: 1.474300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 307.883735 seconds.
-  path: Assets/Prefabs/Water/Water.asset
-  artifactKey: Guid(5696f77eb604f5c41860014875533576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Water/Water.asset using Guid(5696f77eb604f5c41860014875533576) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c9f5a1ef501e6add6e19a9b7772305b') in 0.0420136 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prefabs/Water/Water 1.asset
-  artifactKey: Guid(582b3f0d23a99474d8d711ebc7d5b80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Water/Water 1.asset using Guid(582b3f0d23a99474d8d711ebc7d5b80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28ef2cb22d47bfe25a9a212a050dc413') in 0.0061721 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.876 seconds
-Refreshing native plugins compatible for Editor in 10.91 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.214 seconds
-Domain Reload Profiling: 2086ms
-	BeginReloadAssembly (304ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (24ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (436ms)
-		LoadAssemblies (488ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (123ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (104ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1215ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (830ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (620ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 12.04 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2171 unused Assets / (1.1 MB). Loaded Objects now: 2753.
+Unloading 2171 unused Assets / (1.2 MB). Loaded Objects now: 2753.
 Memory consumption went from 104.8 MB to 103.7 MB.
-Total: 10.506900 ms (FindLiveObjects: 0.546500 ms CreateObjectMapping: 0.531100 ms MarkObjects: 7.884200 ms  DeleteObjects: 1.543200 ms)
+Total: 9.271700 ms (FindLiveObjects: 0.296800 ms CreateObjectMapping: 0.209300 ms MarkObjects: 7.212400 ms  DeleteObjects: 1.551100 ms)
 
 Prepare: number of updated asset objects reloaded= 0

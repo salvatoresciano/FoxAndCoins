@@ -1,194 +1,212 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Events;
 
-public class BOSS_1 : MonoBehaviour, ICanTakeDamage {
+public class BOSS_1 : MonoBehaviour, ICanTakeDamage
+{
+    [Header("Settings")]
+    public float speed = 1f;
+    [Range(10, 1000)] public float health = 100f;
+    public float damagePerHit = 10f;
+    public float distanceDetectPlayer = 10f;
+    public float attackZone = 2f;
+    public float delayHit = 0.1f;
+    public float coolDown = 2f;
 
-	public float speed = 1f;
+    [Header("Components")]
+    public Rigidbody2D rig;
+    public Animator anim;
+    public HealthBarEnemy HealthBar;
+    public Transform centerPoint;
+    public LayerMask playerLayer;
 
-	Rigidbody2D rig;
-	Animator anim;
+    [Header("Audio")]
+    public AudioClip attackSound;
+    public AudioClip deadSound;
 
-	Player player;
+    [Header("Damage to Player")]
+    public int DamageToPlayer;
+    public float rateDamage = 0.2f;
+    public Vector2 pushPlayer = new Vector2(0, 10);
+    public bool canBeKillOnHead = false;
+    public float givePlayerDamage = 30f;
 
-	[Range(10,100)]
-	public float health = 100f;
+    [Header("Events")]
+    public UnityEvent OnDieEvent;
 
-	public float damagePerHit = 10f;
+    private Player player;
+    private float nextDamage;
+    private float originalScaleX;
+    public bool moving;
+    private bool isDead = false;
+    public bool isAttacking = false;
 
-	public AudioClip attackSound;
-	public AudioClip deadSound;
+    // --- Hash dei PARAMETRI (da impostare nell'Animator) ---
+    private static readonly int WalkBool = Animator.StringToHash("IsWalking");
+    private static readonly int AttackTrigger = Animator.StringToHash("Attack");
+    private static readonly int HitTrigger = Animator.StringToHash("Hit");
+    private static readonly int DieTrigger = Animator.StringToHash("Die");
 
-	public HealthBarEnemy HealthBar; 
+    void Start()
+    {
+        if (rig == null) rig = GetComponent<Rigidbody2D>();
+        if (anim == null) anim = GetComponent<Animator>();
 
-	public float distanceDetectPlayer = 10f;
-	public LayerMask playerLayer;
+        player = FindObjectOfType<Player>();
+        originalScaleX = transform.localScale.x;
 
-	public Transform centerPoint;
+        if (HealthBar != null)
+        {
+            HealthBar.maxHealth = health;
+            HealthBar.currentHealth = health;
+        }
+    }
 
-	public float rangeAttack = 0.77f;
-	[Range(1,5)]
-	public float attackZone = 2f;
-	[Range(10,100)]
-	public float givePlayerDamage= 30f;
+    public void Play() => moving = true;
 
-	public float delayHit = 0.1f;
-	public float coolDown = 2f;
+    void Update()
+    {
+        if (isDead || player == null || player.isFinish) return;
 
-	[Header("damage")]
-	public int DamageToPlayer;
-	[Tooltip("delay a moment before give next damage to Player")]
-	public float rateDamage = 0.2f;
-	public Vector2 pushPlayer = new Vector2 (0, 10);
-	float nextDamage;
+        HandleMovementAndDetection();
+    }
 
-	[Tooltip("Give damage to this object when Player jump on his head")]
-	public bool canBeKillOnHead = false;
+    private void HandleMovementAndDetection()
+    {
+        if (!moving || isAttacking)
+        {
+            anim.SetBool(WalkBool, false);
+            return;
+        }
 
-	RaycastHit2D hit;
-	bool moving;
-	float x;
-	bool isDead = false;
+        Vector2 rayOrigin = new Vector2(transform.position.x, centerPoint.position.y);
+        RaycastHit2D hitLeft = Physics2D.Raycast(rayOrigin, Vector2.left, distanceDetectPlayer, playerLayer);
+        RaycastHit2D hitRight = Physics2D.Raycast(rayOrigin, Vector2.right, distanceDetectPlayer, playerLayer);
 
-	// Use this for initialization
-	void Start () {
-		rig = GetComponent<Rigidbody2D> ();
-		anim = GetComponent<Animator> ();
-		player = FindObjectOfType<Player> ();
+        bool foundPlayer = false;
 
+        if (hitLeft)
+        {
+            transform.Translate(new Vector3(-speed * Time.deltaTime, 0));
+            transform.localScale = new Vector3(originalScaleX, transform.localScale.y, transform.localScale.z);
+            foundPlayer = true;
+        }
+        else if (hitRight)
+        {
+            transform.Translate(new Vector3(speed * Time.deltaTime, 0));
+            transform.localScale = new Vector3(-originalScaleX, transform.localScale.y, transform.localScale.z);
+            foundPlayer = true;
+        }
 
-		x = transform.localScale.x;
+        // Imposta il parametro Walk (Bool)
+        anim.SetBool(WalkBool, foundPlayer);
 
-		if (HealthBar != null) {
-			HealthBar.maxHealth = health;
-			HealthBar.currentHealth = health;
-		}
-	}
+        if (foundPlayer && Physics2D.OverlapCircle(centerPoint.position, attackZone, playerLayer))
+        {
+            StartCoroutine(AttackRoutine());
+        }
+    }
 
-	public void Play(){
-		moving = true;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		if (isDead || player.isFinish)
-			return;
-		
-		if (moving) {
-			hit = Physics2D.Raycast (new Vector2 (transform.position.x, transform.position.y + 0.5f), Vector2.left, distanceDetectPlayer, playerLayer);
-			if (hit) {
-				transform.Translate (new Vector3 (-speed * Time.deltaTime, 0));
-				transform.localScale = new Vector3 (x, transform.localScale.y, transform.localScale.z);
-			} else {
-				hit = Physics2D.Raycast (new Vector2 (transform.position.x, transform.position.y + 0.5f), Vector2.right, distanceDetectPlayer, playerLayer);
-				if (hit) {
-					transform.localScale = new Vector3 (-x, transform.localScale.y, transform.localScale.z);
-					transform.Translate (new Vector3 (speed * Time.deltaTime, 0));
-				}
-			}
-		}
-		
-		if (Physics2D.CircleCast(centerPoint.position,attackZone,Vector2.zero,0,playerLayer) && moving) {
-			StartCoroutine (Attack ());
-			StartCoroutine (IdleDelay (1, 3));
-		}
+    IEnumerator AttackRoutine()
+    {
+        moving = false;
+        isAttacking = true;
+        anim.SetBool(WalkBool, false);
 
-		if (moving && hit)
-			anim.SetBool ("walk", true);
-		else
-			anim.SetBool ("walk", false);
-		
-	}
+        // Attiva il Trigger dell'attacco
+        anim.SetTrigger(AttackTrigger);
 
-	IEnumerator IdleDelay(float min, float max){
-		moving = false;
-		var delay = Random.Range (min, max);
-		yield return new WaitForSeconds (delay);
-		moving = true;
-	}
+        if (attackSound) SoundManager.PlaySfx(attackSound);
 
-	IEnumerator Attack(){
-		anim.SetTrigger ("attack");
-		yield return new WaitForSeconds (delayHit);
-		//check if player still in range and give damage
-		if (Physics2D.CircleCast(centerPoint.position,attackZone,Vector2.zero,0,playerLayer))
-			player.TakeDamage (givePlayerDamage, new Vector2 (0, 3), gameObject);
+        yield return new WaitForSeconds(delayHit);
 
-	}
+        if (Physics2D.OverlapCircle(centerPoint.position, attackZone, playerLayer))
+        {
+            player.TakeDamage(givePlayerDamage, new Vector2(0, 3), gameObject);
+        }
 
-	public void TakeDamage (float damage, Vector2 force, GameObject instigator)
-	{
-		if (isDead)
-			return;
-		
-		anim.SetTrigger ("hit");
-		health -= damagePerHit;
-		isDead = health <= 0 ? true : false;
-		if (HealthBar != null)
-			HealthBar.currentHealth = health;
-		if (isDead) {
-			SoundManager.PlaySfx (deadSound);
-			anim.SetTrigger ("die");
-			anim.SetBool ("isDead", true);
-			HealthBar.gameObject.SetActive (false);
-			var boxCo = GetComponents<BoxCollider2D> ();
-			foreach (var box in boxCo) {
-				box.enabled = false;
-			}
-			var CirCo = GetComponents<CircleCollider2D> ();
-			foreach (var cir in CirCo) {
-				cir.enabled = false;
-			}
-			rig.isKinematic = true;
+        yield return new WaitForSeconds(coolDown);
 
-			GameManager.Instance.GameFinish ();
-		}
-	}
+        isAttacking = false;
+        moving = true;
+    }
 
-	void OnTriggerStay2D(Collider2D other){
-		var Player = other.GetComponent<Player> ();
-		if (Player == null)
-			return;
+    public void TakeDamage(float damage, Vector2 force, GameObject instigator)
+    {
+        if (isDead) return;
 
-		if (!Player.isPlaying)
-			return;
+        health -= damagePerHit;
+        if (HealthBar != null) HealthBar.currentHealth = health;
 
-		if (Time.time < nextDamage + rateDamage)
-			return;
+        if (health <= 0)
+        {
+            Die();
+        }
+        else
+        {
+            anim.SetTrigger(HitTrigger);
+        }
+    }
 
-		nextDamage = Time.time;
+    private void Die()
+    {
+        isDead = true;
+        moving = false;
 
-		if (canBeKillOnHead && Player.transform.position.y > transform.position.y) {
+        SoundManager.PlaySfx(deadSound);
 
-			Player.SetForce (new Vector2 (transform.localScale.x > 0 ? -pushPlayer.x : pushPlayer.x, pushPlayer.y));
-			var canTakeDamage = (ICanTakeDamage) GetComponent (typeof(ICanTakeDamage));
-			if (canTakeDamage != null)
-				canTakeDamage.TakeDamage (damagePerHit, Vector2.zero, gameObject);
+        // Gestione morte con Trigger e Bool per lo stato loop di morte
+        anim.SetTrigger(DieTrigger);
 
-			return;
-		}
+        if (HealthBar != null) HealthBar.gameObject.SetActive(false);
 
+        foreach (var col in GetComponents<Collider2D>())
+        {
+            col.enabled = false;
+        }
 
+        rig.linearVelocity = Vector2.zero;
+        rig.isKinematic = true;
 
-		//Push player back
-		//		var facingDirectionX = Mathf.Sign (Player.transform.localScale.x);
-		//		var facingDirectionY = Mathf.Sign (Player.velocity.y);
+        OnDieEvent?.Invoke();
+        GameManager.Instance.GameFinish();
+    }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (isDead || !player.isPlaying || Time.time < nextDamage + rateDamage) return;
+
+        if (other.CompareTag("Player"))
+        {
+            nextDamage = Time.time;
+
+            if (canBeKillOnHead && player.transform.position.y > transform.position.y + 0.5f)
+            {
+                player.SetForce(new Vector2(transform.localScale.x > 0 ? -pushPlayer.x : pushPlayer.x, pushPlayer.y));
+                TakeDamage(damagePerHit, Vector2.zero, gameObject);
+                return;
+            }
+
+            float side = Mathf.Sign(player.transform.position.x - transform.position.x);
+            player.SetForce(new Vector2(Mathf.Clamp(Mathf.Abs(player.velocity.x), 10, 15) * side, 10f));
+
+            if (DamageToPlayer > 0)
+            {
+                player.TakeDamage(DamageToPlayer, Vector2.zero, gameObject);
+            }
+        }
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        if (centerPoint == null) return;
+        Gizmos.color = Color.yellow;
+        Vector3 rayPos = new Vector3(transform.position.x, centerPoint.position.y, 0);
+        Gizmos.DrawRay(rayPos, Vector2.left * distanceDetectPlayer);
+        Gizmos.DrawRay(rayPos, Vector2.right * distanceDetectPlayer);
+        Gizmos.DrawWireSphere(centerPoint.position, attackZone);
+    }
 
 
-		var facingDirectionX = Mathf.Sign (Player.transform.position.x - transform.position.x);
-		var facingDirectionY = Mathf.Sign (Player.velocity.y);
-
-		Player.SetForce(new Vector2 (Mathf.Clamp (Mathf.Abs(Player.velocity.x), 10, 15) * facingDirectionX,
-			Mathf.Clamp (Mathf.Abs(Player.velocity.y), 5, 15) * facingDirectionY * -1));
-
-		if (DamageToPlayer == 0)
-			return;
-		Player.TakeDamage (DamageToPlayer, Vector2.zero, gameObject);
-	}
-
-	void OnDrawGizmosSelected(){
-		Gizmos.color = Color.yellow;
-		Gizmos.DrawRay (new Vector2 (transform.position.x, transform.position.y +  0.5f), Vector2.left*distanceDetectPlayer);
-		Gizmos.DrawRay (new Vector2 (transform.position.x, transform.position.y +  0.5f), Vector2.right*distanceDetectPlayer);
-		Gizmos.DrawWireSphere (centerPoint.position, attackZone);
-	}
+    //add health recovery if player if out of boss view
 }

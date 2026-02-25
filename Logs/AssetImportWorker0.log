@@ -1,10 +1,12 @@
-Using pre-set license
-Built from '6000.0/staging' branch; Version is '6000.0.27f1 (27c554a2199c) revision 2606420'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'it' Physical Memory: 16219 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.2f1 (a9779f353c9b) revision 11106207'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'it' Physical Memory: 16219 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-salva" at "2026-02-25T14:08:32.7744914Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-02-25T14:08:32Z
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.0.27f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,16 +17,33 @@ D:/Progetti Unity/FoxAndCoins
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54766
+50191
+-licensingIpc
+LicenseClient-salva
 -job-worker-count
 5
 -background-job-worker-count
 8
--asset-garbage-collectors
+-gc-helper-count
 1
+-name
+AssetImport
 Successfully changed project path to: D:/Progetti Unity/FoxAndCoins
 D:/Progetti Unity/FoxAndCoins
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
     "memorysetup-bucket-allocator-block-size=33554432"
@@ -45,27 +64,15 @@ D:/Progetti Unity/FoxAndCoins
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-    "memorysetup-allocator-temp-initial-block-size-main=262144"
-    "memorysetup-allocator-temp-initial-block-size-worker=262144"
-    "memorysetup-temp-allocator-size-background-worker=32768"
-    "memorysetup-temp-allocator-size-job-worker=262144"
-    "memorysetup-temp-allocator-size-preload-manager=33554432"
-    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
-    "memorysetup-temp-allocator-size-audio-worker=65536"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16992]  Target information:
+Player connection [5656]  Target information:
 
-Player connection [16992]  * "[IP] 192.168.243.18 [Port] 0 [Flags] 2 [Guid] 3830554075 [EditorId] 3830554075 [Version] 1048832 [Id] WindowsEditor(7,Salvatore) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [5656]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3996332314 [EditorId] 3996332314 [Version] 1048832 [Id] WindowsEditor(7,Salvo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [16992] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [16992] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5656] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5656] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
@@ -75,10 +82,27 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 10.94 ms, found 1 plugins.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              42faca29c85f451084c4bf5e27d4ccd2
+  Correlation Id:          50cecbe885addcecb5b5b0f9758e0426
+  External correlation Id: 4421263815335307227
+  Machine Id:              DgjkvYn7Re6FLASUc8aV6reLmJU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-salva" (connect: 0.00s, validation: 0.00s, handshake: 1.19s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-salva-notifications" at "2026-02-25T14:08:33.9727065Z"
+[Licensing::Module] Licensing Background thread has ended after 1.20s
+[Licensing::Module] Licensing is initialized (took 1.01s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5772492678316-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 6.02 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.0.27f1 (27c554a2199c)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 6000.3.2f1 (a9779f353c9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Progetti Unity/FoxAndCoins/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
@@ -88,929 +112,167 @@ Direct3D:
     VRAM:     3935 MB
     Driver:   32.0.15.5597
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.27f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.011423 seconds.
-- Loaded All Assemblies, in  0.986 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.005842 seconds.
+- Loaded All Assemblies, in  0.495 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
+[usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 434 ms
+Android Extension - Scanning For ADB Devices 190 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.500 seconds
-Domain Reload Profiling: 2480ms
-	BeginReloadAssembly (318ms)
+- Finished resetting the current domain, in  0.732 seconds
+Domain Reload Profiling: 1226ms
+	BeginReloadAssembly (142ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (88ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (124ms)
-	LoadAllAssembliesAndSetupDomain (424ms)
-		LoadAssemblies (312ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (224ms)
+		LoadAssemblies (139ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (415ms)
-			TypeCache.Refresh (412ms)
-				TypeCache.ScanAssembly (381ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (216ms)
+				TypeCache.ScanAssembly (196ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1501ms)
+	FinalizeReload (733ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1385ms)
+		SetupLoadedEditorAssemblies (680ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (719ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (13ms)
-			ProcessInitializeOnLoadAttributes (421ms)
-			ProcessInitializeOnLoadMethodAttributes (201ms)
-			AfterProcessingInitializeOnLoad (22ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (322ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (160ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.152 seconds
-Refreshing native plugins compatible for Editor in 16.10 ms, found 1 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.688 seconds
+Refreshing native plugins compatible for Editor in 5.17 ms, found 1 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.893 seconds
-Domain Reload Profiling: 4034ms
-	BeginReloadAssembly (1138ms)
+- Finished resetting the current domain, in  0.606 seconds
+Domain Reload Profiling: 1293ms
+	BeginReloadAssembly (200ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (89ms)
-	RebuildCommonClasses (106ms)
-	RebuildNativeTypeToScriptingClass (35ms)
-	initialDomainReloadingComplete (130ms)
-	LoadAllAssembliesAndSetupDomain (732ms)
-		LoadAssemblies (778ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (386ms)
+		LoadAssemblies (364ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (261ms)
-			TypeCache.Refresh (185ms)
-				TypeCache.ScanAssembly (155ms)
-			BuildScriptInfoCaches (56ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1894ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (76ms)
+			BuildScriptInfoCaches (25ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (607ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1317ms)
+		SetupLoadedEditorAssemblies (477ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (43ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (989ms)
-			ProcessInitializeOnLoadMethodAttributes (165ms)
-			AfterProcessingInitializeOnLoad (26ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (183ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 15.28 ms, found 1 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 7.26 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2173 unused Assets / (0.9 MB). Loaded Objects now: 2719.
-Memory consumption went from 106.9 MB to 106.0 MB.
-Total: 14.499400 ms (FindLiveObjects: 0.513400 ms CreateObjectMapping: 0.317300 ms MarkObjects: 11.744500 ms  DeleteObjects: 1.920000 ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2637 unused Assets / (0.8 MB). Loaded Objects now: 3210.
+Memory consumption went from 96.1 MB to 95.2 MB.
+Total: 6.171400 ms (FindLiveObjects: 0.316400 ms CreateObjectMapping: 0.268400 ms MarkObjects: 4.880100 ms  DeleteObjects: 0.705500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 188264.279668 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST
-  artifactKey: Guid(5d251f4720bf0bd4fac2c836c084b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST using Guid(5d251f4720bf0bd4fac2c836c084b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2eb3f4aadfa3205a1f8119ba3f677d0') in 0.0266022 seconds
+  Time since last request: 3284.687283 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tortoise/enemy.controller
+  artifactKey: Guid(82e40d5ba9745f3499a18ebd1e4f1911) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tortoise/enemy.controller using Guid(82e40d5ba9745f3499a18ebd1e4f1911) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0a3fd8cd61edcf6305399e21ba0ca9a') in 0.0826052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 2/Enemy - TikiWarrior 2.prefab
+  artifactKey: Guid(da1b5a9440478c34cb1e12e703dfce94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 2/Enemy - TikiWarrior 2.prefab using Guid(da1b5a9440478c34cb1e12e703dfce94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '387cf8229aa9704b7975e3e3d6721cdd') in 0.1187515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.565506 seconds.
+  path: Assets/TemplateGame/Scene/Worlds/Gameplay/World 9.unity
+  artifactKey: Guid(dcc92316c0a6844148e4e3874683a458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplateGame/Scene/Worlds/Gameplay/World 9.unity using Guid(dcc92316c0a6844148e4e3874683a458) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fd3b2e75e5bb9dc49c50c4ddb092901') in 0.0005129 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.091531 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/custom_scene_2-5 (1).png
-  artifactKey: Guid(f8fed17b0b27b294ab05d0131c0ee11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/custom_scene_2-5 (1).png using Guid(f8fed17b0b27b294ab05d0131c0ee11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f57a55eff54568ce3c3d69c3a256ead') in 0.182573 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 18.014155 seconds.
+  path: Assets/Prefabs/Lv9/Enemies/Bull/Enemy - Bull.prefab
+  artifactKey: Guid(a112a8a7a2fae374d8708472798dbf2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv9/Enemies/Bull/Enemy - Bull.prefab using Guid(a112a8a7a2fae374d8708472798dbf2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '097773658f669eed00108d1b4eface08') in 0.045853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/custom_scene_2-7 (1).png
-  artifactKey: Guid(1793716dcaeeca042ac9ee18ec15c919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/custom_scene_2-7 (1).png using Guid(1793716dcaeeca042ac9ee18ec15c919) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af54ea5ba568d448ddf2d24c1610ac55') in 0.1501817 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 44.005480 seconds.
+  path: Assets/Prefabs/Lv9/Enemies/Cowboy 1/enemy.controller
+  artifactKey: Guid(b6efcc6dedd4d34469f48d7804353c93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv9/Enemies/Cowboy 1/enemy.controller using Guid(b6efcc6dedd4d34469f48d7804353c93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8bbf6a1770a77a9ab726352e72fca4df') in 0.0138455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.988211 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/custom_scene_2-5 (1).png
-  artifactKey: Guid(f8fed17b0b27b294ab05d0131c0ee11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/custom_scene_2-5 (1).png using Guid(f8fed17b0b27b294ab05d0131c0ee11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b450d303c692898f51e88015812dc7d') in 0.0690305 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 621.838140 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e38da028db12bea49d3eb0d6e57c28f8') in 0.2755461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/custom_scene_2-7 (1).png
-  artifactKey: Guid(1793716dcaeeca042ac9ee18ec15c919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/custom_scene_2-7 (1).png using Guid(1793716dcaeeca042ac9ee18ec15c919) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b4c67d2e39a4d2acb57025fef3365dc') in 0.0487215 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/PerformanceTestRunSettings.json
+  artifactKey: Guid(b19455c70ee431d46a86888a830ce785) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/PerformanceTestRunSettings.json using Guid(b19455c70ee431d46a86888a830ce785) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2e3e8a046869ba351cb3718e80a3dcd') in 0.06459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-========================================================================
-Received Import Request.
-  Time since last request: 517.544698 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST MUSIC/Retro Video Game Loop.wav
-  artifactKey: Guid(c0e332f4df3d4364490e34f5108b3b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST MUSIC/Retro Video Game Loop.wav using Guid(c0e332f4df3d4364490e34f5108b3b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a3b125c6b117041b7530e100a81a98e') in 0.1165816 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.028858 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/water_tower/pngs/water_tower_01.png
-  artifactKey: Guid(7f9fe7fe85bf29945a4a0fe8b78c5677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/water_tower/pngs/water_tower_01.png using Guid(7f9fe7fe85bf29945a4a0fe8b78c5677) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7813a5bce679a3dd263a02c29498379e') in 0.121522 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.741493 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_mega_pack/background/background_premade_example.png
-  artifactKey: Guid(b6136a046f1aec7429d0b42e9e5e7b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_mega_pack/background/background_premade_example.png using Guid(b6136a046f1aec7429d0b42e9e5e7b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '536a11f94457970f537cc8b6f7c0d40e') in 0.1082147 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.539240 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_01.png
-  artifactKey: Guid(433d9b107d0c3f94787367f83d8ce072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_01.png using Guid(433d9b107d0c3f94787367f83d8ce072) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f58c3603c31d44573bad14091178898b') in 0.0632364 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.040425 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/fill.png
-  artifactKey: Guid(6d651de0a0dc83c49889b7ebc4199385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/fill.png using Guid(6d651de0a0dc83c49889b7ebc4199385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f00d13e035d0e7cdb3d2dfe52927f642') in 0.0144209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037774 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/g5962.png
-  artifactKey: Guid(80dda71a1cca7fc4f8d11b5a9d95e215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/g5962.png using Guid(80dda71a1cca7fc4f8d11b5a9d95e215) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbbdf0edcea7f9eb31d896b4670cb538') in 0.0143978 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015423 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/g5982.png
-  artifactKey: Guid(1596eceb6de84d94f85af3e6e5dd7c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/g5982.png using Guid(1596eceb6de84d94f85af3e6e5dd7c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd4aa645790e309d24d31f8d574cfbe4') in 0.0687821 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005245 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_left.png
-  artifactKey: Guid(b7da6c2b700ccf34ba632eddbb960504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_left.png using Guid(b7da6c2b700ccf34ba632eddbb960504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3f11046678c79db9d2186f4dd103054') in 0.0157814 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007370 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_left_pass_through.png
-  artifactKey: Guid(fc9e4c0992e315c4fbcb094288154e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_left_pass_through.png using Guid(fc9e4c0992e315c4fbcb094288154e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28c1ab8dd62fdfe4433bd357041ffbf9') in 0.014632 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018674 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right.png
-  artifactKey: Guid(85958c18468e57a4da34badac492582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right.png using Guid(85958c18468e57a4da34badac492582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e7b0d010e6416cd1a118eab42ca3bd3') in 0.0145335 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014525 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right_pass_through.png
-  artifactKey: Guid(43a97c87d5f2dcb49acecf2cc9db6cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right_pass_through.png using Guid(43a97c87d5f2dcb49acecf2cc9db6cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41ade78428faf52a4d9c596d9ab8ecec') in 0.0145506 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013381 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_top_left.png
-  artifactKey: Guid(acd3818b720d7a143a5a917f7b06557a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_top_left.png using Guid(acd3818b720d7a143a5a917f7b06557a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8764cfa992dd120a407d78e0eaa83edf') in 0.0148799 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.036666 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/left_vertical_variation_01.png
-  artifactKey: Guid(b7e2587f1e2fa904883c0c95144ea56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/left_vertical_variation_01.png using Guid(b7e2587f1e2fa904883c0c95144ea56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2192eadfaea2e11b51e5445596e1e9ce') in 0.0147966 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.862206 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_01.png
-  artifactKey: Guid(433d9b107d0c3f94787367f83d8ce072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_01.png using Guid(433d9b107d0c3f94787367f83d8ce072) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be250f8182fb4a6fbc066d7cd4a3227d') in 0.0237882 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.039321 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_02.png
-  artifactKey: Guid(e6377ee7bd488c84dabc37c4b268eff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_02.png using Guid(e6377ee7bd488c84dabc37c4b268eff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e00ac66a584ac4d257b4e6e4a089e446') in 0.2585332 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/g5982.png
-  artifactKey: Guid(1596eceb6de84d94f85af3e6e5dd7c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/g5982.png using Guid(1596eceb6de84d94f85af3e6e5dd7c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c7983b611c0af6ffab721bffc88c139') in 0.0454778 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_top_right.png
-  artifactKey: Guid(fed6c080de3ae7843a25b8e04bfd8f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_top_right.png using Guid(fed6c080de3ae7843a25b8e04bfd8f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd171db45e4cc996d18c13a114b04a53') in 0.0288834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/left_vertical_variation_01.png
-  artifactKey: Guid(b7e2587f1e2fa904883c0c95144ea56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/left_vertical_variation_01.png using Guid(b7e2587f1e2fa904883c0c95144ea56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd472f7a4fc1dee560f02b82f226bb550') in 0.0303827 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right_pass_through.png
-  artifactKey: Guid(43a97c87d5f2dcb49acecf2cc9db6cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right_pass_through.png using Guid(43a97c87d5f2dcb49acecf2cc9db6cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43cb9776ebbb3f2b9edad79ab809dbb5') in 0.0261483 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right.png
-  artifactKey: Guid(85958c18468e57a4da34badac492582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right.png using Guid(85958c18468e57a4da34badac492582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '285f768cdadfcf98e176e9ff80c59e9c') in 0.0277186 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.988167 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_02.png
-  artifactKey: Guid(e6377ee7bd488c84dabc37c4b268eff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_02.png using Guid(e6377ee7bd488c84dabc37c4b268eff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e112dc4be363a567976560e9b67bd01c') in 0.032782 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/left_vertical_variation_02.png
-  artifactKey: Guid(657bbfc432fa59040a3b959b932b78fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/left_vertical_variation_02.png using Guid(657bbfc432fa59040a3b959b932b78fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76ed23580c7c84173de4cf4a3036fe2b') in 0.0137675 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/g5962.png
-  artifactKey: Guid(80dda71a1cca7fc4f8d11b5a9d95e215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/g5962.png using Guid(80dda71a1cca7fc4f8d11b5a9d95e215) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faba4ddda97c2eda1b483cded3263b9c') in 0.0176565 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_left.png
-  artifactKey: Guid(b7da6c2b700ccf34ba632eddbb960504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_left.png using Guid(b7da6c2b700ccf34ba632eddbb960504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '157b5b775face0a130ae706c743ec41c') in 0.0359562 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right.png
-  artifactKey: Guid(85958c18468e57a4da34badac492582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_right.png using Guid(85958c18468e57a4da34badac492582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70a954a7445e790d0ec366a119d9aab2') in 0.0288303 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.630590 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/fill.png
-  artifactKey: Guid(6d651de0a0dc83c49889b7ebc4199385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/fill.png using Guid(6d651de0a0dc83c49889b7ebc4199385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f613ee074cf19d57029c04f1a59c6c4e') in 0.14984 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.528561 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_02.png
-  artifactKey: Guid(e6377ee7bd488c84dabc37c4b268eff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/bottom_edge_variation_02.png using Guid(e6377ee7bd488c84dabc37c4b268eff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5359b9b01542e6b5b10ce44c2a03fda0') in 0.337269 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/left_vertical_variation_02.png
-  artifactKey: Guid(657bbfc432fa59040a3b959b932b78fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/left_vertical_variation_02.png using Guid(657bbfc432fa59040a3b959b932b78fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f02e6f824fbe0dccbebcd71fde6f6fa') in 0.013592 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_top_right.png
-  artifactKey: Guid(fed6c080de3ae7843a25b8e04bfd8f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_top_right.png using Guid(fed6c080de3ae7843a25b8e04bfd8f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fb5295046282bd4f2e9ff68b964db9b') in 0.0132532 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_left.png
-  artifactKey: Guid(b7da6c2b700ccf34ba632eddbb960504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/inner_bottom_left.png using Guid(b7da6c2b700ccf34ba632eddbb960504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8293c1fea4b24b5aa3c5001036d887de') in 0.0235881 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.666337 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/bottom_edge_variation_02.asset
-  artifactKey: Guid(71d6cefad1fc2c446b23cb7bb07b550d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/bottom_edge_variation_02.asset using Guid(71d6cefad1fc2c446b23cb7bb07b550d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6e85fad068cf2c5f0b4fdcbb0bfcd75') in 0.0384276 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/inner_bottom_left.asset
-  artifactKey: Guid(3b31b734fccd56d428e87ed5d980cd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/inner_bottom_left.asset using Guid(3b31b734fccd56d428e87ed5d980cd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90d4454880a1dc3deb49512e853ed0de') in 0.0278148 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/inner_bottom_left_pass_through.asset
-  artifactKey: Guid(9606e3740cd0a1e4183fd90c59cf344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/inner_bottom_left_pass_through.asset using Guid(9606e3740cd0a1e4183fd90c59cf344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06e8f1d0ddba45b637731466a91df46a') in 0.0424628 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/inner_top_left.asset
-  artifactKey: Guid(68cc91ce6578a3746bdbb233c06e8653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/inner_top_left.asset using Guid(68cc91ce6578a3746bdbb233c06e8653) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad0fa19e26cbc7d6954ed4430fd0fc91') in 0.0261596 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.830696 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/outer_bottom_left.asset
-  artifactKey: Guid(10fbeb26b91b012449d573286224377a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/outer_bottom_left.asset using Guid(10fbeb26b91b012449d573286224377a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba920ef01545aa0a8a5cc9d9dec8a471') in 0.0233845 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020143 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/outer_top_left.asset
-  artifactKey: Guid(1eb458d7e43722544b3e124b8c7fe106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/outer_top_left.asset using Guid(1eb458d7e43722544b3e124b8c7fe106) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '520f6685d9ff2eb51efdc2ac10480e93') in 0.0205726 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/platform_join_right.asset
-  artifactKey: Guid(fe7746be00681a044b935da5f359280d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/platform_join_right.asset using Guid(fe7746be00681a044b935da5f359280d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2422aa9bc80404546ae9b1425e90c17') in 0.0262705 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/platform_center_variation_02.asset
-  artifactKey: Guid(528d92bf29d435a47b81707731bb455d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/platform_center_variation_02.asset using Guid(528d92bf29d435a47b81707731bb455d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd133b6bac0c3f33d4afd4a0c182480f0') in 0.0224902 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/platform_right_edge.asset
-  artifactKey: Guid(aca65f6e463063643ba962da86426179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/platform_right_edge.asset using Guid(aca65f6e463063643ba962da86426179) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd804c5a492abc52cd0339bed806ef31c') in 0.026013 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.206544 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/shallow_slope_left_01.asset
-  artifactKey: Guid(5100bb7cb51062444a69d70519a12eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/shallow_slope_left_01.asset using Guid(5100bb7cb51062444a69d70519a12eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87ccdf19c4ec66c6eac2392ef0935de1') in 0.0342323 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007072 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/shallow_slope_right_01.asset
-  artifactKey: Guid(1a83a272a3011f64eb89a99012df83b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/shallow_slope_right_01.asset using Guid(1a83a272a3011f64eb89a99012df83b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34188f085941af164fd9dac17eb8d16d') in 0.0239316 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027220 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/single_pillar_01.asset
-  artifactKey: Guid(af575f90fdafff946a7c5c9055861576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/Tileset/single_pillar_01.asset using Guid(af575f90fdafff946a7c5c9055861576) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e18be03b6cd08b8e71cf2d2421e4272e') in 0.0231968 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.907236 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/outer_bottom_right.png
-  artifactKey: Guid(2d9702a9b8bf89f4fbf3ba84e2e92f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/outer_bottom_right.png using Guid(2d9702a9b8bf89f4fbf3ba84e2e92f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '945afbad340ee583a1a10e3220ad3dea') in 0.0324815 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.316447 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/platform_center_variation_01.png
-  artifactKey: Guid(d90af0f30b1040544a35c7e54db6f114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/platform_center_variation_01.png using Guid(d90af0f30b1040544a35c7e54db6f114) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1de2fb8a292019bdd2efbedc577a174') in 0.0574568 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/platform_join_left.png
-  artifactKey: Guid(a7c6d416b92b4e2489384381f3c56668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/platform_join_left.png using Guid(a7c6d416b92b4e2489384381f3c56668) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5645a54fe5626325709390e15183fe43') in 0.0313891 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.861240 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/right_vertical_variation_01.png
-  artifactKey: Guid(b522ffdf06ea43147944fb4cf48baf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/right_vertical_variation_01.png using Guid(b522ffdf06ea43147944fb4cf48baf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f78fc3f58649a789b6c9164911aa8ad3') in 0.0336314 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/shallow_slope_left_03.png
-  artifactKey: Guid(9c5f33d4f8c32d549b3837710ea93b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/shallow_slope_left_03.png using Guid(9c5f33d4f8c32d549b3837710ea93b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '632e60fbd54f0eec207d6bf319778e68') in 0.0321367 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011203 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/shallow_slope_right_02.png
-  artifactKey: Guid(76ac1a4e35546194d9139566bba8e900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/shallow_slope_right_02.png using Guid(76ac1a4e35546194d9139566bba8e900) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fd6c22ecc72cd4bb1eb74711d96efed') in 0.03141 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020299 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/single_pillar_02.png
-  artifactKey: Guid(1142021bad863d44bab1f85105f44cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/single_pillar_02.png using Guid(1142021bad863d44bab1f85105f44cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3958b1146e9114e59a71cb5bd18856ad') in 0.0289983 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/single_pillar_join_horizontal_pass_through.png
-  artifactKey: Guid(abf88960ee4dec34e8dad76c56cbc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/single_pillar_join_horizontal_pass_through.png using Guid(abf88960ee4dec34e8dad76c56cbc518) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6b2a672e7ea60af76782c4cc9882baa') in 0.0304964 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.213355 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/steep_slope_right_01.png
-  artifactKey: Guid(010740092111a7d4ea9460551fa47444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/steep_slope_right_01.png using Guid(010740092111a7d4ea9460551fa47444) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff1ce1a7874475787fd68a96c74681b6') in 0.0277801 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/top_variation_02.png
-  artifactKey: Guid(6ef01b632bd14e044bae63596a896edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/top_variation_02.png using Guid(6ef01b632bd14e044bae63596a896edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86104aea9cef8bd6be7cac1503595767') in 0.0337249 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015806 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/top_variation_04.png
-  artifactKey: Guid(a3d5c390fe98e294c8d09e5b9b0f0c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST SCENE/Wildwest/wild_west_tiles/pngs/top_variation_04.png using Guid(a3d5c390fe98e294c8d09e5b9b0f0c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a06fd75c9650fa560f65d87f082a17d') in 0.0282127 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.678 seconds
-Refreshing native plugins compatible for Editor in 8.49 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.906 seconds
-Domain Reload Profiling: 1582ms
-	BeginReloadAssembly (237ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (324ms)
-		LoadAssemblies (354ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (92ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (77ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (906ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (613ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (460ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 6.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2171 unused Assets / (0.9 MB). Loaded Objects now: 2741.
-Memory consumption went from 104.8 MB to 103.9 MB.
-Total: 7.682400 ms (FindLiveObjects: 0.274000 ms CreateObjectMapping: 0.202200 ms MarkObjects: 6.221900 ms  DeleteObjects: 0.982700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.679 seconds
-Refreshing native plugins compatible for Editor in 7.48 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.010 seconds
-Domain Reload Profiling: 1686ms
-	BeginReloadAssembly (244ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (334ms)
-		LoadAssemblies (374ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (94ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (80ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1011ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (659ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (466ms)
-			ProcessInitializeOnLoadMethodAttributes (102ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 9.14 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2171 unused Assets / (1.0 MB). Loaded Objects now: 2743.
-Memory consumption went from 104.8 MB to 103.9 MB.
-Total: 9.573500 ms (FindLiveObjects: 0.356800 ms CreateObjectMapping: 0.355200 ms MarkObjects: 7.585900 ms  DeleteObjects: 1.274200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.669 seconds
-Refreshing native plugins compatible for Editor in 7.04 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.945 seconds
-Domain Reload Profiling: 1612ms
-	BeginReloadAssembly (242ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (322ms)
-		LoadAssemblies (363ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (93ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (75ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (946ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (638ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (488ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 9.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2171 unused Assets / (0.9 MB). Loaded Objects now: 2745.
-Memory consumption went from 104.8 MB to 103.9 MB.
-Total: 7.337900 ms (FindLiveObjects: 0.458200 ms CreateObjectMapping: 0.222200 ms MarkObjects: 5.631300 ms  DeleteObjects: 1.025100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.717 seconds
-Refreshing native plugins compatible for Editor in 6.96 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.988 seconds
-Domain Reload Profiling: 1701ms
-	BeginReloadAssembly (244ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (24ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (367ms)
-		LoadAssemblies (393ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (106ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (89ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (988ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (652ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (490ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 11.22 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2171 unused Assets / (0.9 MB). Loaded Objects now: 2747.
-Memory consumption went from 104.8 MB to 103.9 MB.
-Total: 10.881100 ms (FindLiveObjects: 0.349800 ms CreateObjectMapping: 0.401300 ms MarkObjects: 8.584500 ms  DeleteObjects: 1.544400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.795 seconds
-Refreshing native plugins compatible for Editor in 8.01 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.977 seconds
-Domain Reload Profiling: 1767ms
-	BeginReloadAssembly (294ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (23ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (365ms)
-		LoadAssemblies (429ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (99ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (83ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (978ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (672ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (42ms)
-			ProcessInitializeOnLoadAttributes (496ms)
-			ProcessInitializeOnLoadMethodAttributes (90ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 9.83 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2171 unused Assets / (0.9 MB). Loaded Objects now: 2749.
-Memory consumption went from 104.8 MB to 103.9 MB.
-Total: 6.477400 ms (FindLiveObjects: 0.300700 ms CreateObjectMapping: 0.222000 ms MarkObjects: 5.071600 ms  DeleteObjects: 0.881300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.744 seconds
-Refreshing native plugins compatible for Editor in 8.93 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.111 seconds
-Domain Reload Profiling: 1852ms
-	BeginReloadAssembly (263ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (24ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (365ms)
-		LoadAssemblies (397ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (113ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (95ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1112ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (717ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (523ms)
-			ProcessInitializeOnLoadMethodAttributes (98ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 8.91 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2171 unused Assets / (1.0 MB). Loaded Objects now: 2751.
-Memory consumption went from 104.8 MB to 103.9 MB.
-Total: 9.994500 ms (FindLiveObjects: 0.379800 ms CreateObjectMapping: 0.385800 ms MarkObjects: 7.990000 ms  DeleteObjects: 1.236900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.703 seconds
-Refreshing native plugins compatible for Editor in 8.59 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.046 seconds
-Domain Reload Profiling: 1746ms
-	BeginReloadAssembly (259ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (338ms)
-		LoadAssemblies (393ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (92ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (77ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1047ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (675ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (498ms)
-			ProcessInitializeOnLoadMethodAttributes (81ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 10.15 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2171 unused Assets / (1.2 MB). Loaded Objects now: 2753.
-Memory consumption went from 104.8 MB to 103.7 MB.
-Total: 9.271700 ms (FindLiveObjects: 0.296800 ms CreateObjectMapping: 0.209300 ms MarkObjects: 7.212400 ms  DeleteObjects: 1.551100 ms)
-
-Prepare: number of updated asset objects reloaded= 0

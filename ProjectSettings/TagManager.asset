@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Through
+  - Monster
   layers:
   - Default
   - TransparentFX
@@ -39,11 +40,11 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Background
     uniqueID: 2461799045
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: Game
     uniqueID: 1855224877
@@ -56,6 +57,9 @@ TagManager:
     locked: 0
   - name: Water
     uniqueID: 835703423
+    locked: 0
+  - name: UI
+    uniqueID: 1825669091
     locked: 0
   m_RenderingLayers:
   - Default

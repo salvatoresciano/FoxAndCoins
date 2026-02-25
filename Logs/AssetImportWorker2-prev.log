@@ -1,0 +1,756 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.2f1 (a9779f353c9b) revision 11106207'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'it' Physical Memory: 16219 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-02-25T13:20:54Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-salva" at "2026-02-25T13:20:54.9026005Z"
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Progetti Unity/FoxAndCoins
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49674
+-licensingIpc
+LicenseClient-salva
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Progetti Unity/FoxAndCoins
+D:/Progetti Unity/FoxAndCoins
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [6716]  Target information:
+
+Player connection [6716]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3517766534 [EditorId] 3517766534 [Version] 1048832 [Id] WindowsEditor(7,Salvo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6716] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6716] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              af3d2a0cec6a43998c005cd2bb26cb7b
+  Correlation Id:          50cecbe885addcecb5b5b0f9758e0426
+  External correlation Id: 258084704799946590
+  Machine Id:              DgjkvYn7Re6FLASUc8aV6reLmJU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-salva" (connect: 0.00s, validation: 0.00s, handshake: 2.15s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-salva-notifications" at "2026-02-25T13:20:57.0515387Z"
+[Licensing::Module] Licensing Background thread has ended after 2.15s
+[Licensing::Module] Licensing is initialized (took 1.83s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5772492678316-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 11.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.2f1 (a9779f353c9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Progetti Unity/FoxAndCoins/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   32.0.15.5597
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.008518 seconds.
+- Loaded All Assemblies, in  0.845 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 369 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.372 seconds
+Domain Reload Profiling: 2213ms
+	BeginReloadAssembly (234ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (386ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (377ms)
+			TypeCache.Refresh (373ms)
+				TypeCache.ScanAssembly (348ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1372ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1287ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (584ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (223ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.224 seconds
+Refreshing native plugins compatible for Editor in 8.11 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.196 seconds
+Domain Reload Profiling: 2415ms
+	BeginReloadAssembly (338ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (699ms)
+		LoadAssemblies (643ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (182ms)
+				TypeCache.ScanAssembly (157ms)
+			BuildScriptInfoCaches (41ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1196ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (931ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (414ms)
+			ProcessInitializeOnLoadAttributes (334ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 13.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2637 unused Assets / (0.8 MB). Loaded Objects now: 3210.
+Memory consumption went from 96.1 MB to 95.3 MB.
+Total: 14.914100 ms (FindLiveObjects: 0.625200 ms CreateObjectMapping: 0.733000 ms MarkObjects: 12.279300 ms  DeleteObjects: 1.274100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 430.683485 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SFX SEND/L13 LARGE DOOR OPEN.wav
+  artifactKey: Guid(38f993407a13f3d4ea42a670ade11cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SFX SEND/L13 LARGE DOOR OPEN.wav using Guid(38f993407a13f3d4ea42a670ade11cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b012fe24bb704a42a97264dddda42cee') in 0.1658834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SFX SEND/L13 GREEN BLUE MOSQUITO DIE SPLAT.wav
+  artifactKey: Guid(d0ba1103f2e23464cbb3e3ac2a8a3db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SFX SEND/L13 GREEN BLUE MOSQUITO DIE SPLAT.wav using Guid(d0ba1103f2e23464cbb3e3ac2a8a3db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ed40ad9637a162b5410bbe0a805d389') in 0.0322187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.587772 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 GREEN MOSQUITO
+  artifactKey: Guid(3a92f20cacbd8df4fb34495c06fc647b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 GREEN MOSQUITO using Guid(3a92f20cacbd8df4fb34495c06fc647b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e11398a154a1b37313125f16ce86612') in 0.0401714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.467262 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 GREEN MOSQUITO/__Mosquito_12_die_000.png
+  artifactKey: Guid(22d63d666c2b12d40ae2feffd4dbde3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 GREEN MOSQUITO/__Mosquito_12_die_000.png using Guid(22d63d666c2b12d40ae2feffd4dbde3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: 'b09f530c8ef1c3f795e0bea533faa10b') in 0.0819691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.244530 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 GREEN MOSQUITO/__Mosquito_12_die_001.png
+  artifactKey: Guid(5712076a22726e042b04a971bca81af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 GREEN MOSQUITO/__Mosquito_12_die_001.png using Guid(5712076a22726e042b04a971bca81af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '994a0682e68d7d37db78273fe23062c3') in 0.1437066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.776558 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 PURPLE TOTOISE
+  artifactKey: Guid(b81831e4a450c7243a2baba85dffabc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 PURPLE TOTOISE using Guid(b81831e4a450c7243a2baba85dffabc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1b76cae0424dd44e57a8302a856e863') in 0.0146538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.774676 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 PURPLE TOTOISE/L13 PURPLE TORTOISE
+  artifactKey: Guid(5b1eca1572f9a594286bcdef0343f03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 PURPLE TOTOISE/L13 PURPLE TORTOISE using Guid(5b1eca1572f9a594286bcdef0343f03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e769b3eb869f50002a0b2b0c83f69de1') in 0.0010202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.678929 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 PURPLE TOTOISE/L13 PURPLE TORTOISE/__pink_spiky_die_000.png
+  artifactKey: Guid(846129440703f6d4ab45011368b361d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 PURPLE TOTOISE/L13 PURPLE TORTOISE/__pink_spiky_die_000.png using Guid(846129440703f6d4ab45011368b361d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bfcce174e0b4c6f0b3bb910309c1ce0') in 0.029294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.030397 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Walk.anim
+  artifactKey: Guid(300f8f6f51a2c0b47acfb67f386547ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Walk.anim using Guid(300f8f6f51a2c0b47acfb67f386547ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b80ac31cfa43476ad2e82d607602f926') in 0.3082855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.448805 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Attack.anim
+  artifactKey: Guid(72035d96ae99e3b4fa1e6d9efa4a128a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Attack.anim using Guid(72035d96ae99e3b4fa1e6d9efa4a128a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '622a18f0ac9fe991a92139d84259c644') in 0.0577477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.621182 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Hit.anim
+  artifactKey: Guid(6f99e7804e8e2b84b9d855284c88c44b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Hit.anim using Guid(6f99e7804e8e2b84b9d855284c88c44b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0230dfd7ed8044d5798e5686ac0898fd') in 0.0536738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.523854 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Die.anim
+  artifactKey: Guid(0d14147ff733f2e4da5ae08dc49ba089) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Die.anim using Guid(0d14147ff733f2e4da5ae08dc49ba089) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b3ae82640141ec53b2d7c9169396361f') in 0.0535276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.649222 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 PURPLE TOTOISE/L13 PURPLE TORTOISE/__pink_spiky_walk_000.png
+  artifactKey: Guid(6b973d8406d3b91488042cd94be280e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 PURPLE TOTOISE/L13 PURPLE TORTOISE/__pink_spiky_walk_000.png using Guid(6b973d8406d3b91488042cd94be280e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52884c9194acc05a5106b61140ed3b9d') in 0.0241623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.845824 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Walk.anim
+  artifactKey: Guid(300f8f6f51a2c0b47acfb67f386547ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Walk.anim using Guid(300f8f6f51a2c0b47acfb67f386547ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '827b8dbb1128a89e5032f0b34da18c84') in 0.0405868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.587385 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 1
+  artifactKey: Guid(bb54e5288fc32bb4786545d9f4831ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 1 using Guid(bb54e5288fc32bb4786545d9f4831ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aea5bf9a3d15a9e5346e7ead4f3a4651') in 0.028362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.654076 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 1/L13 TIKKI WARRIOR 1
+  artifactKey: Guid(cf1c0357eeacf664abdb7254fd007791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 1/L13 TIKKI WARRIOR 1 using Guid(cf1c0357eeacf664abdb7254fd007791) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5263af0f6856ebc96af56221543106cb') in 0.0017571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.592924 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 1/L13 TIKKI WARRIOR 1/__tiki_character_07_attack_slash_000.png
+  artifactKey: Guid(d5355155319f76f4bb0a26e076b8eef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 1/L13 TIKKI WARRIOR 1/__tiki_character_07_attack_slash_000.png using Guid(d5355155319f76f4bb0a26e076b8eef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86add6e4d60f689c54cbe86a45def368') in 0.0260865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.059124 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 1/Walk.anim
+  artifactKey: Guid(96c7a3654c5f900498576d4e8546356a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 1/Walk.anim using Guid(96c7a3654c5f900498576d4e8546356a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2788d213877cbb3bd9ac3435c37dd241') in 0.060073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.075808 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 1/Die.anim
+  artifactKey: Guid(6790f6a57e17847459645c0147567151) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 1/Die.anim using Guid(6790f6a57e17847459645c0147567151) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8c1d6ee19a00f98436a47a27009d324') in 0.0595668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.324642 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 1/Attack.anim
+  artifactKey: Guid(3df10e160d670564da7d7c3ad979173c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 1/Attack.anim using Guid(3df10e160d670564da7d7c3ad979173c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '27310af8a1d3887669fd4e86f513b378') in 0.0600841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.228085 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 1/Hit.anim
+  artifactKey: Guid(dbe184842ad0f4243b09f55c3c7d913c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 1/Hit.anim using Guid(dbe184842ad0f4243b09f55c3c7d913c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca2adad714c87ecf0c5debfbc1b50569') in 0.0613121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.856444 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 1/L13 TIKKI WARRIOR 1/__tiki_character_07_attack_slash_001.png
+  artifactKey: Guid(26d6d0c273177114ead8cd1145864495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 1/L13 TIKKI WARRIOR 1/__tiki_character_07_attack_slash_001.png using Guid(26d6d0c273177114ead8cd1145864495) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19d4f61538e981704ef3edf3209b087b') in 0.0470561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.470476 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 1/L13 TIKKI WARRIOR 1/__tiki_character_07_attack_slash_003.png
+  artifactKey: Guid(b8553980de991c348b91dc0b73ef29a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 1/L13 TIKKI WARRIOR 1/__tiki_character_07_attack_slash_003.png using Guid(b8553980de991c348b91dc0b73ef29a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9afa137e6231b79f4e48a79113082b71') in 0.057524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.702763 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 1/L13 TIKKI WARRIOR 1/__tiki_character_07_attack_slash_005.png
+  artifactKey: Guid(9f34a1a882586b444bdb6323f2071512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 1/L13 TIKKI WARRIOR 1/__tiki_character_07_attack_slash_005.png using Guid(9f34a1a882586b444bdb6323f2071512) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47ce4e9ac504c0f4e8bf8e059dae3238') in 0.0491465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.928412 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 1/L13 TIKKI WARRIOR 1/__tiki_character_07_die_000.png
+  artifactKey: Guid(7832f527408a8e246b8d5a5f90477430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 1/L13 TIKKI WARRIOR 1/__tiki_character_07_die_000.png using Guid(7832f527408a8e246b8d5a5f90477430) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efd4e25442edcf658101b760f513059b') in 0.0259112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.319244 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 1/L13 TIKKI WARRIOR 1/__tiki_character_07_walk_000.png
+  artifactKey: Guid(982539e1b81a56543b93581df2cb0a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 1/L13 TIKKI WARRIOR 1/__tiki_character_07_walk_000.png using Guid(982539e1b81a56543b93581df2cb0a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0eacf3f5dc3586ed3ce4cac032583468') in 0.0252478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 200.497653 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 2/Walk.anim
+  artifactKey: Guid(51df63152b78eba488f1053722004cc3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 2/Walk.anim using Guid(51df63152b78eba488f1053722004cc3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e24767d86cda518d6156fb709c624cc') in 0.0591158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.563810 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 2/Attack.anim
+  artifactKey: Guid(81994d5cdf0b33f4c9f5e5f0c4e14930) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 2/Attack.anim using Guid(81994d5cdf0b33f4c9f5e5f0c4e14930) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9dab7afbe1d5b7579a7185e42267a7c3') in 0.0528794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.389612 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 2/Die.anim
+  artifactKey: Guid(663e50b5960746748967daebea4badab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 2/Die.anim using Guid(663e50b5960746748967daebea4badab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a194fca94a913d15d8ada4efa73b1ef5') in 0.0483205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.266437 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 2/L13 TIKKI WARRIOR 2/__tiki_character_01_die_000.png
+  artifactKey: Guid(6375489d7a5eccb42bc71e47da940ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 2/L13 TIKKI WARRIOR 2/__tiki_character_01_die_000.png using Guid(6375489d7a5eccb42bc71e47da940ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53adb0d6eb013cabfcbb1294b86e3646') in 0.0273764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.732124 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 2/L13 TIKKI WARRIOR 2/__tiki_character_01_attack_slash_000.png
+  artifactKey: Guid(5ff31d87149b7174283419638ef5751e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 2/L13 TIKKI WARRIOR 2/__tiki_character_01_attack_slash_000.png using Guid(5ff31d87149b7174283419638ef5751e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57fcb219d7558cb568ac8d28ab656475') in 0.0242976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.137110 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 2/L13 TIKKI WARRIOR 2/__tiki_character_01_walk_000.png
+  artifactKey: Guid(e47d13fed2372ed4eb7beb158bc9f763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 2/L13 TIKKI WARRIOR 2/__tiki_character_01_walk_000.png using Guid(e47d13fed2372ed4eb7beb158bc9f763) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b87ec1834532f40f411d734fc06eaa6d') in 0.0244829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.767708 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 3/Walk.anim
+  artifactKey: Guid(bbe3c65584286bf42aab1d9ec8b0c6b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 3/Walk.anim using Guid(bbe3c65584286bf42aab1d9ec8b0c6b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b860ac1dc207504835ecc9d5b11bff54') in 0.0705947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000698 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 3/Attack.anim
+  artifactKey: Guid(64e4518a78dd360428d9d796f293e4c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 3/Attack.anim using Guid(64e4518a78dd360428d9d796f293e4c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0599a066d46371b895812df1aeecb95') in 0.0585085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.007106 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_die_000.png
+  artifactKey: Guid(8eaa3a2d42e73cb4fb25e216ca895f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_die_000.png using Guid(8eaa3a2d42e73cb4fb25e216ca895f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dba0382714e44d12bd9874a6f0567025') in 0.0309221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.686983 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_peashooter_000.png
+  artifactKey: Guid(ab6b196f10098c44e9ffa71144fff92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_peashooter_000.png using Guid(ab6b196f10098c44e9ffa71144fff92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0bf06001ac010e060f7841412bdbdfc') in 0.0307771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.369045 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_peashooter_001.png
+  artifactKey: Guid(ce5f04b8cdb236047a66176f1d5814cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_peashooter_001.png using Guid(ce5f04b8cdb236047a66176f1d5814cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5c64f77f2e94ce99ccd1b913b924a6a') in 0.0280125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.545328 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_peashooter_004.png
+  artifactKey: Guid(d085cc16598d0904cba22b3bac29fecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_peashooter_004.png using Guid(d085cc16598d0904cba22b3bac29fecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79d19598f39451941daa8451a737a746') in 0.0502236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.519438 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_peashooter_005.png
+  artifactKey: Guid(34062259edb2be64787797053dd1b1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_peashooter_005.png using Guid(34062259edb2be64787797053dd1b1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c2741d5e520f38a728176743a00facf') in 0.0451868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.548538 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_peashooter_002.png
+  artifactKey: Guid(86f25e9611af85648af0ef314822f7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_peashooter_002.png using Guid(86f25e9611af85648af0ef314822f7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '885b79c6ce44cff1e608b2a629c0c151') in 0.0247429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.756031 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_peashooter_003.png
+  artifactKey: Guid(edc55c33af6612b4290d44654785fe20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_peashooter_003.png using Guid(edc55c33af6612b4290d44654785fe20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6977b4ea5311577a4c256b8e8b9fe366') in 0.0672617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.099188 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_die_008.png
+  artifactKey: Guid(21c05be65900fc64e9bfcc00b96b5eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_die_008.png using Guid(21c05be65900fc64e9bfcc00b96b5eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab1a62201ffb9f451dbce698d1b0a84f') in 0.0966557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.333822 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_die_009.png
+  artifactKey: Guid(aad6dbcb32e0c2a43a403eaed7177c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_die_009.png using Guid(aad6dbcb32e0c2a43a403eaed7177c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3a48b3b9e6b7c58776fd55e808a40d4') in 0.0254385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.797158 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_run_007.png
+  artifactKey: Guid(ed439d23e8eec5b43932a2066fb54dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_run_007.png using Guid(ed439d23e8eec5b43932a2066fb54dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c3ae74688b48f62800e2b81a736a911') in 0.0253977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.222575 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_run_008.png
+  artifactKey: Guid(c626c802c4195b64f916ff9830667b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_run_008.png using Guid(c626c802c4195b64f916ff9830667b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e61e3c2bbe02b7bb02096715c9c56f1') in 0.0573125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.544192 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_run_010.png
+  artifactKey: Guid(9b95ebfb968efe448a79cfe80df2001b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_run_010.png using Guid(9b95ebfb968efe448a79cfe80df2001b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82a9210f57cbf97d35c10b904fe0176d') in 0.0262446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.221094 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_run_011.png
+  artifactKey: Guid(adc54558bd67854488ef25a790b5f1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_run_011.png using Guid(adc54558bd67854488ef25a790b5f1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f4e5a0ce3aa7b579b9ba32c15a96ffd') in 0.0341329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.915237 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_walk_000.png
+  artifactKey: Guid(66a2db3ebea1db5429145ddce4e8e665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE ENIMIES/L13 TIKI WARRIOR 3/L13 TIKKI WARRIOR 3/__tiki_character_06_walk_000.png using Guid(66a2db3ebea1db5429145ddce4e8e665) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a986d74c19d3c860a690c1ad268c6cb') in 0.0370206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.720386 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 3/Walk.anim
+  artifactKey: Guid(bbe3c65584286bf42aab1d9ec8b0c6b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 3/Walk.anim using Guid(bbe3c65584286bf42aab1d9ec8b0c6b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e01d3da5d8c3365816af636e10e0ca4e') in 0.0299469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 1/Walk.anim
+  artifactKey: Guid(96c7a3654c5f900498576d4e8546356a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 1/Walk.anim using Guid(96c7a3654c5f900498576d4e8546356a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'efebb6c1824919e8842dba75528541b9') in 0.0258035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 2/Walk.anim
+  artifactKey: Guid(51df63152b78eba488f1053722004cc3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 2/Walk.anim using Guid(51df63152b78eba488f1053722004cc3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '26c9cf7850ac9f9f63fc5d35d1beb07c') in 0.0515339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 2/enemy.controller
+  artifactKey: Guid(c3ee650451801e44fb52c0ebdde0e587) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 2/enemy.controller using Guid(c3ee650451801e44fb52c0ebdde0e587) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '381530ab16218da73109c02cbf26cdc6') in 0.0178983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 1/Die.anim
+  artifactKey: Guid(6790f6a57e17847459645c0147567151) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 1/Die.anim using Guid(6790f6a57e17847459645c0147567151) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62d3291e648225b3b7f2aee3aec0d023') in 0.0221345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 3/enemy.controller
+  artifactKey: Guid(29cdb603bf77b9544802ea45d5c710a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 3/enemy.controller using Guid(29cdb603bf77b9544802ea45d5c710a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5060e18f6ecf9f12c80ad11d7eb79e98') in 0.0215117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 1/enemy.controller
+  artifactKey: Guid(f03f7789b42931344bfc4937cf4d1ad4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 1/enemy.controller using Guid(f03f7789b42931344bfc4937cf4d1ad4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2bf63d36f5f2c20d989cf9acef14d599') in 0.0223265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 2/Attack.anim
+  artifactKey: Guid(81994d5cdf0b33f4c9f5e5f0c4e14930) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 2/Attack.anim using Guid(81994d5cdf0b33f4c9f5e5f0c4e14930) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f515002e94be8c0561f848ead06b9b7') in 0.0226729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.314726 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST ENIMIES/BULL/__brown_bull_die_002.png
+  artifactKey: Guid(4d07fdfffe0633844ba22b478c497ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST ENIMIES/BULL/__brown_bull_die_002.png using Guid(4d07fdfffe0633844ba22b478c497ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5637bc513d3297d568bcdaccee1bd93') in 0.1384726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062630 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST ENIMIES/BULL/__brown_bull_die_004.png
+  artifactKey: Guid(01e85491ebb4ef8458811e369212b778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST ENIMIES/BULL/__brown_bull_die_004.png using Guid(01e85491ebb4ef8458811e369212b778) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de0b1163b85ae67fac0f3dc63f5f4dbd') in 0.1201768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048779 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST ENIMIES/BULL/__brown_bull_head_flick_001.png
+  artifactKey: Guid(9cf53d9031c3e2b45be57484cc7dda04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST ENIMIES/BULL/__brown_bull_head_flick_001.png using Guid(9cf53d9031c3e2b45be57484cc7dda04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d76fc6be56d0768a166091f00bcd545') in 0.1467156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.354373 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST ENIMIES/BULL/__brown_bull_head_flick_003.png
+  artifactKey: Guid(9fa7a91d31b31d345977151f0ecc52f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST ENIMIES/BULL/__brown_bull_head_flick_003.png using Guid(9fa7a91d31b31d345977151f0ecc52f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '478b3719399b45e4c243c3deb160c194') in 0.1120493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.143976 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST ENIMIES/BULL/__brown_bull_head_flick_005.png
+  artifactKey: Guid(f999c75347788674fbb0b8e223378330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST ENIMIES/BULL/__brown_bull_head_flick_005.png using Guid(f999c75347788674fbb0b8e223378330) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd45c7675bcee78b334f21662f90b0e53') in 0.162061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.124730 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST ENIMIES/BULL/__brown_bull_head_flick_007.png
+  artifactKey: Guid(ba1df81688c5135449de04d554a3e2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 9 WILD WEST/L9 WILD WEST ENIMIES/BULL/__brown_bull_head_flick_007.png using Guid(ba1df81688c5135449de04d554a3e2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56f8d4d5895f33b67af57032e8c0b910') in 0.0911804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 173.010541 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tortoise/Attack.anim
+  artifactKey: Guid(72035d96ae99e3b4fa1e6d9efa4a128a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tortoise/Attack.anim using Guid(72035d96ae99e3b4fa1e6d9efa4a128a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03e9b319d991aab1c4628af0d816bc65') in 0.0647833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tortoise/Walk.anim
+  artifactKey: Guid(300f8f6f51a2c0b47acfb67f386547ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tortoise/Walk.anim using Guid(300f8f6f51a2c0b47acfb67f386547ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '51acbd5d19898f73ba694950aacb6b17') in 0.0626507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tortoise/enemy.controller
+  artifactKey: Guid(82e40d5ba9745f3499a18ebd1e4f1911) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tortoise/enemy.controller using Guid(82e40d5ba9745f3499a18ebd1e4f1911) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '90c01570bfbed1d3b5019620e0b815cc') in 0.051693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tortoise/Die.anim
+  artifactKey: Guid(0d14147ff733f2e4da5ae08dc49ba089) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tortoise/Die.anim using Guid(0d14147ff733f2e4da5ae08dc49ba089) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3454faffb519efd5a0c4c8b5a4f209cd') in 0.0481728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

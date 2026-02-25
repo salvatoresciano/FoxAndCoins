@@ -10,3 +10,24 @@ The following packages were added:
 The following packages were updated:
   com.unity.feature.2d from version 2.0.0 to 2.0.1
   com.unity.ugui from version 1.0.0 to 2.0.0
+
+=== Thu Nov 27 09:19:42 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ide.visualstudio from version 2.0.22 to 2.0.23
+
+=== Fri Feb 20 18:13:56 2026
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.modules.adaptiveperformance@1.0.0
+  com.unity.modules.vectorgraphics@1.0.0
+The following packages were updated:
+  com.unity.feature.2d from version 2.0.1 to 2.0.2
+  com.unity.ide.visualstudio from version 2.0.23 to 2.0.25
+  com.unity.multiplayer.center from version 1.0.0 to 1.0.1

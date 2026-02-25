@@ -35,5 +35,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TemplateGame/Scene/Worlds/Gameplay/World 9.unity
     guid: dcc92316c0a6844148e4e3874683a458
+  - enabled: 1
+    path: Assets/TemplateGame/Scene/Worlds/Gameplay/World 10.unity
+    guid: b9421ef753fab1647a70babebc1b1172
+  - enabled: 1
+    path: Assets/TemplateGame/Scene/Worlds/Gameplay/World 11.unity
+    guid: 000ce2401c8900546881b2231e102c44
+  - enabled: 1
+    path: Assets/TemplateGame/Scene/Worlds/Gameplay/World 12.unity
+    guid: 8de66ac695842fe4bbbc2e938c31808a
+  - enabled: 1
+    path: Assets/TemplateGame/Scene/Worlds/Gameplay/World 13.unity
+    guid: 3c5ed5f32d5e4a44d8824c0bd1548064
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

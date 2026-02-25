@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.2f1 (a9779f353c9b) revision 11106207'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'it' Physical Memory: 16219 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-salva" at "2026-02-25T13:20:54.7155787Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-salva" at "2026-02-25T14:08:32.7744914Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-02-25T13:20:54Z
+Date: 2026-02-25T14:08:32Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ D:/Progetti Unity/FoxAndCoins
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49674
+50191
 -licensingIpc
 LicenseClient-salva
 -job-worker-count
@@ -65,12 +65,12 @@ D:/Progetti Unity/FoxAndCoins
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [2832]  Target information:
+Player connection [5656]  Target information:
 
-Player connection [2832]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 639984510 [EditorId] 639984510 [Version] 1048832 [Id] WindowsEditor(7,Salvo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [5656]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3996332314 [EditorId] 3996332314 [Version] 1048832 [Id] WindowsEditor(7,Salvo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [2832] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [2832] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5656] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5656] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -85,21 +85,21 @@ Library Redirect Path: Library/
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              f866034a07c2485f8369f741e572c5a5
+  Session Id:              42faca29c85f451084c4bf5e27d4ccd2
   Correlation Id:          50cecbe885addcecb5b5b0f9758e0426
-  External correlation Id: 1594020666542861942
+  External correlation Id: 4421263815335307227
   Machine Id:              DgjkvYn7Re6FLASUc8aV6reLmJU=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-salva" (connect: 0.00s, validation: 0.00s, handshake: 2.23s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-salva-notifications" at "2026-02-25T13:20:56.9522467Z"
-[Licensing::Module] Licensing Background thread has ended after 2.24s
-[Licensing::Module] Licensing is initialized (took 1.87s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-salva" (connect: 0.00s, validation: 0.00s, handshake: 1.19s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-salva-notifications" at "2026-02-25T14:08:33.9727065Z"
+[Licensing::Module] Licensing Background thread has ended after 1.20s
+[Licensing::Module] Licensing is initialized (took 1.01s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 5772492678316-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Refreshing native plugins compatible for Editor in 10.90 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 6.02 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.2f1 (a9779f353c9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -115,7 +115,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -123,46 +123,46 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.007664 seconds.
-- Loaded All Assemblies, in  0.878 seconds
+Registered in 0.005842 seconds.
+- Loaded All Assemblies, in  0.495 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 366 ms
+Android Extension - Scanning For ADB Devices 190 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.417 seconds
-Domain Reload Profiling: 2289ms
-	BeginReloadAssembly (273ms)
+- Finished resetting the current domain, in  0.732 seconds
+Domain Reload Profiling: 1226ms
+	BeginReloadAssembly (142ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (77ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (98ms)
-	LoadAllAssembliesAndSetupDomain (399ms)
-		LoadAssemblies (267ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (224ms)
+		LoadAssemblies (139ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (390ms)
-			TypeCache.Refresh (386ms)
-				TypeCache.ScanAssembly (355ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (216ms)
+				TypeCache.ScanAssembly (196ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1418ms)
+	FinalizeReload (733ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1317ms)
+		SetupLoadedEditorAssemblies (680ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (592ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (241ms)
-			ProcessInitializeOnLoadAttributes (319ms)
-			ProcessInitializeOnLoadMethodAttributes (155ms)
+			InitializePlatformSupportModulesInManaged (322ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (160ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -172,87 +172,107 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.236 seconds
-Refreshing native plugins compatible for Editor in 9.16 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.688 seconds
+Refreshing native plugins compatible for Editor in 5.17 ms, found 1 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.194 seconds
-Domain Reload Profiling: 2424ms
-	BeginReloadAssembly (349ms)
+- Finished resetting the current domain, in  0.606 seconds
+Domain Reload Profiling: 1293ms
+	BeginReloadAssembly (200ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (83ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (699ms)
-		LoadAssemblies (675ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (386ms)
+		LoadAssemblies (364ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (225ms)
-			TypeCache.Refresh (164ms)
-				TypeCache.ScanAssembly (138ms)
-			BuildScriptInfoCaches (47ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1195ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (76ms)
+			BuildScriptInfoCaches (25ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (607ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (941ms)
+		SetupLoadedEditorAssemblies (477ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (401ms)
-			ProcessInitializeOnLoadAttributes (357ms)
-			ProcessInitializeOnLoadMethodAttributes (139ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (183ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 9.79 ms, found 1 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 7.26 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2637 unused Assets / (0.7 MB). Loaded Objects now: 3210.
-Memory consumption went from 96.1 MB to 95.3 MB.
-Total: 12.574500 ms (FindLiveObjects: 0.530100 ms CreateObjectMapping: 0.495500 ms MarkObjects: 10.104300 ms  DeleteObjects: 1.442700 ms)
+Unloading 2637 unused Assets / (0.8 MB). Loaded Objects now: 3210.
+Memory consumption went from 96.1 MB to 95.2 MB.
+Total: 6.171400 ms (FindLiveObjects: 0.316400 ms CreateObjectMapping: 0.268400 ms MarkObjects: 4.880100 ms  DeleteObjects: 0.705500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 430.589181 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SFX SEND/L13 TIKKI WARRIOR 2 DIE SFX.wav
-  artifactKey: Guid(e62eba3add58c5f4499b26ccdbe951ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SFX SEND/L13 TIKKI WARRIOR 2 DIE SFX.wav using Guid(e62eba3add58c5f4499b26ccdbe951ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da54f6068b16971bb7ce39baef4d29a1') in 0.1997866 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 3284.687283 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tortoise/enemy.controller
+  artifactKey: Guid(82e40d5ba9745f3499a18ebd1e4f1911) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tortoise/enemy.controller using Guid(82e40d5ba9745f3499a18ebd1e4f1911) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0a3fd8cd61edcf6305399e21ba0ca9a') in 0.0826052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE MUSIC/L13 TEMPLE MUSIC.wav
-  artifactKey: Guid(f24908d9854431d46937a9adba8d5db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE MUSIC/L13 TEMPLE MUSIC.wav using Guid(f24908d9854431d46937a9adba8d5db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ce0a78ba3e5d04ad0124c26b8aa667d') in 0.0377145 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 2/Enemy - TikiWarrior 2.prefab
+  artifactKey: Guid(da1b5a9440478c34cb1e12e703dfce94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 2/Enemy - TikiWarrior 2.prefab using Guid(da1b5a9440478c34cb1e12e703dfce94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '387cf8229aa9704b7975e3e3d6721cdd') in 0.1187515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SFX SEND/L13 TIKKI WARRIOR 2 ATTACK.wav
-  artifactKey: Guid(e4335f64e41ea1b4c97d563a1a307601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SFX SEND/L13 TIKKI WARRIOR 2 ATTACK.wav using Guid(e4335f64e41ea1b4c97d563a1a307601) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba4a4ac1d3d64017ecb02c0b18dee183') in 0.03677 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.565506 seconds.
+  path: Assets/TemplateGame/Scene/Worlds/Gameplay/World 9.unity
+  artifactKey: Guid(dcc92316c0a6844148e4e3874683a458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplateGame/Scene/Worlds/Gameplay/World 9.unity using Guid(dcc92316c0a6844148e4e3874683a458) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fd3b2e75e5bb9dc49c50c4ddb092901') in 0.0005129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SFX SEND/L13 TIKKI WARRIOR 1 DIE SFX.wav
-  artifactKey: Guid(a4ad23204fd8b8948b9ac97dac52aa3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SFX SEND/L13 TIKKI WARRIOR 1 DIE SFX.wav using Guid(a4ad23204fd8b8948b9ac97dac52aa3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ad8725cc021b00d38a30701b7bc3561') in 0.0220135 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 18.014155 seconds.
+  path: Assets/Prefabs/Lv9/Enemies/Bull/Enemy - Bull.prefab
+  artifactKey: Guid(a112a8a7a2fae374d8708472798dbf2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv9/Enemies/Bull/Enemy - Bull.prefab using Guid(a112a8a7a2fae374d8708472798dbf2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '097773658f669eed00108d1b4eface08') in 0.045853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 44.005480 seconds.
+  path: Assets/Prefabs/Lv9/Enemies/Cowboy 1/enemy.controller
+  artifactKey: Guid(b6efcc6dedd4d34469f48d7804353c93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv9/Enemies/Cowboy 1/enemy.controller using Guid(b6efcc6dedd4d34469f48d7804353c93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8bbf6a1770a77a9ab726352e72fca4df') in 0.0138455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 621.838140 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e38da028db12bea49d3eb0d6e57c28f8') in 0.2755461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/PerformanceTestRunSettings.json
+  artifactKey: Guid(b19455c70ee431d46a86888a830ce785) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/PerformanceTestRunSettings.json using Guid(b19455c70ee431d46a86888a830ce785) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2e3e8a046869ba351cb3718e80a3dcd') in 0.06459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+

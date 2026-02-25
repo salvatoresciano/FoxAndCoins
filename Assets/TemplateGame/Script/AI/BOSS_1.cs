@@ -43,7 +43,10 @@ public class BOSS_1 : MonoBehaviour, ICanTakeDamage
 
     // --- Hash dei PARAMETRI (da impostare nell'Animator) ---
     private static readonly int WalkBool = Animator.StringToHash("IsWalking");
-    private static readonly int AttackTrigger = Animator.StringToHash("Attack");
+    private static readonly int AttackTrigger1 = Animator.StringToHash("Attack1");
+    private static readonly int AttackTrigger2 = Animator.StringToHash("Attack2");
+    private static readonly int AttackTrigger3 = Animator.StringToHash("Attack3");
+    private static readonly int AttackTrigger4 = Animator.StringToHash("Attack4");
     private static readonly int HitTrigger = Animator.StringToHash("Hit");
     private static readonly int DieTrigger = Animator.StringToHash("Die");
 
@@ -113,8 +116,25 @@ public class BOSS_1 : MonoBehaviour, ICanTakeDamage
         isAttacking = true;
         anim.SetBool(WalkBool, false);
 
+        int rndAttack = Random.Range(0, 5);
+
+        switch (rndAttack)
+        {
+            case 0:
+                anim.SetTrigger(AttackTrigger1);
+                break;
+            case 1:
+                anim.SetTrigger(AttackTrigger2);
+                break;
+            case 2:
+                anim.SetTrigger(AttackTrigger3);
+                break;
+            case 3:
+                anim.SetTrigger(AttackTrigger4);
+                break;
+        }
         // Attiva il Trigger dell'attacco
-        anim.SetTrigger(AttackTrigger);
+        //anim.SetTrigger(AttackTrigger);
 
         if (attackSound) SoundManager.PlaySfx(attackSound);
 

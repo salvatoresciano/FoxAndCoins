@@ -1,0 +1,5 @@
+D:/Progetti Unity/FoxAndCoins/.utmp/RelWithDebInfo/4354q3m5/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/Progetti Unity/FoxAndCoins/.utmp/RelWithDebInfo/4354q3m5/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+D:/Progetti Unity/FoxAndCoins/.utmp/RelWithDebInfo/4354q3m5/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+D:/Progetti Unity/FoxAndCoins/.utmp/RelWithDebInfo/4354q3m5/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+D:/Progetti Unity/FoxAndCoins/.utmp/RelWithDebInfo/4354q3m5/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir

@@ -80,7 +80,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1293748091
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 1ddb3cfa7d1b682479526d0fcb6cc3e3, type: 3}
@@ -342,7 +342,8 @@ MonoBehaviour:
   verticalRayCount: 4
   horizontalRaySpacing: 0
   verticalRaySpacing: 0
-  boxcollider: {fileID: 0}
+  boxcollider: {fileID: 165119493493182204}
+  checkGroundAheadLength: 0.35
   playerInput: {x: 0, y: 0}
   HandlePhysic: 1
 --- !u!114 &1918847530174485442
@@ -363,6 +364,7 @@ MonoBehaviour:
   moveSpeed: 1.5
   ignoreCheckGroundAhead: 0
   DestroyEffect: {fileID: 113216, guid: 20400a4349ca29f41b9c336e87901ff8, type: 3}
+  canBeStoppedAtHit: 1
   healthType: 0
   maxHitToKill: 3
   currentHitLeft: 0
@@ -374,7 +376,7 @@ MonoBehaviour:
   deadSound: {fileID: 8300000, guid: f5ce78ae226fcc24abc40fe3943296e7, type: 3}
   deadSoundVolume: 0.8
   attackSound: {fileID: 8300000, guid: 3a915813dd7a29a4e88c9ccc79ecd84c, type: 3}
-  attackSoundVolume: 0.7
+  attackSoundVolume: 0.8
   playerHurtSound: {fileID: 0}
   playerHurtVolume: 0.5
   isUseProjectile: 0

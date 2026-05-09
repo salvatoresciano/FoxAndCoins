@@ -5,14 +5,15 @@ public class Controller2D : RaycastController {
 	
 	float maxClimbAngle = 80;
 	float maxDescendAngle = 80;
-	float checkGroundAheadLength = 0.35f;
-	
-	public CollisionInfo collisions;
+	public float checkGroundAheadLength = 0.35f;
+
+
+
+    public CollisionInfo collisions;
 	[HideInInspector]
 	public Vector2 playerInput;
 	[HideInInspector]
 	public bool HandlePhysic = true;
-
 	
 	public override void Start() {
 		base.Start ();
@@ -116,11 +117,11 @@ public class Controller2D : RaycastController {
 			rayOrigin += Vector2.right * (verticalRaySpacing * i + velocity.x);
 			RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.up * directionY, rayLength, collisionMask);
 
-			Debug.DrawRay(rayOrigin, Vector2.up * directionY * rayLength,Color.red);
+			Debug.DrawRay(rayOrigin, Vector2.up * directionY * rayLength,Color.green);
 
 			if (hit) {
 				if (hit.collider.tag == "Through") {
-					if (directionY == 1 || hit.distance == 0) {
+					if (directionY == 1 /*|| hit.distance == 0*/) {
 						continue;
 					}
 					if (collisions.fallingThroughPlatform) {

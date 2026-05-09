@@ -1,0 +1,607 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-salva" at "2026-05-04T12:09:13.677052Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'it' Physical Memory: 16219 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-04T12:09:13Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Progetti Unity/FoxAndCoins
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51335
+-licensingIpc
+LicenseClient-salva
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Progetti Unity/FoxAndCoins
+D:/Progetti Unity/FoxAndCoins
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [13908]  Target information:
+
+Player connection [13908]  * "[IP] 192.168.1.185 [Port] 0 [Flags] 2 [Guid] 3276535057 [EditorId] 3276535057 [Version] 1048832 [Id] WindowsEditor(7,Salvo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13908] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13908] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              ec7058fd3f594a1cbc137e71738a7087
+  Correlation Id:          a1ba846567dc85ee2cd81e5aefc1aff8
+  External correlation Id: 451081861879193311
+  Machine Id:              HdZiWn9ZEf4eS7WW9d1VlXVOxwM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-salva" (connect: 0.00s, validation: 0.00s, handshake: 1.20s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-salva-notifications" at "2026-05-04T12:09:14.8760332Z"
+[Licensing::Module] Licensing Background thread has ended after 1.20s
+[Licensing::Module] Licensing is initialized (took 1.01s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5772492678316-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 5.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Progetti Unity/FoxAndCoins/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   32.0.15.5597
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002450 seconds.
+- Loaded All Assemblies, in  0.412 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 183 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.660 seconds
+Domain Reload Profiling: 1070ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (121ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (169ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (660ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (617ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (284ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.627 seconds
+Refreshing native plugins compatible for Editor in 5.69 ms, found 1 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.605 seconds
+Domain Reload Profiling: 1228ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (337ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (79ms)
+				TypeCache.ScanAssembly (66ms)
+			BuildScriptInfoCaches (25ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (605ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (472ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 4.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2641 unused Assets / (0.8 MB). Loaded Objects now: 3215.
+Memory consumption went from 95.9 MB to 95.0 MB.
+Total: 6.792100 ms (FindLiveObjects: 0.367200 ms CreateObjectMapping: 0.264900 ms MarkObjects: 5.312700 ms  DeleteObjects: 0.846300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 950100.878501 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/long_branch.png
+  artifactKey: Guid(3154988e05eadfa43980d0c9b4b50caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/long_branch.png using Guid(3154988e05eadfa43980d0c9b4b50caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8715f7bb993762e6cc3d483ae25f8875') in 0.0663982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.501143 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/long_branch.png
+  artifactKey: Guid(3154988e05eadfa43980d0c9b4b50caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/long_branch.png using Guid(3154988e05eadfa43980d0c9b4b50caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2f5dc776cb5d4ecc16779bdc294f24b') in 0.0310203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.931062 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/long_branch.png
+  artifactKey: Guid(3154988e05eadfa43980d0c9b4b50caa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/long_branch.png using Guid(3154988e05eadfa43980d0c9b4b50caa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '031cdf415d17aa48b3b74998f2a75d38') in 0.148157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.473962 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/branch_1.png
+  artifactKey: Guid(f34562a534125f34f9db239da2a9af54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/branch_1.png using Guid(f34562a534125f34f9db239da2a9af54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85b27763fa1d0cc4b2a6311087fb440a') in 0.0111736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 254.203370 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/tree_vine_1.png
+  artifactKey: Guid(0ddb1bcfa079ecb45b9594c73ec4223d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/tree_vine_1.png using Guid(0ddb1bcfa079ecb45b9594c73ec4223d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa4e1c14b184471b46dafb0afee5b970') in 0.0109122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.447147 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/tree_vine_2.png
+  artifactKey: Guid(ab9f7649e5aba6547b4f19e2ce0d739a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/tree_vine_2.png using Guid(ab9f7649e5aba6547b4f19e2ce0d739a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc8cd6dce954e7870e151a14951eda89') in 0.0095686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.492584 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/tree_vine_3.png
+  artifactKey: Guid(f710ca04ca82f804aad57638aeb3d6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/tree_vine_3.png using Guid(f710ca04ca82f804aad57638aeb3d6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19d776f3ef46c310989dbe531c3b5e1a') in 0.0101853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.295220 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/side_screen_branch.png
+  artifactKey: Guid(3aa4f9f0e14ade94f89bb4bb5e6c5deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/side_screen_branch.png using Guid(3aa4f9f0e14ade94f89bb4bb5e6c5deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e748dd0da581ae4b1f1599c7d76b2a18') in 0.116365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 896.995534 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/branch_2.png
+  artifactKey: Guid(603deef364d62554f9e5b14a6439039a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/branch_2.png using Guid(603deef364d62554f9e5b14a6439039a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3278a0931075ca9c592de83e2417b5c3') in 0.0126682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 217.248412 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/branch_4.png
+  artifactKey: Guid(f03044aafc417004e978fe18df7d62c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/branch_4.png using Guid(f03044aafc417004e978fe18df7d62c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adf109e4510c543c2fc5ae7330a2d0f8') in 0.0128468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 297.024452 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/light_trunk_3.png
+  artifactKey: Guid(2e74911df99a83244982102c5bfa8643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/light_trunk_3.png using Guid(2e74911df99a83244982102c5bfa8643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7360885c6d0c6c1bbd7d6df41d0a9ae2') in 0.0163108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.375127 seconds.
+  path: Assets/TemplateGame/Texture/Envaironment/Worlds/5 - Winter/Object/Crate.png
+  artifactKey: Guid(b6f811a30453e254e941f813df3135c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplateGame/Texture/Envaironment/Worlds/5 - Winter/Object/Crate.png using Guid(b6f811a30453e254e941f813df3135c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70d73b292321ee572666cbf3c36d5813') in 0.008053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020961 seconds.
+  path: Assets/RESKIN/COMMONS/Crates/crate.jpg
+  artifactKey: Guid(49bab2295ab59764d810555d0b6d4839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/COMMONS/Crates/crate.jpg using Guid(49bab2295ab59764d810555d0b6d4839) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae4bef2c830a1f74758dbdc331451e5c') in 0.0925605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012989 seconds.
+  path: Assets/RESKIN/COMMONS/Crates/crate_ copy.png
+  artifactKey: Guid(812c6a498cc8e5948a9f52a03cc4ffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/COMMONS/Crates/crate_ copy.png using Guid(812c6a498cc8e5948a9f52a03cc4ffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8be299da68ed422f66c94c67d2d591b1') in 0.0167484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016080 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/platformer_props/crate_01.png
+  artifactKey: Guid(26a44d4ebafba024e83bf3f03085a778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/platformer_props/crate_01.png using Guid(26a44d4ebafba024e83bf3f03085a778) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0e835f8522e96ad027e03dc56e88058') in 0.0695395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.897856 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 1 JUNGLE/tiles_crates/crate_01 copy.asset
+  artifactKey: Guid(42815f788903dca41912cb9f85d9c617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 1 JUNGLE/tiles_crates/crate_01 copy.asset using Guid(42815f788903dca41912cb9f85d9c617) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'feacb4449fb856418080d38416af0a57') in 0.0107798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011486 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/platformer_props/crate_02.png
+  artifactKey: Guid(7312a166e3a2fcf4aac4ff47da31fcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/platformer_props/crate_02.png using Guid(7312a166e3a2fcf4aac4ff47da31fcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a31eafeb815c5a1823b67c76c80d0f3b') in 0.0133939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054267 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/platformer_props/crate_03.png
+  artifactKey: Guid(10e0aed6e5ad1634e88abd0b2f005bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 8 SPRING/L8 SPRING SCENE/Spring/platformer_props/crate_03.png using Guid(10e0aed6e5ad1634e88abd0b2f005bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03318e8d1810a9155dd400de502db997') in 0.0150774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065420 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 1 JUNGLE/tiles_crates/crate_03 copy.asset
+  artifactKey: Guid(5b39d92dd073fa646be631a82f17d7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 1 JUNGLE/tiles_crates/crate_03 copy.asset using Guid(5b39d92dd073fa646be631a82f17d7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64ffeaf84be791c9bb7fe9710d174f73') in 0.0510167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 1 JUNGLE/tiles_crates/crate_04 copy.asset
+  artifactKey: Guid(39729f8da04fb044495b5f883c8fec11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 1 JUNGLE/tiles_crates/crate_04 copy.asset using Guid(39729f8da04fb044495b5f883c8fec11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '501f28e2cb606e49b64441c3c3a7fe3e') in 0.03085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039572 seconds.
+  path: Assets/RESKIN/COMMONS/Crates/crate_05 copy.png
+  artifactKey: Guid(793b1b9fdce45f347a247295508581fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/COMMONS/Crates/crate_05 copy.png using Guid(793b1b9fdce45f347a247295508581fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33d243649eb3a0acf3b2297f69a753ba') in 0.0308886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050433 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 1 JUNGLE/tiles_crates/crate_style_two.png.asset
+  artifactKey: Guid(13dbfae285d9571478dae046f65cea3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 1 JUNGLE/tiles_crates/crate_style_two.png.asset using Guid(13dbfae285d9571478dae046f65cea3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2f7c67cc356d96078509b619dae7c1c') in 0.0385431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.263512 seconds.
+  path: Assets/RESKIN/COMMONS/Crates/crate_style_two.png.png
+  artifactKey: Guid(486b809377245ad42b11fd7a252f442f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/COMMONS/Crates/crate_style_two.png.png using Guid(486b809377245ad42b11fd7a252f442f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '344e07eac90c4aea81925619e703a8cd') in 0.0185333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004598 seconds.
+  path: Assets/RESKIN/UI INTERFACE/CRATES/dark_crate_five.png
+  artifactKey: Guid(45cf0eaa57b002e47ba1ee6aa908218e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/UI INTERFACE/CRATES/dark_crate_five.png using Guid(45cf0eaa57b002e47ba1ee6aa908218e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b81fcdce2fe88138ae9154ba8e645bd1') in 0.0335789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.173635 seconds.
+  path: Assets/RESKIN/UI INTERFACE/CRATES/dark_crate_four.png
+  artifactKey: Guid(1d9b6489f5b19d143943014db3f25691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/UI INTERFACE/CRATES/dark_crate_four.png using Guid(1d9b6489f5b19d143943014db3f25691) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b809b01c87d93996e69d350f22a0d0be') in 0.0561952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073289 seconds.
+  path: Assets/RESKIN/UI INTERFACE/CRATES/dark_crate_three.png
+  artifactKey: Guid(e0379b28494679c4190f42d7c53e3d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/UI INTERFACE/CRATES/dark_crate_three.png using Guid(e0379b28494679c4190f42d7c53e3d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e005297855dfbe45bd522668fadb4e6') in 0.0778939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 6 CASTLE DUNGEON/L6 CRATES/L6_CRATES.png
+  artifactKey: Guid(5c77ec180e80e114a8756cb8bf814c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 6 CASTLE DUNGEON/L6 CRATES/L6_CRATES.png using Guid(5c77ec180e80e114a8756cb8bf814c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4e3f76535bd3332a2fe40712e22546f') in 0.1005455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044396 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 6 CASTLE DUNGEON/L6 CRATES/L6_CRATES_5.asset
+  artifactKey: Guid(8f9a5ad2558f40541828d050844bb6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 6 CASTLE DUNGEON/L6 CRATES/L6_CRATES_5.asset using Guid(8f9a5ad2558f40541828d050844bb6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05c8c2827ac944888e7f6db2a5688276') in 0.0145632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090102 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 6 CASTLE DUNGEON/L6 CRATES/L6_CRATES_Effect.png
+  artifactKey: Guid(069990e2ee4d4f74db9dc1a87efec97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 6 CASTLE DUNGEON/L6 CRATES/L6_CRATES_Effect.png using Guid(069990e2ee4d4f74db9dc1a87efec97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0b8c28a11ec5770ccfc98943f7b1c02') in 0.0378931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019961 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 6 CASTLE DUNGEON/L6 CRATES/L6_CRATES_Effect2.png
+  artifactKey: Guid(655de0bbd274c314f8253d80b27340b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 6 CASTLE DUNGEON/L6 CRATES/L6_CRATES_Effect2.png using Guid(655de0bbd274c314f8253d80b27340b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fed6eccfadb10c1fe56e247937df53f3') in 0.0818689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.957107 seconds.
+  path: Assets/RESKIN/UI INTERFACE/CRATES/light_crate_five.png
+  artifactKey: Guid(24063b2bf7f15b64ba1fc4b721ad63fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/UI INTERFACE/CRATES/light_crate_five.png using Guid(24063b2bf7f15b64ba1fc4b721ad63fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fed311717e8ce425aed4e106a45f3e71') in 0.0809476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033983 seconds.
+  path: Assets/RESKIN/UI INTERFACE/CRATES/light_crate_three.png
+  artifactKey: Guid(ce94488f9b350b245a43893901b2307e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/UI INTERFACE/CRATES/light_crate_three.png using Guid(ce94488f9b350b245a43893901b2307e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3090077951bb63641572289a9b270f9') in 0.0167849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023046 seconds.
+  path: Assets/RESKIN/UI INTERFACE/CRATES/light_crate_two.png
+  artifactKey: Guid(46b65efa4878fa546bb364965165e935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/UI INTERFACE/CRATES/light_crate_two.png using Guid(46b65efa4878fa546bb364965165e935) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '799a9ef2c63df7f868e697982930ae75') in 0.043287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Prefabs/Lv2/Effects/Lv2 Crate Destroy Effect.prefab
+  artifactKey: Guid(aef54e1ab2e31654aa841e53d32ec65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lv2/Effects/Lv2 Crate Destroy Effect.prefab using Guid(aef54e1ab2e31654aa841e53d32ec65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e34815a39f35c27b2a0fb3e1e8185d31') in 0.1005323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008292 seconds.
+  path: Assets/Prefabs/Lv3/Effects/Lv3 Crate Destroy Effect.prefab
+  artifactKey: Guid(c6cc5af5cab679245a420edddaa2089a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lv3/Effects/Lv3 Crate Destroy Effect.prefab using Guid(c6cc5af5cab679245a420edddaa2089a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63184253fff9615209b6d7a2a26391dc') in 0.4412448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 6 CASTLE DUNGEON/L6 CRATES/lv6_crates.prefab
+  artifactKey: Guid(bffb2b764f485ea4981a1f9812a982ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 6 CASTLE DUNGEON/L6 CRATES/lv6_crates.prefab using Guid(bffb2b764f485ea4981a1f9812a982ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '426ad50589a542d9f393e1b96099e583') in 0.0224037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 CRATES TILE/lv7_crates.prefab
+  artifactKey: Guid(2b946fdbdc3d20a4f92eda05f739a391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 7 COUNRTYSIDE/L7 CRATES TILE/lv7_crates.prefab using Guid(2b946fdbdc3d20a4f92eda05f739a391) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2b8b1f5f1899ba8749d905f29654fe8') in 0.3607692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RESKIN/UI INTERFACE/CRATES/BREAKING CRATES/PYSICSCRATE1.svg
+  artifactKey: Guid(985ac275e8f9ca84997efb6cad0f5568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/UI INTERFACE/CRATES/BREAKING CRATES/PYSICSCRATE1.svg using Guid(985ac275e8f9ca84997efb6cad0f5568) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '580f6196ff65379b8897d7920ef74b02') in 1.0364743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RESKIN/LEVELS/CRATES/Orange/lv13_crates.prefab
+  artifactKey: Guid(0ba53a3c287b0fc48b66bdb6a3873edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/CRATES/Orange/lv13_crates.prefab using Guid(0ba53a3c287b0fc48b66bdb6a3873edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '903af92b7da95e229b93a45962013a66') in 0.1159498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Lv7/Effects/Lv7 Crate Destroy Effect.prefab
+  artifactKey: Guid(f5e530f5764c9c2498e705a829eaf30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lv7/Effects/Lv7 Crate Destroy Effect.prefab using Guid(f5e530f5764c9c2498e705a829eaf30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42d77fb8f6e9a993c10c3074553d2d64') in 0.5162397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.026107 seconds.
+  path: Assets/RESKIN/LEVELS/CRATES/Orange
+  artifactKey: Guid(6e965e1e44ffd74439f72ee57666bb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/CRATES/Orange using Guid(6e965e1e44ffd74439f72ee57666bb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e5c1604a798f70497ca057d944b1da8') in 0.0005226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.518169 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 CRATES/custom_scene_4-35.png
+  artifactKey: Guid(272d4efc18973b94abdff21a0b8ae92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 CRATES/custom_scene_4-35.png using Guid(272d4efc18973b94abdff21a0b8ae92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05e6c23e9053d3ddd0b494af957f01a7') in 0.033259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.087257 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 CRATES/custom_scene_4-35.png
+  artifactKey: Guid(272d4efc18973b94abdff21a0b8ae92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 CRATES/custom_scene_4-35.png using Guid(272d4efc18973b94abdff21a0b8ae92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a55e67a266fa8059810f211325f7ad04') in 0.0104356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.931913 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 CRATES/custom_scene_4-38.png
+  artifactKey: Guid(233cca73542e9434db0b50a25842aabc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 CRATES/custom_scene_4-38.png using Guid(233cca73542e9434db0b50a25842aabc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b74dda73e92ebcd84d9551a3b31a5ab') in 0.024708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 CRATES/custom_scene_4-40.png
+  artifactKey: Guid(7b47ef69dd4488641bee515f090f9fa2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 CRATES/custom_scene_4-40.png using Guid(7b47ef69dd4488641bee515f090f9fa2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f597276f96f7c440efbbed64a167ba45') in 0.0220266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 CRATES/custom_scene_4-37.png
+  artifactKey: Guid(f3d7368ba47f88f4aa80ee412e9791fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 CRATES/custom_scene_4-37.png using Guid(f3d7368ba47f88f4aa80ee412e9791fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c7288517445c36a38898050724f4810a') in 0.0184518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 CRATES/custom_scene_4-33.png
+  artifactKey: Guid(9b66159ba25ae024eb287dc6dcd8a79e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 CRATES/custom_scene_4-33.png using Guid(9b66159ba25ae024eb287dc6dcd8a79e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e5a06316db6e235f316eeb816b0d6e29') in 0.0666224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 CRATES/custom_scene_4-41.png
+  artifactKey: Guid(59bafebee01fc4b409499aa25178be70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 CRATES/custom_scene_4-41.png using Guid(59bafebee01fc4b409499aa25178be70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06ece0e10b760ac316adc08b958ec502') in 0.0232976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

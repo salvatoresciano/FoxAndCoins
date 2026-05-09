@@ -11,12 +11,13 @@ public class MonsterSimpleAI : EnemyAI {
 
 	protected override void HitEvent ()
 	{
-		base.HitEvent ();
-		if (isDead)
-			Dead ();
+        base.HitEvent(); // Questo avvia PushBack che imposta isSocking = true
 
-		if (animator != null && hitEventName.CompareTo ("n/a") != 0)
-			animator.SetTrigger (hitEventName);
+        if (isDead)
+            Dead();
+
+        if (animator != null && hitEventName.CompareTo("n/a") != 0)
+            animator.SetTrigger(hitEventName);
 	}
 
     protected override void AttackEvent()

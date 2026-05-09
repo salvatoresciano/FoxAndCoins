@@ -74,6 +74,7 @@ GameObject:
   - component: {fileID: 6514775825814441441}
   - component: {fileID: 127642531902052779}
   - component: {fileID: 5740499464673755656}
+  - component: {fileID: 3977919169021323170}
   m_Layer: 9
   m_Name: enemy
   m_TagString: Untagged
@@ -177,6 +178,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3977919169021323170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7756423484842314700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ccae05ccc714bf45ac303503180dc91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAnimationTrigger
 --- !u!1 &8340533549739523360
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,7 +342,7 @@ MonoBehaviour:
   verticalRayCount: 4
   horizontalRaySpacing: 0
   verticalRaySpacing: 0
-  boxcollider: {fileID: 0}
+  boxcollider: {fileID: 3869518789379656997}
   playerInput: {x: 0, y: 0}
   HandlePhysic: 1
 --- !u!114 &3824949039507048083
@@ -350,6 +363,7 @@ MonoBehaviour:
   moveSpeed: 1.5
   ignoreCheckGroundAhead: 0
   DestroyEffect: {fileID: 113216, guid: 20400a4349ca29f41b9c336e87901ff8, type: 3}
+  canBeStoppedAtHit: 1
   healthType: 0
   maxHitToKill: 3
   currentHitLeft: 0

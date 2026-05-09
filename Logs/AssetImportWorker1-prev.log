@@ -1,12 +1,14 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-Built from '6000.3/staging' branch; Version is '6000.3.2f1 (a9779f353c9b) revision 11106207'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-salva" at "2026-02-25T14:08:32.7635739Z"
-OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'it' Physical Memory: 16219 MB
+Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'it' Physical Memory: 16219 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-salva" at "2026-05-04T12:08:07.0278521Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-02-25T14:08:32Z
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-04T12:08:07Z
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -17,7 +19,7 @@ D:/Progetti Unity/FoxAndCoins
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50191
+51335
 -licensingIpc
 LicenseClient-salva
 -job-worker-count
@@ -65,12 +67,12 @@ D:/Progetti Unity/FoxAndCoins
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [8444]  Target information:
+Player connection [9564]  Target information:
 
-Player connection [8444]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 62118489 [EditorId] 62118489 [Version] 1048832 [Id] WindowsEditor(7,Salvo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [9564]  * "[IP] 192.168.1.185 [Port] 0 [Flags] 2 [Guid] 747070889 [EditorId] 747070889 [Version] 1048832 [Id] WindowsEditor(7,Salvo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8444] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8444] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9564] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9564] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -85,24 +87,24 @@ Library Redirect Path: Library/
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              cadde8ff0c194c0badef9dd9854bbefc
-  Correlation Id:          50cecbe885addcecb5b5b0f9758e0426
-  External correlation Id: 3055425792016248656
-  Machine Id:              DgjkvYn7Re6FLASUc8aV6reLmJU=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-salva" (connect: 0.00s, validation: 0.00s, handshake: 1.20s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-salva-notifications" at "2026-02-25T14:08:33.9676315Z"
-[Licensing::Module] Licensing Background thread has ended after 1.20s
-[Licensing::Module] Licensing is initialized (took 1.00s).
+  Session Id:              ce844340f0eb4644a3c16d0b8910ea6f
+  Correlation Id:          a1ba846567dc85ee2cd81e5aefc1aff8
+  External correlation Id: 507217883215886518
+  Machine Id:              HdZiWn9ZEf4eS7WW9d1VlXVOxwM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-salva" (connect: 0.00s, validation: 0.00s, handshake: 1.25s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-salva-notifications" at "2026-05-04T12:08:08.2812344Z"
+[Licensing::Module] Licensing Background thread has ended after 1.25s
+[Licensing::Module] Licensing is initialized (took 1.09s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 5772492678316-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Refreshing native plugins compatible for Editor in 6.76 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 6.23 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.3.2f1 (a9779f353c9b)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Progetti Unity/FoxAndCoins/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
@@ -112,57 +114,52 @@ Direct3D:
     VRAM:     3935 MB
     Driver:   32.0.15.5597
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-[Licensing::Client] Successfully resolved entitlement details
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.004622 seconds.
-- Loaded All Assemblies, in  0.519 seconds
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-[usbmuxd] Send listen message
-Native extension for iOS target not found
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002530 seconds.
+- Loaded All Assemblies, in  0.491 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 191 ms
+Android Extension - Scanning For ADB Devices 204 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.742 seconds
-Domain Reload Profiling: 1259ms
-	BeginReloadAssembly (141ms)
+- Finished resetting the current domain, in  0.757 seconds
+Domain Reload Profiling: 1246ms
+	BeginReloadAssembly (138ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (265ms)
-		LoadAssemblies (139ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (220ms)
+		LoadAssemblies (136ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (260ms)
-			TypeCache.Refresh (257ms)
-				TypeCache.ScanAssembly (237ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (213ms)
+				TypeCache.ScanAssembly (197ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (742ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (757ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (702ms)
+		SetupLoadedEditorAssemblies (705ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (350ms)
+			InitializePlatformSupportModulesInManaged (320ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (106ms)
-			ProcessInitializeOnLoadAttributes (158ms)
-			ProcessInitializeOnLoadMethodAttributes (82ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -172,75 +169,200 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.691 seconds
-Refreshing native plugins compatible for Editor in 7.12 ms, found 1 plugins.
-Native extension for iOS target not found
+- Loaded All Assemblies, in  0.967 seconds
+Refreshing native plugins compatible for Editor in 7.50 ms, found 1 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.654 seconds
-Domain Reload Profiling: 1343ms
-	BeginReloadAssembly (201ms)
+- Finished resetting the current domain, in  0.875 seconds
+Domain Reload Profiling: 1838ms
+	BeginReloadAssembly (259ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (384ms)
-		LoadAssemblies (360ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (539ms)
+		LoadAssemblies (474ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (96ms)
-				TypeCache.ScanAssembly (79ms)
-			BuildScriptInfoCaches (25ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (655ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (120ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (876ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (519ms)
+		SetupLoadedEditorAssemblies (678ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (182ms)
-			ProcessInitializeOnLoadAttributes (228ms)
-			ProcessInitializeOnLoadMethodAttributes (84ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (296ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 7.73 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 5.96 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2637 unused Assets / (0.9 MB). Loaded Objects now: 3210.
-Memory consumption went from 96.1 MB to 95.2 MB.
-Total: 6.315300 ms (FindLiveObjects: 0.316100 ms CreateObjectMapping: 0.277900 ms MarkObjects: 4.956300 ms  DeleteObjects: 0.763700 ms)
+Unloading 2641 unused Assets / (1.1 MB). Loaded Objects now: 3215.
+Memory consumption went from 95.9 MB to 94.8 MB.
+Total: 8.905200 ms (FindLiveObjects: 0.357300 ms CreateObjectMapping: 0.355400 ms MarkObjects: 7.048000 ms  DeleteObjects: 1.143300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3284.862365 seconds.
-  path: Assets/Prefabs/Lv13/Enemies/Tiki Warrior 1/Enemy - TikiWarrior 1.prefab
-  artifactKey: Guid(e1e8cee89e5e1844491349490f5d05b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/Lv13/Enemies/Tiki Warrior 1/Enemy - TikiWarrior 1.prefab using Guid(e1e8cee89e5e1844491349490f5d05b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef995ef5a0b7a5e4607b6b022b7cf872') in 0.1698089 seconds
+  Time since last request: 950035.391314 seconds.
+  path: Assets/Prefabs/Lv9/Enemies/Cowboy 2/Enemy - Cowboy 2.prefab
+  artifactKey: Guid(f005a992511261b4e84c8e3ee346bc04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv9/Enemies/Cowboy 2/Enemy - Cowboy 2.prefab using Guid(f005a992511261b4e84c8e3ee346bc04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce03f82b8364089203d140a78cadae41') in 0.4457392 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
 
 ========================================================================
 Received Import Request.
-  Time since last request: 684.345072 seconds.
-  path: Assets/RESKIN/COMMONS/GAME FONT/cookierunotf-black-regular SDF.asset
-  artifactKey: Guid(9424530475df4924cbd13bcf5ab2d846) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/RESKIN/COMMONS/GAME FONT/cookierunotf-black-regular SDF.asset using Guid(9424530475df4924cbd13bcf5ab2d846) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f70270ce489012e0ab5adff06fa4984f') in 0.2755392 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Lv9/Enemies/Cowboy 1/Enemy - Cowboy 1.prefab
+  artifactKey: Guid(620acec948594604080ce09c73b3d29c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Lv9/Enemies/Cowboy 1/Enemy - Cowboy 1.prefab using Guid(620acec948594604080ce09c73b3d29c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '917abd257577de39e241d45e814d5dce') in 0.1980963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.276841 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/light_trunk_2.png
+  artifactKey: Guid(746f53c776396584d92a5b8ce52ba94c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/light_trunk_2.png using Guid(746f53c776396584d92a5b8ce52ba94c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: 'e0067a42273725a95853bc43aff32cb3') in 0.109337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/branch_2.png
+  artifactKey: Guid(603deef364d62554f9e5b14a6439039a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/branch_2.png using Guid(603deef364d62554f9e5b14a6439039a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a3fea05cb48f5feeb377da28cac051e') in 0.0216584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/light_trunk_5.png
+  artifactKey: Guid(4df4c7db49963bf488de6d36704b1443) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/light_trunk_5.png using Guid(4df4c7db49963bf488de6d36704b1443) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bcd8baf472930560855ccc708f532554') in 0.0314793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/tree_vine_1.png
+  artifactKey: Guid(0ddb1bcfa079ecb45b9594c73ec4223d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/tree_vine_1.png using Guid(0ddb1bcfa079ecb45b9594c73ec4223d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '295ce83ad6afe5817b093c88c4e30df7') in 0.0215611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES
+  artifactKey: Guid(1bf30ba8d19250640aeaf3e11d4eb8ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES using Guid(1bf30ba8d19250640aeaf3e11d4eb8ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f274499853e3f0ccff7a4bb21bdebdc') in 0.0036208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/branch_3.png
+  artifactKey: Guid(4ed61bd218c06924bb7babfbcd0408d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/branch_3.png using Guid(4ed61bd218c06924bb7babfbcd0408d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '28d4a940016d1f305e0dc338bc4f4789') in 0.0197747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/tree_vine_2.png
+  artifactKey: Guid(ab9f7649e5aba6547b4f19e2ce0d739a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/tree_vine_2.png using Guid(ab9f7649e5aba6547b4f19e2ce0d739a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a002d2729b8e84a0dde34373d36e8252') in 0.0145959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/branch_5.png
+  artifactKey: Guid(57c3320655c1c584f9742f787753e3bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/branch_5.png using Guid(57c3320655c1c584f9742f787753e3bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c330595036b6e5951804e5417fca27c1') in 0.0155881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/light_trunk_3.png
+  artifactKey: Guid(2e74911df99a83244982102c5bfa8643) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/light_trunk_3.png using Guid(2e74911df99a83244982102c5bfa8643) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b29d63d0b1d74ed5f5e40eeef0ba547') in 0.0255109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.818881 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/tree_vine_1.png
+  artifactKey: Guid(0ddb1bcfa079ecb45b9594c73ec4223d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/tree_vine_1.png using Guid(0ddb1bcfa079ecb45b9594c73ec4223d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f71348e41ba39b695f19cd0b7827b0f1') in 0.0194167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/branch_1.png
+  artifactKey: Guid(f34562a534125f34f9db239da2a9af54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/branch_1.png using Guid(f34562a534125f34f9db239da2a9af54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4dc01e9be7f3aa9c32ae28a1c08d5172') in 0.0186312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/side_screen_branch.png
+  artifactKey: Guid(3aa4f9f0e14ade94f89bb4bb5e6c5deb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/side_screen_branch.png using Guid(3aa4f9f0e14ade94f89bb4bb5e6c5deb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d88489539d5e4e88f66dc585f28bef7') in 0.0182822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/light_trunk_1.png
+  artifactKey: Guid(600bea6f62b8e8249b2693f08501b012) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/light_trunk_1.png using Guid(600bea6f62b8e8249b2693f08501b012) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '444f568bcccae3dfa863a1dd4bcf5053') in 0.017986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Resources/PerformanceTestRunInfo.json
-  artifactKey: Guid(285992c10fc517749937b79050fb5706) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Resources/PerformanceTestRunInfo.json using Guid(285992c10fc517749937b79050fb5706) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '17caaff4b2ac34588b0c288e135e1232') in 0.0855211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/branch_3.png
+  artifactKey: Guid(4ed61bd218c06924bb7babfbcd0408d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/branch_3.png using Guid(4ed61bd218c06924bb7babfbcd0408d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0604c64002169e28cc8fc64d1d155d68') in 0.0169296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/tree_vine_2.png
+  artifactKey: Guid(ab9f7649e5aba6547b4f19e2ce0d739a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/tree_vine_2.png using Guid(ab9f7649e5aba6547b4f19e2ce0d739a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc591d915dee3811cd38d8caac45a17c') in 0.0132571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/branch_5.png
+  artifactKey: Guid(57c3320655c1c584f9742f787753e3bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RESKIN/LEVELS/LEVEL 13 TEMPLE/L13 TEMPLE SCENE/L13 TEMPLE SCENE/TREE BRANCHES/branch_5.png using Guid(57c3320655c1c584f9742f787753e3bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68f9de80e1176c7a6857e5ebd27d7421') in 0.0124046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

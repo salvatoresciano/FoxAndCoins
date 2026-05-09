@@ -337,6 +337,8 @@ public class Player : MonoBehaviour, ICanTakeDamage {
         isPlaying = true;
 		Health = maxHealth;
 
+		controller.collisions.faceDir = 1;
+
 		ResetAnimation ();
 
 		var boxCo = GetComponents<BoxCollider2D> ();

@@ -15,4 +15,28 @@ public class EnemyAnimationTrigger : MonoBehaviour
     {
         enemyAI.FireProjectile();
     }
+
+    public void StartMove()
+    {
+        enemyAI.StartMoving();
+    }
+
+    public void StopMove()
+    {
+        enemyAI.StopMoving();
+    }
+
+    public void StopSnocking()
+    {
+        enemyAI.StopSnocking();
+    }
+
+    public void IncreaseSpeed()
+    {
+        enemyAI.IncreaseSpeed();
+    }
+    public void ResetSpeed()
+    {
+        enemyAI.ResetSpeed();
+    }
 }

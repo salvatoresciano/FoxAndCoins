@@ -12,10 +12,12 @@ public class EnemyAI : MonoBehaviour, ICanTakeDamage, IPlayerRespawnListener {
 
 	[Header("Moving")]
 	public float moveSpeed = 3;
+	private float defaultSpeed;
 	public bool ignoreCheckGroundAhead = false;
 	public GameObject DestroyEffect;
+    public bool canBeStoppedAtHit;
 
-	public enum HealthType{HitToKill, HealthAmount}
+    public enum HealthType{HitToKill, HealthAmount}
 	[Header("Health")]
 
 	public HealthType healthType;
@@ -23,11 +25,11 @@ public class EnemyAI : MonoBehaviour, ICanTakeDamage, IPlayerRespawnListener {
 	[HideInInspector]
 	public int currentHitLeft;
 
-	public float health;
+    public float health;
 	float currentHealth;
 	public int pointToGivePlayer;
 	public GameObject HurtEffect;
-
+	
 	[Header("Sound")]
 	public AudioClip hurtSound;
 	[Range(0,1)]
@@ -53,6 +55,8 @@ public class EnemyAI : MonoBehaviour, ICanTakeDamage, IPlayerRespawnListener {
 
 	public bool isPlaying{ get; set; }
 	public bool isSocking{ get; set; }
+
+	public bool isAttacking { get; set; }
 	public bool isDead{ get; set; }
 
 	private Vector3 velocity;
@@ -71,6 +75,8 @@ public class EnemyAI : MonoBehaviour, ICanTakeDamage, IPlayerRespawnListener {
 		_fireIn = fireRate;
 		currentHealth = health;
 		currentHitLeft = maxHitToKill;
+
+		defaultSpeed = moveSpeed;
 
 		isPlaying = true;
 		isSocking = false;
@@ -106,16 +112,24 @@ public class EnemyAI : MonoBehaviour, ICanTakeDamage, IPlayerRespawnListener {
 	}
 
 	public virtual void LateUpdate(){
-		if (isPlaying && !isSocking) {
-			velocity.x = _direction.x * moveSpeed;
-		}
 
-		velocity.y += -gravity * Time.deltaTime;
-		controller.Move (velocity * Time.deltaTime, false);
+        // Il nemico si muove solo se sta giocando, NON è stordito (isSocking) e NON sta attaccando
+        if (isPlaying && !isSocking && !isAttacking)
+        {
+            velocity.x = _direction.x * moveSpeed;
+        }
+        else
+        {
+            // Se è colpito o attacca, la velocità X deve azzerarsi (a meno che non ci sia il pushback)
+            if (!isSocking) velocity.x = 0;
+        }
 
-		if (controller.collisions.above || controller.collisions.below)
-			velocity.y = 0;
-	}
+        velocity.y += -gravity * Time.deltaTime;
+        controller.Move(velocity * Time.deltaTime, false);
+
+        if (controller.collisions.above || controller.collisions.below)
+            velocity.y = 0;
+    }
 
 	public void SetForce(float x, float y){
 		velocity = new Vector3 (x, y, 0);
@@ -161,10 +175,14 @@ public class EnemyAI : MonoBehaviour, ICanTakeDamage, IPlayerRespawnListener {
 		if (instigator.GetComponent<Block> () != null)
 			isDead = true;
 
+		/*if (!isAttacking)
+		{
+            HitEvent();
+        }*/
 
-		HitEvent ();
+        HitEvent();
 
-	}
+    }
 
 	protected virtual void HitEvent(){
 		
@@ -174,7 +192,18 @@ public class EnemyAI : MonoBehaviour, ICanTakeDamage, IPlayerRespawnListener {
 
 		StopAllCoroutines ();
 		StartCoroutine(PushBack (0.35f));
-	}
+
+		if (canBeStoppedAtHit)
+		{
+            isSocking = true;
+
+            // Fermiamo il movimento immediatamente
+            velocity.x = 0;
+        }
+
+	
+
+    }
 
     protected virtual void AttackEvent()
     {
@@ -268,7 +297,33 @@ public class EnemyAI : MonoBehaviour, ICanTakeDamage, IPlayerRespawnListener {
 			isPlaying = true;
 	}
 
-	public void OnDrawGizmosSelected(){
+    public void StopMoving()
+    {
+        isAttacking = true;
+        velocity.x = 0;
+    }
+
+    public void StartMoving()
+    {
+        isAttacking = false;
+    }
+
+	public void StopSnocking()
+	{
+		isSocking = false;
+	}
+
+	public void IncreaseSpeed()
+	{
+		moveSpeed += 2;
+	}
+
+	public void ResetSpeed()
+	{
+		moveSpeed = defaultSpeed;
+	}
+
+    public void OnDrawGizmosSelected(){
 		if (isUseProjectile) {
 			Gizmos.color = Color.blue;
 			if (_direction.magnitude != 0)

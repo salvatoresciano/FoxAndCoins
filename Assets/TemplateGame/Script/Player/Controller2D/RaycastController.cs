@@ -52,4 +52,30 @@ public class RaycastController : MonoBehaviour {
 		public Vector2 topLeft, topRight;
 		public Vector2 bottomLeft, bottomRight;
 	}
+
+    // Aggiungi questo alla fine di RaycastController.cs
+    void OnDrawGizmos()
+    {
+        if (boxcollider == null)
+        {
+            boxcollider = GetComponent<BoxCollider2D>();
+        }
+
+        // Disegna i bordi del calcolo collisioni (Skin Width)
+        Bounds bounds = boxcollider.bounds;
+        bounds.Expand(skinWidth * -2);
+
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireCube(bounds.center, bounds.size);
+
+        // Disegna dei piccoli cubi nei punti di origine dei raggi
+        if (Application.isPlaying)
+        {
+            Gizmos.color = Color.cyan;
+            Gizmos.DrawSphere(raycastOrigins.bottomLeft, 0.05f);
+            Gizmos.DrawSphere(raycastOrigins.bottomRight, 0.05f);
+            Gizmos.DrawSphere(raycastOrigins.topLeft, 0.05f);
+            Gizmos.DrawSphere(raycastOrigins.topRight, 0.05f);
+        }
+    }
 }

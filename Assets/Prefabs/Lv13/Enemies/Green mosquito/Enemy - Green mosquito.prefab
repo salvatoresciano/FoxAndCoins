@@ -276,7 +276,8 @@ MonoBehaviour:
   verticalRayCount: 4
   horizontalRaySpacing: 0
   verticalRaySpacing: 0
-  boxcollider: {fileID: 0}
+  boxcollider: {fileID: 2029891291738474049}
+  checkGroundAheadLength: 0.35
   playerInput: {x: 0, y: 0}
   HandlePhysic: 1
 --- !u!114 &5193974524080896514
@@ -297,6 +298,7 @@ MonoBehaviour:
   moveSpeed: 1.5
   ignoreCheckGroundAhead: 0
   DestroyEffect: {fileID: 113216, guid: 20400a4349ca29f41b9c336e87901ff8, type: 3}
+  canBeStoppedAtHit: 0
   healthType: 0
   maxHitToKill: 1
   currentHitLeft: 0
@@ -324,7 +326,7 @@ MonoBehaviour:
   chaseSpeed: 3
   offsetPlayerY: 0.5
   finishDistance: 0.5
-  animator: {fileID: 0}
+  animator: {fileID: 8605751530312877389}
   hitEventName: n/a
   deadEventName: Die
   attackEventName: n/a
@@ -378,7 +380,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -10.36, y: -2.46, z: 0}
-  m_LocalScale: {x: 1, y: 2, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4528786771591000754}

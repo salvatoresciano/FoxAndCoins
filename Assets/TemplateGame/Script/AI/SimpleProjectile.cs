@@ -15,6 +15,9 @@ public class SimpleProjectile : Projectile, ICanTakeDamage
 	[Range(0,1)]
 	public float soundHitNothingVolume = 0.5f;
 
+
+	public bool isDrop;
+
 	
 	// Update is called once per frame
 	void Update ()
@@ -24,7 +27,15 @@ public class SimpleProjectile : Projectile, ICanTakeDamage
 			return;
 		}
 
-		transform.Translate ((Direction + new Vector2 (InitialVelocity.x, 0)) * Speed * Time.deltaTime, Space.World);
+		if (!isDrop)
+		{
+            transform.Translate((Direction + new Vector2(InitialVelocity.x, 0)) * Speed * Time.deltaTime, Space.World);
+        }
+		else
+		{
+            transform.Translate((new Vector2(0, -1f) + new Vector2(InitialVelocity.x, 0)) * Speed * Time.deltaTime, Space.World);
+        }
+			
 	}
 
 	void DestroyProjectile(){

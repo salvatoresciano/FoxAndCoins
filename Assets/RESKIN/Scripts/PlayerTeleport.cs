@@ -17,6 +17,8 @@ public class PlayerTeleport : MonoBehaviour
     [Header("Events")]
     public UnityEvent OnTriggerEnter;
     public UnityEvent OnTriggerExit;
+    public UnityEvent OnTeleportStart;
+    public UnityEvent OnTeleportEnd;
 
     // Call this method to start the teleport (e.g., from a trigger or button)
     public void StartTeleport()
@@ -26,6 +28,8 @@ public class PlayerTeleport : MonoBehaviour
 
     private IEnumerator TeleportSequence()
     {
+        OnTeleportStart?.Invoke();
+
         // 1. Disable Player Controls
         if (playerControl != null) playerControl.enabled = false;
 
@@ -50,6 +54,8 @@ public class PlayerTeleport : MonoBehaviour
 
         // 6. Re-enable Controls
         if (playerControl != null) playerControl.enabled = true;
+
+        OnTeleportEnd?.Invoke();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
